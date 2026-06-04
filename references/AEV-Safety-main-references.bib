@@ -1,0 +1,781 @@
+% Engineering vehicle intelligent safety main reference seed.
+% Version: v4.4 with v7.2 migration patch, 2026-06-04.
+% Purpose: Zotero import seed for the review paper, white paper, and August talk.
+% Boundary: This file is not final journal formatting. Evidence level and usage boundary are retained in notes.
+
+@misc{R001_ISO26262_1_2018,
+  author = {{International Organization for Standardization}},
+  title = {{ISO 26262-1:2018 Road vehicles -- Functional safety -- Part 1: Vocabulary}},
+  year = {2018},
+  address = {Geneva},
+  publisher = {International Organization for Standardization},
+  url = {https://www.iso.org/standard/68383.html},
+  urldate = {2026-06-04},
+  keywords = {standard-official; road-ad-safety; functional-safety; method-donor},
+  note = {Evidence level A. Used as the road-vehicle E/E functional safety and lifecycle method donor.}
+}
+
+@misc{R002_ISO21448_2022,
+  author = {{International Organization for Standardization}},
+  title = {{ISO 21448:2022 Road vehicles -- Safety of the intended functionality}},
+  year = {2022},
+  address = {Geneva},
+  publisher = {International Organization for Standardization},
+  url = {https://www.iso.org/standard/77490.html},
+  urldate = {2026-06-04},
+  keywords = {standard-official; road-ad-safety; SOTIF; method-donor},
+  note = {Evidence level A. Used as the SOTIF method donor for functional insufficiencies, triggering conditions, verification, validation, and post-operation monitoring. ISO page accessed on 2026-06-04 shows published standard status and a revision track leading to ISO/AWI 21448; cite as current method donor while tracking revision.}
+}
+
+@misc{R004_ISO_SAE_21434_2021,
+  author = {{International Organization for Standardization} and {{SAE International}}},
+  title = {{ISO/SAE 21434:2021 Road vehicles -- Cybersecurity engineering}},
+  year = {2021},
+  address = {Geneva},
+  publisher = {International Organization for Standardization},
+  url = {https://www.iso.org/standard/70918.html},
+  urldate = {2026-06-04},
+  keywords = {standard-official; road-ad-safety; cybersecurity; method-donor},
+  note = {Evidence level A. Used for remote operation, cloud platform, communication link, software update, and cybersecurity method transfer.}
+}
+
+@misc{R005_ISO_PAS_8800_2024,
+  author = {{International Organization for Standardization}},
+  title = {{ISO/PAS 8800:2024 Road vehicles -- Safety and artificial intelligence}},
+  year = {2024},
+  address = {Geneva},
+  publisher = {International Organization for Standardization},
+  url = {https://www.iso.org/standard/83303.html},
+  urldate = {2026-06-04},
+  keywords = {standard-official; road-ad-safety; AI-safety; method-donor},
+  note = {Evidence level A. Used for AI output insufficiencies and AI safety assurance claims. ISO page accessed on 2026-06-04 shows published PAS status and revision tracking; do not treat as a static final AI safety standard.}
+}
+
+@misc{R006_ISO34502_2022,
+  author = {{International Organization for Standardization}},
+  title = {{ISO 34502:2022 Road vehicles -- Test scenarios for automated driving systems -- Scenario based safety evaluation framework}},
+  year = {2022},
+  address = {Geneva},
+  publisher = {International Organization for Standardization},
+  url = {https://www.iso.org/standard/78951.html},
+  urldate = {2026-06-04},
+  keywords = {standard-official; road-ad-safety; scenario-based-testing; method-donor},
+  note = {Evidence level A. Used for functional, logical, and concrete scenario layering and scenario-based safety evaluation.}
+}
+
+@misc{R007_SAE_J3016_202104,
+  author = {{SAE International}},
+  title = {{SAE J3016_202104 Taxonomy and Definitions for Terms Related to Driving Automation Systems for On-Road Motor Vehicles}},
+  year = {2021},
+  address = {Warrendale, PA},
+  publisher = {SAE International},
+  doi = {10.4271/J3016_202104},
+  url = {https://doi.org/10.4271/J3016_202104},
+  urldate = {2026-06-04},
+  keywords = {standard-official; road-ad-safety; driving-automation-levels; method-donor},
+  note = {Evidence level A. Used only as a road-vehicle automation-level comparator; do not directly map L0-L5 to engineering vehicles.}
+}
+
+@misc{R008_UL4600,
+  author = {{UL Standards}},
+  title = {{UL 4600 Standard for Safety for the Evaluation of Autonomous Products}},
+  year = {2023},
+  edition = {Edition 3},
+  address = {Northbrook, IL},
+  publisher = {UL Standards},
+  url = {https://www.shopulstandards.com/ProductDetail.aspx?productId=UL4600_3_S_20230317},
+  urldate = {2026-06-04},
+  keywords = {standard-official; safety-case; autonomous-products; method-donor},
+  note = {Evidence level A. Used for autonomous-product safety case and argumentation structure. UL Standards page identifies Edition 3, published and ANSI approved on 2023-03-17; CSDS proposals exist, so recheck current version before formal submission.}
+}
+
+@article{R079_Scholtes_6Layer_2020,
+  author = {Scholtes, Maike and Westhofen, Lukas and Turner, Liam R. and Lotto, Katrin and Schuldes, Markus and Weber, Hendrik and Wagener, Nils and Neurohr, Christian and Bollmann, Marcel H. and Körtke, Fabian and Hiller, Jens and Hoss, Michael and Bock, Julian and Eckstein, Lutz},
+  title = {{6-Layer Model for a Structured Description and Categorization of Urban Traffic and Environment}},
+  journal = {IEEE Access},
+  year = {2021},
+  volume = {9},
+  pages = {59131--59147},
+  doi = {10.1109/ACCESS.2021.3072739},
+  url = {https://doi.org/10.1109/ACCESS.2021.3072739},
+  urldate = {2026-06-04},
+  keywords = {academic-peer-reviewed; scenario-modeling; road-ad-safety; WTDC-method-donor},
+  note = {Evidence level A. Crossref DOI metadata checked on 2026-06-04 confirms IEEE Access formal journal article. Used as road traffic environment structure donor for WTDC adaptation; not an engineering-vehicle WTDC answer.}
+}
+@misc{R011_ISO17757_2019,
+  author = {{International Organization for Standardization}},
+  title = {{ISO 17757:2019 Earth-moving machinery and mining -- Autonomous and semi-autonomous machine system safety}},
+  year = {2019},
+  address = {Geneva},
+  publisher = {International Organization for Standardization},
+  url = {https://www.iso.org/standard/76126.html},
+  urldate = {2026-06-04},
+  keywords = {standard-official; earth-moving-machinery; mining; autonomous-machine-system; standard-preview-toc},
+  note = {Evidence level A-TOC. Used as the autonomous and semi-autonomous earth-moving and mining machine system safety base. Preview supports scope and table-of-contents level claims only; do not make clause-level claims without full text.}
+}
+
+@misc{R012_ISO19014_1_2018,
+  author = {{International Organization for Standardization}},
+  title = {{ISO 19014-1:2018 Earth-moving machinery -- Functional safety -- Part 1: Methodology to determine safety-related parts of the control system and performance requirements}},
+  year = {2018},
+  address = {Geneva},
+  publisher = {International Organization for Standardization},
+  url = {https://www.iso.org/standard/70715.html},
+  urldate = {2026-06-04},
+  keywords = {standard-official; earth-moving-machinery; functional-safety; MPL; MCSSA; standard-preview-toc},
+  note = {Evidence level A-TOC. Used for MPL, MCSSA, and functional safety methodology for earth-moving machinery control systems. ISO/FDIS 19014-1 revision is tracked separately.}
+}
+
+@misc{R013_ISO19014_2_2022,
+  author = {{International Organization for Standardization}},
+  title = {{ISO 19014-2:2022 Earth-moving machinery -- Functional safety -- Part 2: Design and evaluation of safety-related parts of the control system}},
+  year = {2022},
+  address = {Geneva},
+  publisher = {International Organization for Standardization},
+  url = {https://www.iso.org/standard/73568.html},
+  urldate = {2026-06-04},
+  keywords = {standard-official; earth-moving-machinery; functional-safety; hardware-architecture; standard-preview-toc},
+  note = {Evidence level A-TOC. Used for hardware and architecture design and evaluation. ISO/FDIS 19014-2 revision is tracked separately.}
+}
+
+@misc{R014_ISO19014_3_2018,
+  author = {{International Organization for Standardization}},
+  title = {{ISO 19014-3:2018 Earth-moving machinery -- Functional safety -- Part 3: Environmental performance and test requirements of electronic and electrical components used in safety-related parts of the control system}},
+  year = {2018},
+  address = {Geneva},
+  publisher = {International Organization for Standardization},
+  url = {https://www.iso.org/standard/70717.html},
+  urldate = {2026-06-04},
+  keywords = {standard-official; earth-moving-machinery; functional-safety; environmental-test; standard-preview-toc},
+  note = {Evidence level A-TOC. Used for harsh non-road E/E environmental performance and test themes. ISO/FDIS 19014-3 revision is tracked separately.}
+}
+
+@misc{R015_ISO19014_4_2020,
+  author = {{International Organization for Standardization}},
+  title = {{ISO 19014-4:2020 Earth-moving machinery -- Functional safety -- Part 4: Design and evaluation of software and data transmission for safety-related parts of the control system}},
+  year = {2020},
+  address = {Geneva},
+  publisher = {International Organization for Standardization},
+  url = {https://www.iso.org/standard/70718.html},
+  urldate = {2026-06-04},
+  keywords = {standard-official; earth-moving-machinery; functional-safety; software; data-transmission; standard-preview-toc},
+  note = {Evidence level A-TOC. Used for safety-related software and data transmission. It does not cover cybersecurity as a full topic; use ISO/SAE 21434 for cybersecurity method transfer. ISO/FDIS 19014-4 revision is tracked separately.}
+}
+
+@misc{R016_ISO_FDIS_19014_1,
+  author = {{International Organization for Standardization}},
+  title = {{ISO/FDIS 19014-1 Earth-moving machinery -- Functional safety -- Part 1: Methodology to determine safety-related parts of the control system and performance requirements}},
+  address = {Geneva},
+  publisher = {International Organization for Standardization},
+  url = {https://www.iso.org/standard/87988.html},
+  urldate = {2026-06-04},
+  keywords = {standard-draft; earth-moving-machinery; functional-safety; revision-tracking},
+  note = {Evidence level A. ISO official page checked on 2026-06-04: under development, draft in approval phase, will replace ISO 19014-1:2018. Track status before submission and do not cite as a published standard until the official page proves publication.}
+}
+
+@misc{R017_ISO_FDIS_19014_2,
+  author = {{International Organization for Standardization}},
+  title = {{ISO/FDIS 19014-2 Earth-moving machinery -- Functional safety -- Part 2: Design and evaluation of hardware and architecture requirements for safety-related parts of the control system}},
+  address = {Geneva},
+  publisher = {International Organization for Standardization},
+  url = {https://www.iso.org/standard/87718.html},
+  urldate = {2026-06-04},
+  keywords = {standard-draft; earth-moving-machinery; functional-safety; revision-tracking},
+  note = {Evidence level A. ISO official page checked on 2026-06-04: under development, draft in approval phase, will replace ISO 19014-2:2022. Track status before submission and do not cite as a published standard until the official page proves publication.}
+}
+
+@misc{R018_ISO_FDIS_19014_3,
+  author = {{International Organization for Standardization}},
+  title = {{ISO/FDIS 19014-3 Earth-moving machinery -- Functional safety -- Part 3: Environmental performance and test requirements of electronic and electrical components used in safety-related parts of the control system}},
+  address = {Geneva},
+  publisher = {International Organization for Standardization},
+  url = {https://www.iso.org/standard/88622.html},
+  urldate = {2026-06-04},
+  keywords = {standard-draft; earth-moving-machinery; functional-safety; revision-tracking},
+  note = {Evidence level A. ISO official page checked on 2026-06-04: under development, draft in approval phase, will replace ISO 19014-3:2018. Track status before submission and do not cite as a published standard until the official page proves publication.}
+}
+
+@misc{R019_ISO_FDIS_19014_4,
+  author = {{International Organization for Standardization}},
+  title = {{ISO/FDIS 19014-4 Earth-moving machinery -- Functional safety -- Part 4: Design and evaluation of software and data transmission for safety-related parts of the control system}},
+  address = {Geneva},
+  publisher = {International Organization for Standardization},
+  url = {https://www.iso.org/standard/87720.html},
+  urldate = {2026-06-04},
+  keywords = {standard-draft; earth-moving-machinery; functional-safety; revision-tracking},
+  note = {Evidence level A. ISO official page checked on 2026-06-04: under development, draft in approval phase, will replace ISO 19014-4:2020. Track status before submission and do not cite as a published standard until the official page proves publication.}
+}
+
+@misc{R020_ISO15817_2012,
+  author = {{International Organization for Standardization}},
+  title = {{ISO 15817:2012 Earth-moving machinery -- Safety requirements for remote operator control systems}},
+  year = {2012},
+  address = {Geneva},
+  publisher = {International Organization for Standardization},
+  url = {https://www.iso.org/standard/46237.html},
+  urldate = {2026-06-04},
+  keywords = {standard-official; earth-moving-machinery; remote-operation},
+  note = {Evidence level A. Used to distinguish remote operation, remote supervision, and full autonomy.}
+}
+
+@misc{R021_ISO21815_1_2022,
+  author = {{International Organization for Standardization}},
+  title = {{ISO 21815-1:2022 Earth-moving machinery -- Collision warning and avoidance -- Part 1: General requirements}},
+  year = {2022},
+  address = {Geneva},
+  publisher = {International Organization for Standardization},
+  url = {https://www.iso.org/standard/77302.html},
+  urldate = {2026-06-04},
+  keywords = {standard-official; earth-moving-machinery; collision-warning; collision-avoidance; standard-preview-toc},
+  note = {Evidence level A-TOC. Used for CWS/CAS general requirements and residual risk information. Treat as operator-assistance family unless full text proves otherwise.}
+}
+
+@misc{R022_ISO21815_3_2023,
+  author = {{International Organization for Standardization}},
+  title = {{ISO 21815-3:2023 Earth-moving machinery -- Collision warning and avoidance -- Part 3: Risk area and risk level for forward/reverse motion}},
+  year = {2023},
+  address = {Geneva},
+  publisher = {International Organization for Standardization},
+  url = {https://www.iso.org/standard/77266.html},
+  urldate = {2026-06-04},
+  keywords = {standard-official; earth-moving-machinery; collision-warning; forward-reverse-motion; standard-preview-toc},
+  note = {Evidence level A-TOC. Used for forward and reverse motion risk-area logic. Do not treat as a full autonomous obstacle-avoidance standard.}
+}
+
+@misc{R023_ISO_PRF_21815_4,
+  author = {{International Organization for Standardization}},
+  title = {{ISO/PRF 21815-4 Earth-moving machinery -- Collision warning and avoidance -- Part 4: Risk area and risk level for swing/rotation motion}},
+  address = {Geneva},
+  publisher = {International Organization for Standardization},
+  url = {https://www.iso.org/standard/81597.html},
+  urldate = {2026-06-04},
+  keywords = {standard-draft; earth-moving-machinery; collision-warning; swing-motion; excavator},
+  note = {Evidence level A. ISO official page checked on 2026-06-04: under development, draft in approval phase. Do not cite as a published standard. Official scope excludes boom and arm height of work tools in current reference notes.}
+}
+
+@misc{R024_ISO_DIS_21815_5,
+  author = {{International Organization for Standardization}},
+  title = {{ISO/DIS 21815-5 Earth-moving machinery -- Collision warning and avoidance -- Part 5: Risk area and risk level for other forms of motion}},
+  address = {Geneva},
+  publisher = {International Organization for Standardization},
+  url = {https://www.iso.org/standard/89934.html},
+  urldate = {2026-06-04},
+  keywords = {standard-draft; earth-moving-machinery; collision-warning; other-motion-forms},
+  note = {Evidence level A. ISO official page rechecked on 2026-06-04: under development, Draft International Standard, stage 40.60 Close of voting. Do not cite as a published standard. Useful for articulation, steering, telescoping, and vertical motion risk themes.}
+}
+
+@misc{R028_SAMR_Robot_SOTIF_Project_2026,
+  author = {{全国标准信息公共服务平台}},
+  title = {{国家标准项目《机器人预期功能安全实施指南》}},
+  year = {2026},
+  month = {jun},
+  day = {2},
+  publisher = {全国标准信息公共服务平台},
+  url = {https://std.samr.gov.cn/gb/search/gbDetailed?id=4DFF96682B58A46FE06397BE0A0AC19F},
+  urldate = {2026-06-04},
+  keywords = {standard-draft; government-official; robot-SOTIF; mobile-physical-AI},
+  note = {Evidence level A. SAMR official page checked on 2026-06-04: public consultation started on 2026-06-02, closes on 2026-07-02, project cycle 18 months. Used as a standardization signal for SOTIF expansion from road vehicles toward robots and mobile physical AI. This is a standard project notification, not a published engineering-vehicle standard.}
+}
+
+@misc{R028A_GBT41862_2022,
+  author = {{全国标准信息公共服务平台}},
+  title = {{GB/T 41862-2022 土方及矿山机械 自主和半自主机器系统安全}},
+  year = {2022},
+  publisher = {全国标准信息公共服务平台},
+  url = {https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=841EF14018DC4A78DB015274FFA9DFE3},
+  urldate = {2026-06-04},
+  keywords = {standard-official; national-standard; earth-moving-machinery; mining; autonomous-machine-system},
+  note = {Evidence level A. Domestic safety base for autonomous and semi-autonomous earth-moving and mining machine systems; pair with ISO 17757:2019. Public page supports status and scope, not full clause-level interpretation.}
+}
+
+@misc{R028B_JBT15173_2025,
+  author = {{全国标准信息公共服务平台}},
+  title = {{JB/T 15173-2025 土方机械 无人驾驶非公路自卸车}},
+  year = {2025},
+  publisher = {全国标准信息公共服务平台},
+  url = {https://std.samr.gov.cn/hb/search/stdHBDetailedCNF?id=4142E4E8EEA3AA5CE06397BE0A0AAFF7},
+  urldate = {2026-06-04},
+  keywords = {standard-official; industry-standard; non-road-dump-truck; unmanned-driving},
+  note = {Evidence level A. Used as a domestic industry-standard signal for unmanned non-road dump trucks. Full technical clauses still need verification.}
+}
+
+@misc{R028C_TCNCA116_1_2025,
+  author = {{国家标准馆}},
+  title = {{T/CNCA 116.1-2025 露天矿卡车无人驾驶运输技术要求 第1部分: 总则}},
+  year = {2025},
+  publisher = {国家标准馆},
+  url = {https://www.ndls.org.cn/standard/detail/0e25833dc009d87dd580fe4ea8ff2af1},
+  urldate = {2026-06-04},
+  keywords = {standard-official; group-standard; open-pit-mining; unmanned-haulage},
+  note = {Evidence level A. Entry point for the T/CNCA 116 open-pit mining truck unmanned-haulage series. Similar-standard list suggests Parts 1-11 coverage, but full texts still need acquisition.}
+}
+
+@misc{R029_TZGCMCA016_2025,
+  author = {{国家标准馆}},
+  title = {{T/ZGCMCA 016-2025 无人驾驶矿用卡车系统安全技术要求}},
+  year = {2025},
+  publisher = {国家标准馆},
+  url = {https://www.ndls.org.cn/standard/detail/9312eb254fdc56744719b66bc6e9a80d},
+  urldate = {2026-06-04},
+  keywords = {standard-official; group-standard; mining-truck; system-safety},
+  note = {Evidence level A. Domestic group-standard signal for unmanned mining-truck system safety. Full text still needs verification for clause-level claims.}
+}
+
+@misc{R030_TZGCMCA023_2024,
+  author = {{国家标准馆}},
+  title = {{T/ZGCMCA 023-2024 基于 C-V2X 的无人驾驶矿用卡车运输系统 协同作业技术要求}},
+  year = {2024},
+  publisher = {国家标准馆},
+  url = {https://www.ndls.org.cn/standard/detail/90cc2e574ff68fd5c2049e6c95c7312a},
+  urldate = {2026-06-04},
+  keywords = {standard-official; group-standard; C-V2X; mining-truck; cooperative-operation},
+  note = {Evidence level A. Used for vehicle-road-cloud cooperative-operation standardization in mining-truck haulage. Full technical clauses still need verification.}
+}
+
+@misc{R033_GMG_SystemSafety_2024,
+  author = {{Global Mining Guidelines Group}},
+  title = {{System Safety for Autonomous Mining Guideline}},
+  year = {2024},
+  publisher = {Global Mining Guidelines Group},
+  url = {https://gmggroup.org/guideline/},
+  urldate = {2026-06-04},
+  keywords = {industry-guideline; mining-autonomy; system-safety; safety-case; local-fulltext-found},
+  note = {Evidence level A-ORG-LOCAL-FULLTEXT. Used for autonomous mining system safety, V lifecycle, change management, configuration management, hazard log, operational monitoring, and safety case. This is an industry guideline, not a mandatory standard.}
+}
+
+@misc{R034_GMG_AutonomousSystemsImplementation_2024,
+  author = {{Global Mining Guidelines Group}},
+  title = {{Guideline for the Implementation of Autonomous Systems in Mining}},
+  year = {2024},
+  edition = {Version 2},
+  publisher = {Global Mining Guidelines Group},
+  url = {https://gmggroup.org/guideline/},
+  urldate = {2026-06-04},
+  keywords = {industry-guideline; mining-autonomy; implementation; operations; local-fulltext-found},
+  note = {Evidence level A-ORG-LOCAL-FULLTEXT. Used for implementation, operations, organizational process, commissioning, maintenance, training, IT/OT, and configuration management. This is an industry guideline, not a mandatory standard.}
+}
+
+@misc{R036_CMEIG_EMESRT_ICMM_FunctionalSafety_2020,
+  author = {{Construction and Mining Equipment Industry Group} and {Earthmoving Equipment Safety Round Table} and {International Council on Mining and Metals}},
+  title = {{White Paper and Guiding Principles: Functional Safety for Earthmoving Machinery}},
+  year = {2020},
+  edition = {Version 0.5},
+  publisher = {Construction and Mining Equipment Industry Group},
+  url = {https://www.cmeig.com.au/wp-content/uploads/CMEIG-EMESRT-ICMM-White-Paper-and-Guiding-Principles-for-Functional-Safety-on-Earthmoving-Machinery-Ver.-0.5-March-2020.pdf},
+  urldate = {2026-06-04},
+  keywords = {industry-guideline; functional-safety; earthmoving-machinery; system-safety; local-fulltext-found},
+  note = {Evidence level A. Official CMEIG-hosted PDF found on 2026-06-04. Used for the distinction between functional safety and broader system safety, including failure, limitation, and degradation themes. This is an industry white paper and guiding-principles document, not a mandatory standard.}
+}
+
+@article{R059_Zhang_AutonomousExcavator_2021,
+  author = {Zhang, Liangjun and Zhao, Jizhong and Long, Pengfei and Wang, Liang and Qian, Li and Lu, Fang and Song, Xiaodong and Manocha, Dinesh},
+  title = {{An autonomous excavator system for material loading tasks}},
+  journal = {Science Robotics},
+  year = {2021},
+  volume = {6},
+  number = {55},
+  pages = {eabc3164},
+  doi = {10.1126/scirobotics.abc3164},
+  url = {https://pubmed.ncbi.nlm.nih.gov/34193561/},
+  urldate = {2026-06-04},
+  keywords = {academic-peer-reviewed; autonomous-excavator; work-equipment-control; material-loading},
+  note = {Evidence level A. Used for autonomous excavator material-loading tasks and work-equipment automation.}
+}
+
+@article{R060_Johns_HEAP_DryStone_2023,
+  author = {Johns, Ryan L. and Wermelinger, Martin and Mascaro, Ruben and Jud, Dominic and Hurkxkens, Ivo and Vasey, Lauren and Chli, Margarita and Gramazio, Fabio and Kohler, Matthias and Hutter, Marco},
+  title = {{A framework for robotic excavation and dry stone construction using on-site materials}},
+  journal = {Science Robotics},
+  year = {2023},
+  volume = {8},
+  number = {84},
+  doi = {10.1126/scirobotics.abp9758},
+  url = {https://ethz.ch/en/news-and-events/eth-news/news/2023/11/autonomous-excavator-constructs-a-six-metre-high-dry-stone-wall.html},
+  urldate = {2026-06-04},
+  keywords = {academic-peer-reviewed; autonomous-excavator; dry-stone-construction; work-equipment-control},
+  note = {Evidence level A. Used for on-site material recognition, excavation, manipulation, and construction task-chain automation.}
+}
+
+@inproceedings{R062_Guan_TNS_2022,
+  author = {Guan, Tianyi and He, Ziyang and Song, Ruihua and Manocha, Dinesh and Zhang, Liangjun},
+  title = {{TNS: Terrain Traversability Mapping and Navigation System for Autonomous Excavators}},
+  booktitle = {{Robotics: Science and Systems XVIII}},
+  year = {2022},
+  doi = {10.15607/RSS.2022.XVIII.049},
+  url = {https://www.roboticsproceedings.org/rss18/p049.pdf},
+  urldate = {2026-06-04},
+  keywords = {academic-peer-reviewed; autonomous-excavator; terrain-traversability; navigation; WTDC},
+  note = {Evidence level A. Used for complex construction-site traversability and the WTDC terrain layer.}
+}
+
+@inproceedings{R063_Chen_ExACT_2024,
+  author = {Chen, Li and Jin, Shuai and Wang, Hao and Zhang, Liangjun},
+  title = {{ExACT: An End-to-End Autonomous Excavator System Using Action Chunking With Transformers}},
+  booktitle = {{Proceedings of the 3rd Future of Construction Workshop at the International Conference on Robotics and Automation (ICRA 2024)}},
+  year = {2024},
+  pages = {25--28},
+  doi = {10.22260/ICRA2024/0009},
+  url = {https://www.iaarc.org/publications/icra_2024_future_of_construction_workshop_papers/exact-an_end_to_end_autonomous_excavator_system_using_action_chunking_with_transformers.html},
+  urldate = {2026-06-04},
+  keywords = {academic-workshop-proceedings; academic-preprint; autonomous-excavator; end-to-end-AI; work-equipment-control; local-fulltext-found},
+  note = {Evidence level A-WORKSHOP-PROCEEDINGS plus B-ARXIV. IAARC workshop proceedings article, not an IEEE ICRA main-conference paper and not a journal article. Use only for research dynamics and AI/work-tool control risk discussion, not deployment maturity or safety compliance.}
+}
+
+@inproceedings{R064_Teng_ScenarioEngineering_DTPI_2023,
+  author = {Teng, Shuo and Li, Xiaowei and Li, Yihang and Li, Lin and Ai, Yutong and Chen, Long},
+  title = {{Scenarios Engineering driven Autonomous Transportation in Open-Pit Mines}},
+  booktitle = {{2023 IEEE 3rd International Conference on Digital Twins and Parallel Intelligence (DTPI)}},
+  year = {2023},
+  pages = {1--6},
+  doi = {10.1109/DTPI59677.2023.10365481},
+  url = {https://doi.org/10.1109/DTPI59677.2023.10365481},
+  urldate = {2026-06-04},
+  keywords = {academic-peer-reviewed; open-pit-mining; scenario-engineering; V-and-V},
+  note = {Evidence level A. Crossref DOI metadata checked on 2026-06-04 confirms formal IEEE DTPI 2023 proceedings article. Keep related arXiv 2024 extended preprint distinct if cited later.}
+}
+@article{R065_Teng_FusionPlanner_2024,
+  author = {Teng, Shuo and Li, Lin and Li, Yihang and Hu, Xiaosong and Li, Li and Ai, Yutong and Chen, Long},
+  title = {{FusionPlanner: A Multi-task Motion Planner for Mining Trucks via Multi-sensor Fusion}},
+  journal = {Mechanical Systems and Signal Processing},
+  year = {2024},
+  volume = {208},
+  pages = {111051},
+  doi = {10.1016/j.ymssp.2023.111051},
+  url = {https://doi.org/10.1016/j.ymssp.2023.111051},
+  urldate = {2026-06-04},
+  keywords = {academic-peer-reviewed; mining-truck; motion-planning; benchmark; simulation},
+  note = {Evidence level A. Crossref DOI metadata checked on 2026-06-04 confirms Mechanical Systems and Signal Processing formal journal article, volume 208, article 111051. Used for mining-truck multi-task motion planning, MiningNav benchmark, and parallel mining simulator context.}
+}
+@article{R066_Ding_VCVW3D_2024,
+  author = {Ding, Yize and Luo, Xiaowei},
+  title = {{A virtual construction vehicles and workers dataset with three-dimensional annotations}},
+  journal = {Engineering Applications of Artificial Intelligence},
+  year = {2024},
+  volume = {133},
+  pages = {107964},
+  doi = {10.1016/j.engappai.2024.107964},
+  url = {https://doi.org/10.1016/j.engappai.2024.107964},
+  urldate = {2026-06-04},
+  keywords = {academic-peer-reviewed; construction-safety; dataset; virtual-data},
+  note = {Evidence level A. Crossref DOI metadata checked on 2026-06-04 confirms Engineering Applications of Artificial Intelligence formal journal article, volume 133, article 107964. Used for construction vehicle and worker 3D dataset context; virtual data does not replace real site operation evidence.}
+}
+@misc{R069_NIOSH_MiningCriticalMinerals_2025,
+  author = {{NIOSH Mining Program}},
+  title = {{Mining critical minerals research bulletin}},
+  year = {2025},
+  publisher = {Centers for Disease Control and Prevention},
+  url = {https://www.cdc.gov/niosh/bulletin/2025/mining-critical-minerals.html},
+  urldate = {2026-06-04},
+  keywords = {government-official; mining-safety; autonomous-equipment; AI; human-machine-interaction},
+  note = {Evidence level A. Used as government safety-research context covering autonomous equipment, AI, sensor fusion, and equipment-human interaction.}
+}
+
+@article{R080_Chen_MineSim_2025,
+  author = {Chen, Zhi and Yu, Guang and Chen, Peng and Cao, Guang and Li, Zhen and Zhang, Yi and Ni, Hao and Zhou, Baichuan and Sun, Jian and Ban, Heng},
+  title = {{MineSim: A scenario-based simulation test system and benchmark for autonomous trucks in open-pit mines}},
+  journal = {Accident Analysis \& Prevention},
+  year = {2025},
+  volume = {213},
+  pages = {107938},
+  doi = {10.1016/j.aap.2025.107938},
+  url = {https://doi.org/10.1016/j.aap.2025.107938},
+  urldate = {2026-06-04},
+  keywords = {academic-peer-reviewed; publisher-doi-verified; pubmed-indexed; project-page-verified; closed-oa; open-pit-mining; autonomous-truck; simulation},
+  note = {Evidence level A-PUBLISHER-DOI plus B-PROJECT-PAGE. DOI, PubMed, Crossref, DOI resolver, and OpenAlex calibrated in v4.2. Project page and GitHub repos support software availability only; they do not prove site safety validation or SOTIF/functional-safety compliance.}
+}
+
+@inproceedings{R081_Meng_OpenMines_2024,
+  author = {Meng, Shi and Tian, Bin and Zhang, Xiaotong and Qi, Shuangying and Zhang, Caiji and Zhang, Qiang},
+  title = {{OpenMines: A Light and Comprehensive Mining Simulation Environment for Truck Dispatching}},
+  booktitle = {{2024 IEEE Intelligent Vehicles Symposium (IV)}},
+  year = {2024},
+  pages = {3043--3049},
+  doi = {10.1109/IV55156.2024.10588764},
+  url = {https://doi.org/10.1109/IV55156.2024.10588764},
+  urldate = {2026-06-04},
+  keywords = {academic-peer-reviewed; mining-dispatching; simulation; open-pit-mining},
+  note = {Evidence level A. Crossref DOI metadata checked on 2026-06-04 confirms formal IEEE IV 2024 proceedings article. Author metadata corrected in v11.6 according to Crossref and arXiv. Focuses on fleet dispatching and operating-system simulation, not single-vehicle SOTIF or safety-standard compliance.}
+}
+@misc{R046_BuiltRobotics_SolarPiling,
+  author = {{Built Robotics}},
+  title = {{RPD 35 and RPS 25 Solar Piling}},
+  year = {n.d.},
+  publisher = {Built Robotics},
+  url = {https://www.builtrobotics.com/solutions/solar-piling},
+  urldate = {2026-06-04},
+  keywords = {company-official; solar-piling; construction-robotics; narrow-task-autonomy},
+  note = {Evidence level B-OFFICIAL-HTML. Official page checked on 2026-06-04 and no page publication date was visible in the reviewed page; keep n.d. for reference style. Used for solar-site autonomous piling as a narrow, repetitive, strongly bounded construction task. Company pages support product/scenario/function evidence, not independent safety certification.}
+}
+
+@misc{R047_BuiltRobotics_Trenching,
+  author = {{Built Robotics}},
+  title = {{Exosystem and autonomous trenching materials}},
+  year = {n.d.},
+  publisher = {Built Robotics},
+  url = {https://www.builtrobotics.com/solutions/trenching},
+  urldate = {2026-06-04},
+  keywords = {company-official; autonomous-trenching; excavator-retrofit; narrow-task-autonomy},
+  note = {Evidence level B-OFFICIAL-HTML. Official page checked on 2026-06-04 and no page publication date was visible in the reviewed page; keep n.d. for reference style. Used for autonomous trenching and excavator retrofit context. Do not extrapolate to all excavator attachments or general autonomous excavation.}
+}
+
+@misc{R051_LiuGong_UnmannedLoader,
+  author = {{广西柳工机械股份有限公司}},
+  title = {{柳工无人驾驶装载机官方页面}},
+  year = {n.d.},
+  publisher = {广西柳工机械股份有限公司},
+  url = {https://www.liugong.com/industry/intelligent/driverless/wheelloader/index.html},
+  urldate = {2026-06-04},
+  keywords = {company-official; unmanned-loader; batching-plant; material-handling},
+  note = {Evidence level B. Official page indexed and checked on 2026-06-04 with no visible publication date; keep n.d. for reference style. Used for batching plant, mine, and semi-closed yard unmanned-loader public positioning. Quantitative deployment and safety improvement claims require third-party, customer, or archival evidence.}
+}
+
+@misc{R052_XCMG_Loader_2024,
+  author = {{徐工集团}},
+  title = {{徐工装载机领跑智能新赛道}},
+  year = {2024},
+  month = {aug},
+  day = {12},
+  publisher = {徐工集团},
+  url = {https://www.xcmg.com/aboutus/news-detail-1128183.htm},
+  urldate = {2026-06-04},
+  keywords = {company-official; electric-loader; remote-operation; batching-plant; material-handling},
+  note = {Evidence level B. Used for unmanned electric loader, remote-control loader, and batching-plant scenario public positioning. Field operation data still requires annual report, customer material, or interview evidence.}
+}
+
+@misc{R071_NASA_LunarSurfaceTechnology,
+  author = {{National Aeronautics and Space Administration}},
+  title = {{Lunar Surface Technology}},
+  year = {2026},
+  month = {jun},
+  day = {2},
+  publisher = {National Aeronautics and Space Administration},
+  url = {https://www.nasa.gov/lunar-surface-technology/},
+  urldate = {2026-06-04},
+  keywords = {government-official; space-official; lunar-surface-technology},
+  note = {Evidence level A. NASA page checked on 2026-06-04 and lists Page Last Updated: 2026-06-02. Used as space-resource and lunar-surface technology background; not an engineering-vehicle safety standard.}
+}
+
+@misc{R072_NASA_ISRUPilotExcavator,
+  author = {{National Aeronautics and Space Administration}},
+  title = {{Infrastructure Pilot Excavator}},
+  year = {2020},
+  month = {oct},
+  publisher = {National Aeronautics and Space Administration},
+  url = {https://www.nasa.gov/infrastructure-pilot-excavator/},
+  urldate = {2026-06-04},
+  keywords = {government-official; space-official; lunar-excavation; ISRU},
+  note = {Evidence level A. NASA page checked on 2026-06-04: page title is Infrastructure Pilot Excavator, introduced October 2020, Page Last Updated 2026-03-30. Used for lunar regolith excavation engineering context; not a terrestrial engineering-vehicle safety standard.}
+}
+
+@misc{R073_NASA_RASSOR_2015,
+  author = {{National Aeronautics and Space Administration}},
+  title = {{Regolith Advanced Surface Systems Operations Robot technical materials}},
+  year = {2015},
+  publisher = {{NASA Technical Reports Server}},
+  url = {https://ntrs.nasa.gov/citations/20150022134},
+  urldate = {2026-06-04},
+  keywords = {government-official; space-official; RASSOR; lunar-excavation},
+  note = {Evidence level A. Used for low-gravity excavation robot and lunar resource-operation context.}
+}
+
+@misc{R074_NASA_Lunabotics,
+  author = {{National Aeronautics and Space Administration}},
+  title = {{Lunabotics Challenge}},
+  year = {2026},
+  month = {may},
+  day = {27},
+  publisher = {National Aeronautics and Space Administration},
+  url = {https://www.nasa.gov/learning-resources/lunabotics-challenge},
+  urldate = {2026-06-04},
+  keywords = {government-official; space-official; off-world-construction; robotics-education},
+  note = {Evidence level A. NASA page checked on 2026-06-04 and lists Page Last Updated: 2026-05-27. Used for off-world construction robot and NASA systems engineering education context.}
+}
+
+@misc{R075_ESA_SecondSpaceResourcesChallenge_2025,
+  author = {{European Space Agency}},
+  title = {{Second Space Resources Challenge from concept to reality at LUNA}},
+  year = {2025},
+  publisher = {European Space Agency},
+  url = {https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Second_Space_Resources_Challenge_from_concept_to_reality_at_LUNA},
+  urldate = {2026-06-04},
+  keywords = {government-official; space-official; space-resources; lunar-field-test},
+  note = {Evidence level A. Used for European lunar resource collection and processing test context; not an engineering-vehicle safety standard.}
+}
+
+@misc{R076_ESA_ESRIC_SRC,
+  author = {{European Space Agency} and {{European Space Resources Innovation Centre}}},
+  title = {{Space Resources Challenge materials}},
+  year = {n.d.},
+  publisher = {European Space Agency and European Space Resources Innovation Centre},
+  url = {https://src.esa.int/},
+  urldate = {2026-06-04},
+  keywords = {government-official; space-official; space-resources; field-test},
+  note = {Evidence level A. Official ESA/ESRIC challenge site checked on 2026-06-04 and no page publication date was visible in the reviewed page; keep n.d. for reference style. Used for lunar resource, construction, and field-test background.}
+}
+
+@inproceedings{R077_vanderMeer_REALMS2_2025,
+  author = {van der Meer, Dennis and Chovet, Loic P. and Garcia, Gabriel M. and Bera, Aniket and Olivares-Mendez, Miguel},
+  title = {{REALMS2 - Resilient Exploration And Lunar Mapping System 2 - A Comprehensive Approach}},
+  booktitle = {{2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}},
+  year = {2025},
+  pages = {1495--1502},
+  doi = {10.1109/IROS60139.2025.11246516},
+  url = {https://hdl.handle.net/10993/66190},
+  urldate = {2026-06-04},
+  keywords = {academic-peer-reviewed; academic-preprint; space-robotics; lunar-mapping; resilient-exploration},
+  note = {Evidence level A. Used for delayed communication, blackout, multi-robot lunar exploration, and space-mining extension.}
+}
+
+@inproceedings{R082_Lee_CraterGrader_2024,
+  author = {Lee, Ryan and Younes, Benjamin and Pletta, Alexander and Harrington, John and Wong, Russell Q. and Whittaker, William},
+  title = {{CraterGrader: Autonomous Robotic Terrain Manipulation for Lunar Site Preparation and Earthmoving}},
+  booktitle = {{Robotics: Science and Systems XX}},
+  year = {2024},
+  doi = {10.15607/RSS.2024.XX.018},
+  url = {https://www.roboticsproceedings.org/rss20/p018.html},
+  urldate = {2026-06-04},
+  keywords = {academic-peer-reviewed; space-robotics; lunar-construction; earthmoving; terrain-manipulation},
+  note = {Evidence level A. Official RSS proceedings page and DOI metadata checked on 2026-06-04. Used for lunar terrain reshaping, no-GPS localization, and site-preparation earthmoving. Use only as space-extension research, not terrestrial engineering-vehicle standard evidence.}
+}
+
+@inproceedings{R083_Linde_LunarConstructionSimulation_2025,
+  author = {Linde, Mattias and Lindmark, Daniel and Ålstig, Sandra and Servin, Martin},
+  title = {{A simulation framework for autonomous lunar construction work}},
+  booktitle = {{Proceedings of the 55th Conference of the International Society for Terrain-Vehicle Systems}},
+  year = {2025},
+  pages = {212--222},
+  publisher = {International Society for Terrain-Vehicle Systems},
+  url = {https://umu.diva-portal.org/smash/record.jsf?pid=diva2%3A1985377},
+  urldate = {2026-06-04},
+  keywords = {academic-peer-reviewed; formal-conference; space-robotics; lunar-construction; simulation; ROS2},
+  note = {Evidence level A. Umeå University DiVA institutional record checked on 2026-06-04 identifies this as a refereed published conference paper in ISTVS 2025, pages 212--222, with no full text in DiVA. Used for lunar construction simulation, multi-machine task chains, deformable terrain, behavior trees, ROS2, and control separation; do not cite as deployed lunar engineering.}
+}
+@misc{R084_Gruetter_BoulderExcavation_2025,
+  author = {Gruetter, Jonas and Terenzi, Luca and Egli, Pascal and Hutter, Marco},
+  title = {{Towards Learning Boulder Excavation with Hydraulic Excavators}},
+  year = {2025},
+  publisher = {arXiv},
+  eprint = {2509.17683},
+  archivePrefix = {arXiv},
+  doi = {10.48550/arXiv.2509.17683},
+  url = {https://arxiv.org/abs/2509.17683},
+  urldate = {2026-06-04},
+  keywords = {academic-preprint; autonomous-excavator; hydraulic-excavator; work-equipment-control; reinforcement-learning},
+  note = {Evidence level B. arXiv page checked on 2026-06-04 and showed submission on 2025-09-22; no formal publication version was found in this pass. Used for emerging research on standard-bucket manipulation of irregular rocks. Preprint only; not deployment maturity or safety-compliance evidence.}
+}
+@article{R085_Chen_ChatCH_2025,
+  author = {Chen, D. and Yin, X.},
+  title = {{ChatCH: A tailored vision-language framework for automated hazard identification and report generation in construction sites}},
+  journal = {Advanced Engineering Informatics},
+  year = {2025},
+  volume = {66},
+  pages = {103478},
+  doi = {10.1016/j.aei.2025.103478},
+  url = {https://www.sciencedirect.com/science/article/pii/S1474034625003714},
+  urldate = {2026-06-04},
+  keywords = {academic-peer-reviewed; construction-safety; vision-language-model; hazard-identification; report-generation},
+  note = {Evidence level A. Used for construction hazard identification and automated reporting context. It is not an engineering-vehicle autonomous-operation safety standard.}
+}
+
+@misc{R086_Naderi_ConstructionSiteInspection_2025,
+  author = {Naderi, H. and Shojaei, Ali and Agee, Philip and Afsari, Kereshmeh and Akanmu, Abiola},
+  title = {{Autonomous Construction-Site Safety Inspection Using Mobile Robots: A Multilayer VLM-LLM Pipeline}},
+  year = {2025},
+  publisher = {arXiv},
+  eprint = {2512.13974},
+  archivePrefix = {arXiv},
+  doi = {10.48550/arXiv.2512.13974},
+  url = {https://arxiv.org/abs/2512.13974},
+  urldate = {2026-06-04},
+  keywords = {academic-preprint; construction-safety; mobile-robot; VLM; LLM; inspection},
+  note = {Evidence level B. arXiv page checked on 2026-06-04 and showed submission on 2025-12-16; no formal publication version was found in this pass. Used for mobile-robot construction-site inspection, SLAM, autonomous navigation, VLM/LLM, rule retrieval, and human-in-the-loop reporting. Preprint only; not a field safety-management system.}
+}
+@inproceedings{R087_Eriksson_WheelLoaderUnknownMaterial_2024,
+  author = {Eriksson, Daniel and Ghabcheloo, Reza and Geimer, Marcus},
+  title = {{Automatic Loading of Unknown Material with a Wheel Loader Using Reinforcement Learning}},
+  booktitle = {{2024 IEEE International Conference on Robotics and Automation (ICRA)}},
+  year = {2024},
+  month = {5},
+  pages = {3646--3652},
+  publisher = {IEEE},
+  doi = {10.1109/ICRA57147.2024.10610221},
+  url = {https://researchportal.tuni.fi/files/126570241/icra2024.pdf},
+  urldate = {2026-06-04},
+  keywords = {academic-peer-reviewed; wheel-loader; material-interaction; reinforcement-learning; DMWT},
+  note = {Evidence level A-ACADEMIC. Migrated from CAND-003 by v7.2 after v7.1 full-text excerpt using Tampere University accepted author manuscript and DOI metadata. Used for wheel-loader material-domain transfer, hydraulic actuator delay, bucket material weight, loading time, and DMWT task-quality variables. Not safety assurance, SOTIF completion, deployment maturity, customer acceptance, or product certification evidence.}
+}
+
+@article{R088_Aoshima_WheelLoaderPerformance_2025,
+  author = {Aoshima, Koji and Wadbro, Eddie and Servin, Martin},
+  title = {{Optimizing Autonomous Wheel Loader Performance---An End-to-End Approach}},
+  journal = {Automation},
+  year = {2025},
+  month = {7},
+  volume = {6},
+  number = {3},
+  pages = {31},
+  publisher = {MDPI AG},
+  doi = {10.3390/automation6030031},
+  url = {https://www.mdpi.com/2673-4052/6/3/31},
+  urldate = {2026-06-04},
+  keywords = {academic-peer-reviewed; wheel-loader; sequential-loading; world-model; DMWT},
+  note = {Evidence level A-ACADEMIC. Migrated from CAND-004 by v7.2 after v7.1 open full-text excerpt. Used for sequential wheel-loader task chains, pile-state evolution, world model, look-ahead planning, mass, time, and work metrics. Performance optimization evidence only; not safety certification, SOTIF compliance, field safety evidence, customer acceptance, or safety improvement proof.}
+}
+
+@article{R089_Gaber_AHSCybersecuritySafety_2021,
+  author = {Gaber, Tarek and El Jazouli, Yassine and Eldesouky, Esraa and Ali, Ahmed},
+  title = {{Autonomous Haulage Systems in the Mining Industry: Cybersecurity, Communication and Safety Issues and Challenges}},
+  journal = {Electronics},
+  year = {2021},
+  month = {6},
+  volume = {10},
+  number = {11},
+  pages = {1357},
+  publisher = {MDPI AG},
+  doi = {10.3390/electronics10111357},
+  url = {https://www.mdpi.com/2079-9292/10/11/1357},
+  urldate = {2026-06-04},
+  keywords = {academic-peer-reviewed; mining-AHS; cybersecurity; communication; cyber-safety; MWMS},
+  note = {Evidence level A-ACADEMIC. Migrated from CAND-011 by v7.2 after v7.1 open full-text excerpt. Used for mining AHS communication dependency, wireless and GPS attacks, remote-control links, OT/IT integration, and cyber-safety coupling. Review evidence only; not a complete safety case, product certification, company deployment proof, loader/excavator task-safety evidence, or operational KPI evidence.}
+}
+
+@article{R090_Lund_AutonomyForWhom_2026,
+  author = {Lund, Erik},
+  title = {{Autonomy for whom? implications of cyber-physical mining systems for operator work and organisation}},
+  journal = {Applied Ergonomics},
+  year = {2026},
+  volume = {132},
+  pages = {104684},
+  doi = {10.1016/j.apergo.2025.104684},
+  url = {https://pubmed.ncbi.nlm.nih.gov/41289639/},
+  urldate = {2026-06-04},
+  keywords = {academic-peer-reviewed; mining-AHS; work-system; operator-work; organisation; MWMS},
+  note = {Evidence level A-ACADEMIC. Used for mining AHS as autonomous work-system evidence, including truck-level unmanned versus system-level manned operation, operator supervision, communication, procedures and organisational adaptation. Not product certification, quantified safety KPI, complete safety case, cross-machine validation or field validation of this review framework.}
+}
+
+@misc{R091_Zhai_ExT_2025,
+  author = {Zhai, Yifan and Terenzi, Lorenzo and Frey, Patrick and Garcia Soto, Diego and Egli, Pascal and Hutter, Marco},
+  title = {{ExT: Towards Scalable Autonomous Excavation via Large-Scale Multi-Task Pretraining and Fine-Tuning}},
+  year = {2025},
+  publisher = {arXiv},
+  eprint = {2509.14992},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.RO},
+  doi = {10.48550/arXiv.2509.14992},
+  url = {https://arxiv.org/abs/2509.14992},
+  urldate = {2026-06-04},
+  keywords = {academic-preprint; autonomous-excavation; transformer-policy; SFT; RLFT; DMWT; OOD-adaptation},
+  note = {Evidence level B-PREPRINT. Used for learning-based autonomous excavation, multi-task pretraining, SFT/RLFT, OOD terrain/soil/bucket adaptation and DMWT generalization challenges. Preprint only; not product maturity, SOTIF compliance, functional-safety compliance, operational field validation or proof that task success equals safety assurance.}
+}
+
+@misc{R092_ISO18497_1_2024,
+  author = {{International Organization for Standardization}},
+  title = {{ISO 18497-1:2024 Agricultural machinery and tractors -- Safety of partially automated, semi-autonomous and autonomous machinery -- Part 1: Machine design principles and vocabulary}},
+  year = {2024},
+  publisher = {International Organization for Standardization},
+  address = {Geneva},
+  url = {https://www.iso.org/standard/82684.html},
+  urldate = {2026-06-04},
+  keywords = {standard; adjacent-nonroad-machinery; agricultural-machinery; automation; machine-design-principles},
+  note = {Evidence level A-STATUS. Official ISO page shows ISO 18497-1:2024 as a published International Standard, Edition 1, publication date 2024-07, stage 60.60. Used only as adjacent non-road automation safety evidence for partially automated, semi-autonomous and autonomous agricultural machinery and tractors. Not an engineering-vehicle, mining-equipment, construction-machinery or robot SOTIF compliance standard. Clause-level interpretation requires authorized text.}
+}

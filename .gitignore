@@ -1,0 +1,11 @@
+.DS_Store
+~$*
+*.tmp
+*.log
+node_modules/
+
+# Local process archive. The full archive is kept on this machine, but the
+# public repository tracks only the archive note below.
+achieve/**
+!achieve/
+!achieve/README.md

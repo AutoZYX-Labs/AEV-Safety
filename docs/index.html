@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="https://autozyx.com/assets/favicon.png" type="image/png">
+<title>AEV Safety — Autonomous Engineering Vehicle Safety</title>
+<meta property="og:title" content="AEV Safety — Autonomous Engineering Vehicle Safety">
+<meta property="og:description" content="Open research framework for autonomous engineering-vehicle safety, SOTIF, scenario testing and standardization.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aev-safety.autozyx.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #faf9f5;
+  --bg2: #f3f1eb;
+  --text: #1a1a18;
+  --text2: #59564f;
+  --text3: #878278;
+  --accent: #c85a3a;
+  --border: #dedbd1;
+  --card: #ffffff;
+  --green: #2d7a4f;
+  --amber: #a67c2e;
+  --red: #b83a3a;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.75;
+  font-size: 1.25rem;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.wrap { max-width: 1320px; margin: 0 auto; padding: 0 40px; }
+.lang {
+  position: fixed;
+  top: 24px;
+  right: 48px;
+  z-index: 99;
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  background: rgba(250,249,245,0.94);
+  backdrop-filter: blur(8px);
+}
+.lang button {
+  padding: 8px 18px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  background: transparent;
+  color: var(--text3);
+  font-family: inherit;
+}
+.lang button.on { background: var(--text); color: var(--bg); }
+span.en, p.en, div.en, h2.en, h3.en, li.en, .en-link { display: none !important; }
+body.E span.cn, body.E p.cn, body.E div.cn, body.E h2.cn, body.E h3.cn, body.E li.cn, body.E .cn-link { display: none !important; }
+body.E span.en { display: inline !important; }
+body.E p.en, body.E div.en, body.E h2.en, body.E h3.en, body.E li.en { display: block !important; }
+body.E .en-link { display: inline-block !important; }
+header {
+  padding: 96px 32px 72px;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+header h1 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 8vw;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+  color: var(--accent);
+  line-height: 1;
+}
+header .sub {
+  font-size: 2vw;
+  color: var(--text3);
+  margin-bottom: 20px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+header .desc {
+  font-size: 2rem;
+  color: var(--text2);
+  max-width: 980px;
+  margin: 0 auto 40px;
+  line-height: 1.75;
+}
+.actions { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+.btn {
+  display: inline-block;
+  padding: 16px 36px;
+  border-radius: 4px;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.btn-primary { background: var(--accent); color: white; }
+.btn-primary:hover { background: #b04e30; text-decoration: none; }
+.btn-secondary { border: 1.5px solid var(--border); color: var(--text); }
+.btn-secondary:hover { border-color: var(--text3); text-decoration: none; }
+section { padding: 58px 0; }
+section + section { border-top: 1px solid var(--border); }
+.sec-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+.sec-sub { color: var(--text3); font-size: 1.18rem; margin-bottom: 28px; }
+.notice {
+  border: 1px solid #e8d5a0;
+  background: #fdf8ec;
+  border-radius: 4px;
+  padding: 28px 32px;
+  margin-bottom: 36px;
+}
+.notice h3 { color: #775713; font-size: 1.45rem; margin-bottom: 8px; }
+.notice p { color: #5d4a12; font-size: 1.25rem; }
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 26px 22px;
+}
+.card .num {
+  font-size: 0.86rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--text3);
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.card h3 { font-size: 1.35rem; margin-bottom: 10px; line-height: 1.4; }
+.card p { color: var(--text2); font-size: 1.12rem; line-height: 1.7; }
+.layers { display: flex; flex-direction: column; gap: 0; }
+.layer {
+  display: flex;
+  border: 1px solid var(--border);
+  border-bottom: none;
+  background: var(--card);
+}
+.layer:first-child { border-radius: 6px 6px 0 0; }
+.layer:last-child { border-bottom: 1px solid var(--border); border-radius: 0 0 6px 6px; }
+.bar { width: 6px; flex-shrink: 0; }
+.bar.g { background: var(--green); }
+.bar.a { background: var(--amber); }
+.bar.r { background: var(--red); }
+.layer-body { padding: 22px 26px; flex: 1; }
+.layer h3 { font-size: 1.35rem; margin-bottom: 6px; }
+.layer p { font-size: 1.14rem; color: var(--text2); }
+.tbl-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 1.05rem; }
+th {
+  text-align: left;
+  padding: 12px 14px;
+  color: var(--text2);
+  background: var(--bg2);
+  border-bottom: 2px solid var(--border);
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+td { padding: 12px 14px; border-bottom: 1px solid var(--border); vertical-align: top; }
+tr:hover { background: var(--bg2); }
+footer {
+  border-top: 1px solid var(--border);
+  padding: 42px 32px;
+  text-align: center;
+  color: var(--text3);
+  font-size: 1rem;
+}
+@media(max-width: 900px) {
+  .grid { grid-template-columns: 1fr 1fr; }
+  header h1 { font-size: 14vw; }
+  header .sub { font-size: 4vw; }
+  header .desc { font-size: 1.45rem; }
+}
+@media(max-width: 640px) {
+  .wrap { padding: 0 22px; }
+  .grid { grid-template-columns: 1fr; }
+  .lang { right: 12px; top: 16px; }
+  .lang button { padding: 7px 12px; }
+  body { font-size: 1.05rem; }
+  header { padding: 92px 22px 58px; overflow: hidden; }
+  header h1 { font-size: 5rem; letter-spacing: 0.04em; }
+  header .sub {
+    max-width: 100%;
+    font-size: 1rem;
+    line-height: 1.65;
+    letter-spacing: 0.18em;
+    overflow-wrap: anywhere;
+  }
+  header .desc { font-size: 1.3rem; }
+  .actions {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .btn {
+    width: min(100%, 280px);
+    padding: 14px 22px;
+    text-align: center;
+  }
+  .sec-title { font-size: 8vw; }
+}
+</style>
+</head>
+<body>
+<div class="lang">
+  <button id="cn" class="on">中文</button>
+  <button id="en">EN</button>
+</div>
+
+<header>
+  <h1>AEV</h1>
+  <div class="sub">Autonomous Engineering Vehicle Safety</div>
+  <p class="desc cn">面向自主工程车辆、移动作业机器系统和未来星球资源开采的开放安全研究框架。</p>
+  <p class="desc en">An open safety research framework for autonomous engineering vehicles, mobile working-machine systems and future planetary resource operations.</p>
+  <div class="actions">
+    <a class="btn btn-primary cn-link" href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/AEV-Safety-review-draft-integrated.md">阅读论文初稿</a>
+    <a class="btn btn-primary en-link" href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/AEV-Safety-review-draft-integrated.md">Read Draft</a>
+    <a class="btn btn-secondary cn-link" href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/AEV-Safety-standards-roadmap.md">标准化路线</a>
+    <a class="btn btn-secondary en-link" href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/AEV-Safety-standards-roadmap.md">Standards Roadmap</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <div class="notice">
+      <h3 class="cn">当前状态</h3>
+      <h3 class="en">Current Status</h3>
+      <p class="cn">项目已有可读论文初稿和会议报告准备包，但尚不是正式投稿或最终公开白皮书。当前关键缺口是作者确认、标准访问、企业或现场证据、真实试讲和 Q&A 压力测试。</p>
+      <p class="en">The project has a readable manuscript draft and a conference-preparation package. It is not yet a final submission or public white paper. Current blockers are author confirmation, standard access, enterprise or field evidence, real rehearsal and Q&A pressure testing.</p>
+    </div>
+    <h2 class="sec-title cn">为什么需要 AEV Safety</h2>
+    <h2 class="sec-title en">Why AEV Safety</h2>
+    <p class="sec-sub cn">工程车辆不是只会移动的道路车辆。它们要挖、装、卸、破碎、打桩、运输、重构场地，还要承担工期、质量、资产和恢复能力风险。</p>
+    <p class="sec-sub en">Engineering vehicles are not road vehicles that only drive. They dig, load, unload, crush, pile, haul and reshape worksites, creating safety, quality, asset and recovery risks.</p>
+    <div class="grid">
+      <div class="card">
+        <div class="num">01</div>
+        <h3 class="cn">从安全通行到安全作业</h3>
+        <h3 class="en">From Safe Driving to Safe Working</h3>
+        <p class="cn">把安全对象从车辆本体扩展到移动作业机器系统。</p>
+        <p class="en">Shift the assurance object from the vehicle alone to the mobile working-machine system.</p>
+      </div>
+      <div class="card">
+        <div class="num">02</div>
+        <h3 class="cn">从 ODD 到 WTDC</h3>
+        <h3 class="en">From ODD to WTDC</h3>
+        <p class="cn">用作业场地与任务设计条件描述地形、物料、工具、监督和数字基础设施。</p>
+        <p class="en">Use worksite and task design conditions to describe terrain, material, tool, supervision and digital infrastructure boundaries.</p>
+      </div>
+      <div class="card">
+        <div class="num">03</div>
+        <h3 class="cn">从 DDT 到 DMWT</h3>
+        <h3 class="en">From DDT to DMWT</h3>
+        <p class="cn">把动态驾驶任务扩展为移动和工作装置共同构成的动态作业任务。</p>
+        <p class="en">Extend dynamic driving task into dynamic moving and working task.</p>
+      </div>
+      <div class="card">
+        <div class="num">04</div>
+        <h3 class="cn">SOTIF 风险链</h3>
+        <h3 class="en">SOTIF Risk Chain</h3>
+        <p class="cn">将功能不足、触发条件、危险事件、作业后果、缓解措施和证据闭环连起来。</p>
+        <p class="en">Connect insufficiency, trigger condition, hazardous event, task consequence, mitigation and evidence loop.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="sec-title cn">项目架构</h2>
+    <h2 class="sec-title en">Project Architecture</h2>
+    <div class="layers">
+      <div class="layer">
+        <div class="bar g"></div>
+        <div class="layer-body">
+          <h3 class="cn">研究框架</h3>
+          <h3 class="en">Research Framework</h3>
+          <p class="cn">综述论文、文献复核、典型场景、太空采矿延伸。</p>
+          <p class="en">Review paper, literature review, representative scenarios and space-mining extension.</p>
+        </div>
+      </div>
+      <div class="layer">
+        <div class="bar a"></div>
+        <div class="layer-body">
+          <h3 class="cn">标准化路线</h3>
+          <h3 class="en">Standardization Track</h3>
+          <p class="cn">工程车辆 SOTIF 风险链、WTDC-DMWT 测试矩阵、运行监控与证据等级。</p>
+          <p class="en">Engineering-vehicle SOTIF risk chain, WTDC-DMWT testing matrix, operational monitoring and evidence classes.</p>
+        </div>
+      </div>
+      <div class="layer">
+        <div class="bar r"></div>
+        <div class="layer-body">
+          <h3 class="cn">工程实践</h3>
+          <h3 class="en">Engineering Practice</h3>
+          <p class="cn">与李学飞、姚宗伟等合作，把装载机、挖掘机和场地作业经验转成可审查的安全证据。</p>
+          <p class="en">Work with collaborators including Li Xuefei and Yao Zongwei to turn loader, excavator and worksite experience into reviewable safety evidence.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="sec-title cn">当前文档</h2>
+    <h2 class="sec-title en">Current Documents</h2>
+    <div class="tbl-wrap">
+      <table>
+        <tr>
+          <th>Document</th>
+          <th>Purpose</th>
+          <th>Status</th>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/AEV-Safety-review-draft-integrated.md">AEV-Safety-review-draft-integrated.md</a></td>
+          <td><span class="cn">整合版论文初稿</span><span class="en">Integrated manuscript draft</span></td>
+          <td><span class="cn">可读初稿，未最终投稿</span><span class="en">Readable draft, not final submission</span></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/AEV-Safety-project-roadmap.md">AEV-Safety-project-roadmap.md</a></td>
+          <td><span class="cn">研究、报告、标准化和工程落地路线</span><span class="en">Research, talk, standardization and engineering roadmap</span></td>
+          <td><span class="cn">当前路线</span><span class="en">Current roadmap</span></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/AEV-Safety-standards-roadmap.md">AEV-Safety-standards-roadmap.md</a></td>
+          <td><span class="cn">标准化版图和后续动作</span><span class="en">Standards landscape and actions</span></td>
+          <td><span class="cn">待标准访问闭环</span><span class="en">Awaiting standard-access closure</span></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/AEV-Safety-tasks.md">AEV-Safety-tasks.md</a></td>
+          <td><span class="cn">当前任务与 blocker</span><span class="en">Tasks and blockers</span></td>
+          <td><span class="cn">需要真实动作</span><span class="en">Needs real actions</span></td>
+        </tr>
+      </table>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>AEV Safety · Autonomous Engineering Vehicle Safety</p>
+  <p class="cn">开放研究框架，不替代标准全文、企业现场证据或正式安全认证。</p>
+  <p class="en">Open research framework. It does not replace authorized standards, field evidence or formal safety certification.</p>
+</footer>
+
+<script>
+const cn = document.getElementById('cn');
+const en = document.getElementById('en');
+function setLang(lang) {
+  if (lang === 'en') {
+    document.body.classList.add('E');
+    cn.classList.remove('on');
+    en.classList.add('on');
+    localStorage.setItem('aev-lang', 'en');
+  } else {
+    document.body.classList.remove('E');
+    en.classList.remove('on');
+    cn.classList.add('on');
+    localStorage.setItem('aev-lang', 'cn');
+  }
+}
+cn.onclick = () => setLang('cn');
+en.onclick = () => setLang('en');
+setLang(localStorage.getItem('aev-lang') || 'cn');
+</script>
+</body>
+</html>
