@@ -1,32 +1,49 @@
-# Contributing to AEV Safety
+# 贡献指南
 
-AEV Safety welcomes research, engineering, standardization and field-operation contributions.
+[English](CONTRIBUTING-en.md)
 
-## Contribution Areas
+AEV Safety 欢迎研究人员、工程师、标准化专家、施工/矿山/港口/光伏场景运营方和测试评价机构共同完善。
 
-1. Literature review
-2. Standards mapping
-3. Autonomous engineering-vehicle scenarios
-4. Worksite and task design conditions
-5. SOTIF-oriented risk-chain examples
-6. Testing and operational monitoring methods
-7. Field interview notes and anonymized case evidence
-8. Conference presentation feedback
+## 可贡献内容
 
-## Evidence Rules
+1. 文献与标准线索
 
-- Public claims need public sources.
-- Standard clause-level mapping requires authorized standard text or an authorized catalogue.
-- Enterprise or field cases must be anonymized unless explicit permission is obtained.
-- Product maturity, customer acceptance, operating KPI and certification conclusions must not be inferred from public product pages.
-- SOTIF must be written as Safety of the Intended Functionality or 预期功能安全.
+   请优先提交可公开访问的 DOI、出版社页面、标准官方页面、监管页面或企业官方页面。不要提交未经核验的二手摘录作为事实依据。
 
-## How to Contribute
+2. 场景与任务案例
 
-Open an issue or pull request with:
+   可贡献装载、卸料、挖掘、开沟、打桩、运输、清舱、堆料转运、充电、故障恢复、远程监督等场景。请明确机器类型、作业场地、物料状态、任务边界、人员/资产暴露、可能后果和证据来源。
 
-1. The exact claim or section being improved.
-2. The source or evidence path.
-3. The proposed wording.
-4. Any confidentiality boundary.
-5. Whether the contribution is research-only, standardization-oriented or field-practice evidence.
+3. 标准映射
+
+   可贡献 ISO 17757、ISO 19014、ISO 15817、ISO 21815、ISO 21448、ISO 26262、ISO 34502、ISO/PAS 8800、ISO 18497-1、机器人预期功能安全项目以及中国工程机械/矿山机械标准的映射建议。
+
+4. 工程实践
+
+   可贡献匿名化现场经验、测试记录字段、运行监控指标、故障恢复流程、远程监督流程和 safety case 结构。涉及企业或客户信息时必须先匿名化。
+
+## 证据边界
+
+- 公开论文和标准授权文本可支持研究结论和条款级映射。
+- 标准项目公示、目录页、官方介绍页只能支持状态和范围，不能替代标准全文。
+- 企业官网、新闻稿和视频可作为场景锚点，不能证明产品成熟度、认证状态或长期安全表现。
+- 内部商业计划书、项目 PPT 和会议讨论只可作为背景，不可直接写成公开事实。
+
+## 术语要求
+
+- 使用 SOTIF、Safety of the Intended Functionality、预期功能安全。
+- 不使用常见错误英文直译作为 ISO 21448 或 SOTIF 的译名。
+- 首次出现 MWMS、WTDC、DMWT 时给出中英文全称。
+
+## 提交方式
+
+建议按模块提交：
+
+- `taxonomy/`：场景和任务分类。
+- `architecture/`：参考架构、安全监控和证据流。
+- `benchmarks/`：评价指标和测试矩阵。
+- `standards/`：标准版图和条款级映射。
+- `paper/`：论文稿与参考文献。
+- `docs/`：网页、综述和材料吸收记录。
+
+每次提交应同时更新中文和英文版本。

@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Review workflow and evidence classification for the systematized scoping review</title>
+  <desc id="desc">A three-row workflow figure showing protocol, identification, verification, screening, eligibility, evidence classification, coding, inclusion, and framework synthesis for autonomous engineering vehicle safety review.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+    <style>
+      .page { fill: #ffffff; }
+      .title { font-family: Arial, Helvetica, sans-serif; font-size: 34px; font-weight: 700; fill: #0f172a; }
+      .subtitle { font-family: Arial, Helvetica, sans-serif; font-size: 20px; fill: #475569; }
+      .note { font-family: Arial, Helvetica, sans-serif; font-size: 17px; fill: #475569; }
+      .label { font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-weight: 700; fill: #0f172a; }
+      .small { font-family: Arial, Helvetica, sans-serif; font-size: 17px; fill: #334155; }
+      .tiny { font-family: Arial, Helvetica, sans-serif; font-size: 15px; fill: #475569; }
+      .box { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 2; rx: 18; }
+      .box-source { fill: #eff6ff; stroke: #93c5fd; }
+      .box-check { fill: #f8fafc; stroke: #cbd5e1; }
+      .box-evidence { fill: #f0fdfa; stroke: #99f6e4; }
+      .box-output { fill: #f8fafc; stroke: #94a3b8; stroke-width: 2.5; }
+      .pill { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.5; rx: 14; }
+      .pill-blue { fill: #dbeafe; stroke: #93c5fd; }
+      .pill-teal { fill: #ccfbf1; stroke: #99f6e4; }
+      .arrow { stroke: #334155; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+      .arrow-light { stroke: #64748b; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+      .divider { stroke: #e2e8f0; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <rect class="page" x="0" y="0" width="1800" height="1100"/>
+
+  <text class="title" x="90" y="70">Review Workflow and Evidence Classification</text>
+  <text class="subtitle" x="90" y="105">Systematized scoping review for autonomous engineering vehicle safety</text>
+  <text class="note" x="90" y="138">This is a structured scoping workflow, not a complete PRISMA systematic review. Source types are separated before framework synthesis.</text>
+
+  <line class="divider" x1="90" y1="170" x2="1710" y2="170"/>
+
+  <!-- Row 1 -->
+  <rect class="box box-source" x="90" y="220" width="440" height="170"/>
+  <text class="label" x="120" y="260">1. Protocol</text>
+  <text class="small" x="120" y="298">Scope, topics, inclusion and</text>
+  <text class="small" x="120" y="322">exclusion criteria</text>
+  <rect class="pill pill-blue" x="120" y="345" width="185" height="34"/>
+  <text class="tiny" x="138" y="368">Source: v6.1</text>
+
+  <rect class="box box-source" x="680" y="220" width="440" height="170"/>
+  <text class="label" x="710" y="260">2. Identification</text>
+  <text class="small" x="710" y="298">Standards, databases, industry</text>
+  <text class="small" x="710" y="322">guidance and public cases</text>
+  <rect class="pill pill-blue" x="710" y="345" width="250" height="34"/>
+  <text class="tiny" x="728" y="368">16 search/query records</text>
+
+  <rect class="box box-check" x="1270" y="220" width="440" height="170"/>
+  <text class="label" x="1300" y="260">3. Verification</text>
+  <text class="small" x="1300" y="298">Official pages, DOI records,</text>
+  <text class="small" x="1300" y="322">institutional pages and status</text>
+  <rect class="pill" x="1300" y="345" width="220" height="34"/>
+  <text class="tiny" x="1318" y="368">11 candidates checked</text>
+
+  <!-- Row 2 -->
+  <rect class="box box-check" x="90" y="500" width="440" height="170"/>
+  <text class="label" x="120" y="540">4. Screening</text>
+  <text class="small" x="120" y="578">Relevance, source quality,</text>
+  <text class="small" x="120" y="602">exclusion and deduplication</text>
+  <rect class="pill" x="120" y="625" width="240" height="34"/>
+  <text class="tiny" x="138" y="648">11 screening decisions</text>
+
+  <rect class="box box-check" x="680" y="500" width="440" height="170"/>
+  <text class="label" x="710" y="540">5. Eligibility</text>
+  <text class="small" x="710" y="578">Full text, official status,</text>
+  <text class="small" x="710" y="602">or verified public page</text>
+  <rect class="pill" x="710" y="625" width="230" height="34"/>
+  <text class="tiny" x="728" y="648">4 full-text prescreens</text>
+
+  <rect class="box box-evidence" x="1270" y="500" width="440" height="170"/>
+  <text class="label" x="1300" y="540">6. Evidence Class</text>
+  <text class="small" x="1300" y="578">A-FULL, A-STATUS, A-TOC,</text>
+  <text class="small" x="1300" y="602">A-ACADEMIC, B-CASE, C-LEAD</text>
+  <rect class="pill pill-teal" x="1300" y="625" width="240" height="34"/>
+  <text class="tiny" x="1318" y="648">Claim boundary assigned</text>
+
+  <!-- Row 3 -->
+  <rect class="box box-evidence" x="90" y="780" width="440" height="170"/>
+  <text class="label" x="120" y="820">7. Coding</text>
+  <text class="small" x="120" y="858">Machine, scenario, WTDC,</text>
+  <text class="small" x="120" y="882">DMWT and claim boundary</text>
+  <rect class="pill pill-teal" x="120" y="905" width="205" height="34"/>
+  <text class="tiny" x="138" y="928">v6.9 coding matrix</text>
+
+  <rect class="box box-evidence" x="680" y="780" width="440" height="170"/>
+  <text class="label" x="710" y="820">8. Inclusion</text>
+  <text class="small" x="710" y="858">Main references, appendix</text>
+  <text class="small" x="710" y="882">evidence or background leads</text>
+  <rect class="pill pill-teal" x="710" y="905" width="235" height="34"/>
+  <text class="tiny" x="728" y="928">60-reference crosswalk</text>
+
+  <rect class="box box-output" x="1270" y="780" width="440" height="170"/>
+  <text class="label" x="1300" y="820">9. Framework Synthesis</text>
+  <text class="small" x="1300" y="858">MWMS, WTDC, DMWT,</text>
+  <text class="small" x="1300" y="882">SOTIF risk chain and safety case</text>
+  <rect class="pill" x="1300" y="905" width="245" height="34"/>
+  <text class="tiny" x="1318" y="928">Paper v1.4 skeleton</text>
+
+  <!-- Arrows -->
+  <path class="arrow" d="M 530 305 H 660"/>
+  <path class="arrow" d="M 1120 305 H 1250"/>
+  <path class="arrow" d="M 1490 390 V 450 H 310 V 490"/>
+  <path class="arrow" d="M 530 585 H 660"/>
+  <path class="arrow" d="M 1120 585 H 1250"/>
+  <path class="arrow" d="M 1490 670 V 730 H 310 V 770"/>
+  <path class="arrow" d="M 530 865 H 660"/>
+  <path class="arrow" d="M 1120 865 H 1250"/>
+
+  <!-- Evidence side band -->
+  <rect x="90" y="990" width="1620" height="58" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2" rx="18"/>
+  <text class="note" x="120" y="1027">Evidence responsibility: standards support status or clauses only when authorized; papers support research claims; company pages anchor scenarios; anonymized field samples require consent.</text>
+</svg>

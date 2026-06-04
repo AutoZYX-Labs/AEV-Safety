@@ -3,7 +3,9 @@
 
 ## Draft Metadata and Verification Notes
 
-Author: Zhang Yuxin [to be confirmed]
+Authors: Zhang Yuxin; Li Xuefei; Yao Zongwei
+
+Author order, affiliations and corresponding author details will be finalized before formal submission.
 
 Corresponding author email: [to be confirmed]
 
@@ -11,7 +13,7 @@ Corresponding author postal address: [to be confirmed]
 
 ORCID: [to be confirmed]
 
-Potential collaborators or acknowledged contributors: Li Xuefei [role to be confirmed]; Yao Zongwei [role to be confirmed]. Do not list either as manuscript author until contribution, approval and disclosure status are confirmed.
+Author contribution statement: [to be confirmed]
 
 Funding statement: [to be confirmed]
 
@@ -85,6 +87,8 @@ This paper is positioned as a systematized scoping review with a conceptual fram
 
 The review workflow is shown in Figure 1. It begins with a protocol defining scope, topics, inclusion criteria and exclusion criteria. It then identifies sources from standards, databases, industry guidance and public cases. Candidate sources are verified through official pages, DOI records, institutional pages or source-status checks. Materials are screened for relevance, source quality and duplication. Eligibility is then assigned based on full text, official status or verified public pages. Evidence classes are assigned before coding each source by machine type, scenario, WTDC role, DMWT role and claim boundary. Sources are then routed into the main reference set, appendix evidence or background leads. The final synthesis links MWMS, WTDC, DMWT, SOTIF risk chains, testing, operational monitoring and safety cases.
 
+![Figure 1. Review workflow and evidence classification for the systematized scoping review.](../figures/AEV-Safety-review-workflow.png)
+
 Figure 1. Review workflow and evidence classification for the systematized scoping review.
 
 ### 2.2 Search and source scope
@@ -114,7 +118,7 @@ Table 1. Evidence classes and claim boundaries for source use.
 | A-TOC          | Official preview, catalogue or authorized table of contents      | Topic and structure mapping                                    | Do not quote or paraphrase unavailable clauses                 |
 | A-ACADEMIC     | Peer-reviewed journal or formal conference paper                 | Methods, experiments, simulations, research findings           | Do not infer product maturity                                  |
 | A-GUIDE        | Government, industry or technical guidance                       | Industry practice, lifecycle concepts, safety management       | Treat as guidance unless legally binding status is verified    |
-| B-PREPRINT     | Preprint or technical report                                     | Research signal and follow-up lead                             | Do not use as mature deployment proof                          |
+| B-PREPRINT     | Preprint or technical report                                     | Research signal and further review lead                        | Do not use as mature deployment proof                          |
 | B-WORKSHOP     | Workshop proceedings or accepted workshop paper                  | Emerging method or research direction                          | Do not label as journal or main-conference evidence            |
 | B-CASE         | Company official page or public product page                     | Scenario anchor and public product direction                   | Do not claim independent assurance, customer acceptance or KPI |
 | A2-ANON        | Confirmed anonymized interview or field sample                   | Practical system boundary, WTDC, DMWT and evidence chain       | Use only after consent and anonymization                       |

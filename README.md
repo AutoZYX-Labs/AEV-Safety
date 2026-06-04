@@ -2,80 +2,133 @@
 
 Autonomous Engineering Vehicle Safety
 
-AEV Safety is an open research and standardization project for autonomous engineering vehicles and mobile working-machine systems. The project studies how road-vehicle safety methods such as ISO 26262, SOTIF, ISO/SAE 21434, scenario-based testing and safety cases can be transferred into construction machinery, mining machinery, solar construction, trenching, autonomous haulage and future space-resource operations.
+中文 | [English](README-en.md)
 
-Website target:
+AEV Safety 是一个面向自主工程车辆与移动作业机器系统的开放研究与标准化项目。项目关注的不是单一车辆能否无人行驶，而是装载机、挖掘机、矿卡、摊铺/打桩/开沟设备、太阳能施工机器人以及未来星球资源作业系统，如何在定义清楚的场地、任务、物料、工具、人机协同和远程监督条件下形成可审查的安全证据链。
+
+项目网址：
 
 https://aev-safety.autozyx.com/
 
-GitHub Pages is configured from `main/docs` with this CNAME. If the custom domain is not reachable, add a Cloudflare DNS CNAME record:
+GitHub：
 
-`aev-safety.autozyx.com` -> `autozyx.github.io`
+https://github.com/AutoZYX-Labs/AEV-Safety
 
-## Current Status
+## 项目定位
 
-The project has a readable manuscript dry-run, a conference-talk preparation package and a GitHub Pages site configuration. It is not yet a final submission or public white paper. The current blockers are Cloudflare DNS for the custom domain and external evidence: author confirmation, standard access requests, enterprise or field evidence, a real 42 to 45 minute rehearsal, and Q&A pressure testing.
+道路车辆自动驾驶安全已经形成较成熟的方法体系，包括 ISO 26262 功能安全、ISO 21448 SOTIF、ISO 34502 场景测试、ISO/SAE 21434 网络安全、ISO/PAS 8800 AI 安全和 safety case 论证。工程车辆智能化正在进入矿山、港口、拌合站、施工现场、光伏施工和极端环境作业，但安全证据仍分散在机械安全、控制系统功能安全、矿山无人化指南、企业项目页面、施工自动化研究和现场管理规则之间。
 
-## Key Documents
+AEV Safety 的核心判断是：
 
-- `AEV-Safety-review-draft-integrated.md`  
-  Integrated manuscript draft. Supplementary Material tables have been merged into the main text as Table 6 and Table 7. Author information and disclosure items remain marked as to be confirmed.
+工程车辆智能化安全的主问题，不是把自动驾驶标准直接搬到工程机械上，而是把道路车辆安全方法中的系统边界、场景、触发条件、功能不足、测试证据、运行监控和安全论证结构，迁移到移动作业机器系统。
 
-- `AEV-Safety-review-draft-integrated.docx`  
-  Word version generated from the integrated draft.
+## 三个核心概念
 
-- `AEV-Safety-project-roadmap.md`  
-  Project roadmap for research, standardization, conference presentation and engineering collaboration.
+| 缩写 | 中文 | English | 作用 |
+|---|---|---|---|
+| MWMS | 移动作业机器系统 | Mobile Working Machine System | 把车辆本体、工作装置、工具、物料、场地基础设施、监督系统和人员组织作为一个安全对象 |
+| WTDC | 作业场地与任务设计条件 | Worksite and Task Design Conditions | 扩展道路车辆 ODD，描述地形、物料、装卸点、禁入区、通信、监督、天气和生产约束 |
+| DMWT | 动态移动与作业任务 | Dynamic Moving and Working Task | 扩展道路车辆 DDT，覆盖移动、定位、铲掘、装载、卸料、压实、打桩、开沟、运输和恢复动作 |
 
-- `AEV-Safety-literature-review.md`  
-  Consolidated literature and evidence review.
+## 为什么开放这个项目
 
-- `AEV-Safety-standards-roadmap.md`  
-  Standards landscape and next-step plan.
+这个项目开放出来，不是为了把开放问题收束为单一发表目标。论文只是阶段性表达。更重要的目标是让这些问题进入更深的研究、标准化讨论、测试评价体系和真实产品落地。
 
-- `AEV-Safety-materials-index.md`  
-  Index of source materials, including Li Xuefei's autonomous construction-machinery work and the Move the Earth and Beyond material.
+AEV Safety 面向四类输出：
 
-- `AEV-Safety-tasks.md`  
-  Current task list and blocker status.
+1. 综述论文与方法论文：形成可被同行审阅的理论框架。
+2. 会议报告与教学材料：帮助研究人员、工程师和标准化专家形成共同语言。
+3. 标准化建议：为工程车辆 SOTIF、场景测试、安全案例和运行监控提供条款级候选结构。
+4. 工程实践落地：把装载机、挖掘机、矿卡和施工机器人项目中的现场经验转化为可审查的安全证据。
 
-## Project Structure
+## 当前材料吸收
+
+本项目已吸收以下材料的技术脉络：
+
+- 李学飞老师关于工程机械自主作业系统的商业计划书和技术材料：自主铲掘、自主卸料、料堆识别、铲斗满载率测量、V 型作业路径规划、路径跟踪控制、室内外实车测试和前装/后装产品化。
+- `Move the Earth and Beyond` 项目材料：从地球施工/矿山自动化延伸到月球、火星和未来星球资源作业的沙盘设计、无人土方工程安全系统工程、Built Robotics 安全机制和 NASA/DLR 资源作业资料链。
+- 施工与矿山无人系统文献：无人地面/水面/水下设备在施工中的应用、半自动工地协同装备安全、系统之系统安全分析、STPA 与 Petri net 扩展。
+- 通用移动物理 AI 安全材料：机器人预期功能安全、物理交互安全、VLA/大模型决策安全、运行时安全监控和 SOTIF 方法迁移。
+
+这些材料中，公开论文、标准页面和公开企业页面可作为公开证据；内部商业计划书、项目 PPT 和未公开协作信息只作为背景输入，不直接作为公开事实证明。
+
+## 仓库结构
 
 ```text
-工程车辆智能化安全/
+AEV-Safety/
 ├── README.md
-├── AEV-Safety-review-draft-integrated.md
-├── AEV-Safety-review-draft-integrated.docx
-├── AEV-Safety-review-draft-current.docx
-├── AEV-Safety-project-roadmap.md
-├── AEV-Safety-literature-review.md
-├── AEV-Safety-standards-roadmap.md
-├── AEV-Safety-materials-index.md
-├── AEV-Safety-tasks.md
+├── README-en.md
+├── CONTRIBUTING.md
+├── CONTRIBUTING-en.md
+├── taxonomy/
+│   ├── worksite-task-taxonomy-v1.0.md
+│   └── worksite-task-taxonomy-v1.0-en.md
+├── architecture/
+│   ├── reference-architecture.md
+│   └── reference-architecture-en.md
+├── benchmarks/
+│   ├── evaluation-matrix.md
+│   └── evaluation-matrix-en.md
+├── standards/
+│   ├── landscape.md
+│   ├── landscape-en.md
+│   ├── standardization-roadmap.md
+│   └── standardization-roadmap-en.md
+├── paper/
+│   ├── manuscript-zh.md
+│   ├── manuscript-en.md
+│   ├── manuscript-zh.docx
+│   └── manuscript-en.docx
 ├── docs/
 │   ├── index.html
-│   └── CNAME
-├── references/
+│   ├── literature-review.md
+│   ├── literature-review-en.md
+│   ├── source-synthesis.md
+│   └── source-synthesis-en.md
 ├── figures/
-└── achieve/
+│   ├── AEV-Safety-review-workflow.png
+│   ├── AEV-Safety-review-workflow.svg
+│   └── AEV-Safety-review-workflow.pdf
+└── references/
+    ├── AEV-Safety-main-references.bib
+    ├── README.md
+    └── README-en.md
 ```
 
-## Citation
+## 快速阅读路径
 
-Citation format will be finalized after author information and publication route are confirmed.
+1. [材料吸收与证据边界](docs/source-synthesis.md)
+2. [文献综述与研究脉络](docs/literature-review.md)
+3. [作业场地与任务分类体系](taxonomy/worksite-task-taxonomy-v1.0.md)
+4. [参考架构](architecture/reference-architecture.md)
+5. [评价矩阵](benchmarks/evaluation-matrix.md)
+6. [标准版图](standards/landscape.md)
+7. [标准化推进路线](standards/standardization-roadmap.md)
+8. [中文论文初稿](paper/manuscript-zh.md)
+9. [English manuscript draft](paper/manuscript-en.md)
 
-Draft BibTeX placeholder:
+## 作者
+
+- Zhang Yuxin
+- Li Xuefei
+- Yao Zongwei
+
+作者顺序、单位、通信作者、ORCID、基金、利益冲突和作者贡献声明将在正式投稿前确认。
+
+## 许可证
+
+本项目开放研究材料采用 Apache License 2.0，除非单独注明。第三方标准、论文、企业资料、视频、内部商业计划书和项目材料仍归原权利方所有，本项目不重新授权这些材料。
+
+## 引用
+
+正式引用格式将在论文版本和作者信息确认后更新。当前占位格式：
 
 ```bibtex
 @misc{AEVSafety2026,
-  title = {From Safe Driving to Safe Working: A Safety Assurance Framework for Autonomous Engineering Vehicles},
-  author = {Zhang, Yuxin},
+  title = {AEV Safety: Autonomous Engineering Vehicle Safety},
+  author = {Zhang, Yuxin and Li, Xuefei and Yao, Zongwei},
   year = {2026},
-  note = {Draft manuscript. Author information and publication route to be confirmed.},
-  url = {https://aev-safety.autozyx.com/}
+  note = {Open research framework and draft manuscript},
+  url = {https://github.com/AutoZYX-Labs/AEV-Safety}
 }
 ```
-
-## License
-
-Apache License 2.0 for open research materials unless otherwise stated. Third-party standards, papers, videos, PDFs and business-plan materials remain under their original rights and are not relicensed by this project.
