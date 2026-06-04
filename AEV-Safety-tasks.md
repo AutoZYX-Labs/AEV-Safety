@@ -4,7 +4,7 @@
 
 Blocked until at least one real evidence chain starts.
 
-The current local draft and website materials are sufficient for internal review. The project should not keep expanding local process files before real evidence is captured.
+The current local draft, GitHub repository and GitHub Pages configuration are sufficient for internal review. The project should not keep expanding local process files before real evidence is captured.
 
 ## P0 Tasks
 
@@ -24,6 +24,10 @@ The current local draft and website materials are sufficient for internal review
 
    Complete one uninterrupted 42 to 45 minute rehearsal. Record slide timing, issues and retrospective.
 
+5. Cloudflare DNS
+
+   Add a CNAME record `aev-safety.autozyx.com` -> `autozyx.github.io`. GitHub Pages is already built and the repository CNAME is configured, but the current Wrangler OAuth token can read the zone only and cannot write DNS records.
+
 ## P1 Tasks
 
 1. Use post-action route table after any real action.
@@ -36,8 +40,8 @@ The current local draft and website materials are sufficient for internal review
 1. Freeze manuscript content.
 2. Rerun final visual and reference checks.
 3. Confirm Editorial Manager file slots.
-4. Push repository and enable GitHub Pages.
-5. Configure or verify `aev-safety.autozyx.com` DNS.
+4. Verify `aev-safety.autozyx.com` after DNS propagation.
+5. Enable HTTPS enforcement after GitHub generates the certificate.
 
 ## Do Not Do Yet
 

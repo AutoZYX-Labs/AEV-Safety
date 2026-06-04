@@ -8,9 +8,13 @@ Website target:
 
 https://aev-safety.autozyx.com/
 
+GitHub Pages is configured from `main/docs` with this CNAME. If the custom domain is not reachable, add a Cloudflare DNS CNAME record:
+
+`aev-safety.autozyx.com` -> `autozyx.github.io`
+
 ## Current Status
 
-The project has a readable manuscript dry-run and a conference-talk preparation package. It is not yet a final submission or public white paper. The current blocker is external evidence: author confirmation, standard access requests, enterprise or field evidence, a real 42 to 45 minute rehearsal, and Q&A pressure testing.
+The project has a readable manuscript dry-run, a conference-talk preparation package and a GitHub Pages site configuration. It is not yet a final submission or public white paper. The current blockers are Cloudflare DNS for the custom domain and external evidence: author confirmation, standard access requests, enterprise or field evidence, a real 42 to 45 minute rehearsal, and Q&A pressure testing.
 
 ## Key Documents
 
