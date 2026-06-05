@@ -74,6 +74,23 @@ Embodied AI safety, physical interaction safety and LLM/VLA decision safety broa
 | LLM/VLA decision safety | Supports task planning, semantic understanding, long-horizon decision risk, hallucination, OOD, runtime guardian and fallback |
 | ISO/PAS 8800 transfer | Supports AI component lifecycle thinking, but does not replace field validation for engineering vehicles |
 
+The Chinese national-standard project `机器人预期功能安全实施指南` was open for public notice from 2026-06-02 to 2026-07-02. Its public scope includes operating design domain, scenario classification, triggering conditions, functional insufficiency, risk chains, risk evaluation and mitigation measures. AEV Safety treats this as a standardization signal for mobile physical AI safety, not as a published engineering-vehicle standard.
+
+Recent mobile physical AI evaluation-platform material provides a second transferable strand. It proposes the Human-like Mobility Reference Model (HMRM) and Human-like Mobility Behaviour (HLMB), with safety, smoothness and efficiency as cross-embodiment evaluation dimensions. For AEV Safety, the point is not to copy human-like driving evaluation into engineering vehicles. The point is that engineering-vehicle evaluation also needs externally observable, comparable and reviewable behavior indicators across different embodiments.
+
+Transferable technical structure:
+
+1. Five-source data thinking: aerial data, onboard data, test-site data, incident data and macro mobile-agent data can inspire integration of worksite logs, machine logs, near misses, test scenarios and public incident evidence for engineering vehicles.
+2. Cross-embodiment behavior evaluation: evaluation should not depend only on internal control parameters of one machine type; it should be grounded in externally observable behavior, task result and stakeholder-protection semantics where possible.
+3. Three-dimensional evaluation: safety, smoothness and efficiency can be transferred into human/asset safety, work-equipment stability, task quality, energy use and production continuity.
+4. Third-party reviewability: engineering-vehicle safety evidence should not remain only inside enterprise test systems; test records and safety cases need to become reviewable, repeatable and regulator-readable.
+
+Public-use boundary:
+
+- Do not publish budget, contact information, internal role allocation or unpublished commercial-collaboration details.
+- Do not describe HMRM/HLMB as a mature standard for engineering-vehicle work control.
+- Do not replace digging, dumping, trenching, piling or compaction task-quality evaluation with road-traffic human-likeness evaluation.
+
 ## 5. Evidence Classes
 
 | Class | Supports | Limitation |

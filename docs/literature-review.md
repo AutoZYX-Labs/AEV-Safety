@@ -84,7 +84,22 @@ AEV Safety 对这条线索的处理原则是：
 
 因此，AEV Safety 把星球资源作业作为框架通用性的外推，不作为当前地球工程车辆标准的合规依据。
 
-## 7. 研究空白
+## 7. 从文献线索到 AEV Safety 模块
+
+AEV Safety 的综述工作不是把每条文献线索停留在“相关工作”层面，而是把它们转成可讨论、可复核、可协作推进的模块。
+
+| 文献或材料线索 | 进入 AEV Safety 的模块 | 当前处理方式 |
+|---|---|---|
+| ISO 21448、ISO 34502、ISO/PAS 8800 等道路车辆方法 | SOTIF 风险链、场景分层、AI 安全生命周期、safety case 论证 | 作为方法供体，不直接搬用道路 ODD、DDT 或 ASIL |
+| ISO 17757、ISO 19014、ISO 15817、ISO 21815、GMG 指南 | MWMS 系统边界、远程控制、碰撞警告/避免、运营准备和变更管理 | 作为工程机械和矿山自主系统底座，条款级映射待授权文本 |
+| SUCCESS 半自动工地项目与系统之系统安全文献 | SoS hazard analysis、safety arguments、digital twin、dynamic risk management、geofence | 支撑五层参考架构、运行监控和动态 safety case 更新 |
+| 装载机自主作业材料 | 料堆识别、铲掘点选择、铲斗满载率、卸料点、V 型路径、前装/后装边界 | 支撑 DMWT 和任务质量后果矩阵 |
+| 移动物理 AI 测评平台材料 | HMRM（Human-like Mobility Reference Model）、HLMB（Human-like Mobility Behaviour）、安全性/平顺性/效率性 | 作为跨本体评价启发，不替代工程车辆作业质量评价 |
+| 机器人预期功能安全标准化信号 | ODD、场景、触发条件、功能不足、风险评价和缓解措施 | 作为移动物理 AI 安全标准化趋势，不写成已发布工程车辆标准 |
+
+这个映射关系也决定了仓库结构：`taxonomy/` 负责 WTDC 和 DMWT，`architecture/` 负责安全保证对象和证据流，`benchmarks/` 负责后果类别与评价字段，`standards/` 负责标准版图与候选路线，`paper/` 负责把上述模块收束为可投稿论文初稿。
+
+## 8. 研究空白
 
 当前最值得继续深入的研究空白包括：
 
@@ -97,7 +112,7 @@ AEV Safety 对这条线索的处理原则是：
 | 远程监督负荷 | 多机系统会让监督员成为安全瓶颈 | 建立监督请求率、响应时间和误确认指标 |
 | Safety case 模板 | 工程车辆缺少面向 WTDC/DMWT 的论证模板 | 建立 claims、arguments、evidence 和 limitations 结构 |
 
-## 8. 后续文献工作
+## 9. 后续文献工作
 
 后续应继续推进三类文献工作：
 

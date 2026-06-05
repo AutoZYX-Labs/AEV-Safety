@@ -84,7 +84,22 @@ Planetary resource operations amplify:
 
 AEV Safety therefore treats planetary resource operations as an extrapolation for framework generality, not as a compliance basis for current terrestrial engineering vehicles.
 
-## 7. Research Gaps
+## 7. From Literature Strands to AEV Safety Modules
+
+The AEV Safety review does not leave each literature strand as generic related work. It converts them into modules that can be discussed, reviewed and advanced collaboratively.
+
+| Literature or material strand | AEV Safety module | Current treatment |
+|---|---|---|
+| Road-vehicle methods such as ISO 21448, ISO 34502 and ISO/PAS 8800 | SOTIF risk chain, scenario layers, AI safety lifecycle and safety-case argumentation | Used as method donors; road ODD, DDT and ASIL are not copied directly |
+| ISO 17757, ISO 19014, ISO 15817, ISO 21815 and GMG guidance | MWMS boundary, remote control, collision warning/avoidance, operational readiness and change management | Used as the machinery and mining autonomy base; clause-level mapping awaits authorized text |
+| The SUCCESS semi-automated-site project and system-of-systems safety literature | SoS hazard analysis, safety arguments, digital twin, dynamic risk management and geofences | Supports the five-layer reference architecture, operational monitoring and dynamic safety-case updates |
+| Autonomous loader work-loop materials | Stockpile perception, digging-point selection, bucket fill rate, dumping point, V-shaped path and front-fit/retrofit boundary | Supports DMWT and the task-quality consequence matrix |
+| Mobile physical AI evaluation-platform material | Human-like Mobility Reference Model (HMRM), Human-like Mobility Behaviour (HLMB), safety/smoothness/efficiency | Used as cross-embodiment evaluation inspiration, not as a replacement for engineering-vehicle task-quality evaluation |
+| Robot SOTIF standardization signal | ODD, scenario, triggering condition, functional insufficiency, risk evaluation and mitigation | Treated as a mobile physical AI safety standardization trend, not as a published engineering-vehicle standard |
+
+This mapping also explains the repository structure: `taxonomy/` handles WTDC and DMWT, `architecture/` handles the assurance object and evidence flows, `benchmarks/` handles consequence classes and evaluation fields, `standards/` handles the standards landscape and candidate roadmap, and `paper/` consolidates the modules into manuscript drafts.
+
+## 8. Research Gaps
 
 The most important gaps to deepen are:
 
@@ -97,7 +112,7 @@ The most important gaps to deepen are:
 | Remote-supervision workload | Multi-machine systems can turn supervisors into safety bottlenecks | Measure request rate, response time and false confirmation |
 | Safety-case templates | Engineering vehicles lack WTDC/DMWT-oriented argument templates | Define claims, arguments, evidence and limitations |
 
-## 8. Future Literature Work
+## 9. Future Literature Work
 
 Future work should continue along three tracks:
 

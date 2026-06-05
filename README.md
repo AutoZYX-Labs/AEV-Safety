@@ -1,10 +1,10 @@
 # AEV Safety
 
-Autonomous Engineering Vehicle Safety
+Autonomous Engineering Vehicle Safety / 自主工程车辆安全
 
 中文 | [English](README-en.md)
 
-AEV Safety 是一个面向自主工程车辆与移动作业机器系统的开放研究与标准化项目。项目关注的不是单一车辆能否无人行驶，而是装载机、挖掘机、矿卡、摊铺/打桩/开沟设备、太阳能施工机器人以及未来星球资源作业系统，如何在定义清楚的场地、任务、物料、工具、人机协同和远程监督条件下形成可审查的安全证据链。
+AEV Safety（自主工程车辆安全）是一个面向自主工程车辆与移动作业机器系统的开放安全研究、测试评价与标准化项目。项目关注的不是单一车辆能否无人行驶，而是装载机、挖掘机、矿卡、摊铺/打桩/开沟设备、太阳能施工机器人以及未来星球资源作业系统，如何在定义清楚的场地、任务、物料、工具、人机协同和远程监督条件下形成可审查的安全证据链。
 
 项目网址：
 
@@ -41,6 +41,16 @@ AEV Safety 面向四类输出：
 3. 标准化建议：为工程车辆 SOTIF、场景测试、安全案例和运行监控提供条款级候选结构。
 4. 工程实践落地：把装载机、挖掘机、矿卡和施工机器人项目中的现场经验转化为可审查的安全证据。
 
+## 面向谁
+
+| 对象 | 可直接使用的内容 |
+|---|---|
+| 工程车辆、矿山、施工机器人和光伏施工装备团队 | MWMS、WTDC、DMWT、评价矩阵和 safety case 证据结构 |
+| 测试评价机构 | 场景分类、后果类别、测试记录字段、近失事件和运行监控指标 |
+| 标准化专家 | 道路车辆安全方法、工程机械标准、机器人 SOTIF 信号和候选条款模块 |
+| 研究人员 | 文献综述、方法迁移框架、系统之系统安全、运行时安全保证和论文初稿 |
+| 企业工程团队 | 装载机、挖掘机、矿卡、施工机器人项目的安全需求、降级恢复和产品化证据清单 |
+
 ## 当前材料吸收
 
 本项目已吸收以下材料的技术脉络：
@@ -49,6 +59,7 @@ AEV Safety 面向四类输出：
 - `Move the Earth and Beyond` 项目材料：从地球施工/矿山自动化延伸到月球、火星和未来星球资源作业的沙盘设计、无人土方工程安全系统工程、Built Robotics 安全机制和 NASA/DLR 资源作业资料链。
 - 施工与矿山无人系统文献：无人地面/水面/水下设备在施工中的应用、半自动工地协同装备安全、系统之系统安全分析、STPA 与 Petri net 扩展。
 - 通用移动物理 AI 安全材料：机器人预期功能安全、物理交互安全、VLA/大模型决策安全、运行时安全监控和 SOTIF 方法迁移。
+- 近期移动物理 AI 测评平台材料：五源数据、跨本体测评、类人移动参考模型 HMRM（Human-like Mobility Reference Model）和类人移动行为 HLMB（Human-like Mobility Behaviour）评价方法学，为工程车辆安全评价提供“安全性、平顺性、运行效率”和跨本体可比性的启发。
 
 这些材料中，公开论文、标准页面和公开企业页面可作为公开证据；内部商业计划书、项目 PPT 和未公开协作信息只作为背景输入，不直接作为公开事实证明。
 
@@ -128,7 +139,7 @@ AEV-Safety/
   title = {AEV Safety: Autonomous Engineering Vehicle Safety},
   author = {Zhang, Yuxin and Li, Xuefei and Yao, Zongwei},
   year = {2026},
-  note = {Open research framework and draft manuscript},
+  note = {Open safety-assurance framework and draft manuscript},
   url = {https://github.com/AutoZYX-Labs/AEV-Safety}
 }
 ```

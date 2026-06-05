@@ -1,10 +1,10 @@
 # AEV Safety
 
-Autonomous Engineering Vehicle Safety
+Autonomous Engineering Vehicle Safety / 自主工程车辆安全
 
 [中文](README.md) | English
 
-AEV Safety is an open research and standardization project for autonomous engineering vehicles and mobile working-machine systems. The project does not ask only whether a vehicle can drive without a human driver. It asks how wheel loaders, excavators, autonomous haulage trucks, trenching and piling machines, solar-construction robots and future planetary-resource machines can produce reviewable safety evidence under explicitly defined worksite, task, material, tool, human-machine interaction and remote-supervision conditions.
+AEV Safety, or Autonomous Engineering Vehicle Safety, is an open safety-research, testing, evaluation and standardization project for autonomous engineering vehicles and mobile working-machine systems. The project does not ask only whether a vehicle can drive without a human driver. It asks how wheel loaders, excavators, autonomous haulage trucks, trenching and piling machines, solar-construction robots and future planetary-resource machines can produce reviewable safety evidence under explicitly defined worksite, task, material, tool, human-machine interaction and remote-supervision conditions.
 
 Website:
 
@@ -41,6 +41,16 @@ AEV Safety is designed for four output tracks:
 3. Standardization proposals for engineering-vehicle SOTIF, scenario testing, safety cases and operational monitoring.
 4. Engineering practice that converts loader, excavator, haulage and construction-robot experience into reviewable safety evidence.
 
+## Who This Is For
+
+| Audience | Directly useful material |
+|---|---|
+| Engineering-vehicle, mining, construction-robot and solar-construction teams | MWMS, WTDC, DMWT, evaluation matrix and safety-case evidence structure |
+| Testing and evaluation organizations | Scenario taxonomy, consequence classes, test-record fields, near misses and operational-monitoring metrics |
+| Standardization experts | Road-vehicle safety methods, machinery standards, robot SOTIF signals and candidate clause modules |
+| Researchers | Literature review, method-transfer framework, system-of-systems safety, runtime assurance and manuscript drafts |
+| Enterprise engineering teams | Safety requirements, degradation and recovery logic, and productization evidence checklist for loaders, excavators, haulage trucks and construction robots |
+
 ## Source Absorption
 
 The project has absorbed the following technical strands:
@@ -49,6 +59,7 @@ The project has absorbed the following technical strands:
 - The `Move the Earth and Beyond` material: terrestrial construction and mining automation, lunar and Mars resource-operation test-site design, safety system engineering for unmanned earthwork tasks, Built Robotics safety mechanisms and NASA/DLR resource-operation references.
 - Construction and mining autonomy literature: unmanned ground/surface/underwater vehicles in construction, safety assurance of cooperating construction equipment, system-of-systems safety analysis, STPA and Petri-net extensions.
 - General mobile physical AI safety material: robot SOTIF, physical interaction safety, VLA/LLM decision safety, runtime safety monitoring and SOTIF transfer.
+- Recent mobile physical AI evaluation-platform material: five-source data, cross-embodiment evaluation, Human-like Mobility Reference Model (HMRM) and Human-like Mobility Behaviour (HLMB) methodology. These strands inform safety, smoothness, efficiency and cross-embodiment comparability for engineering-vehicle evaluation.
 
 Public papers, official standards pages and public company pages can support public evidence claims. Internal business-plan slides, project decks and unpublished collaboration material are used only as background inputs unless independently verified.
 
@@ -61,13 +72,38 @@ AEV-Safety/
 ├── CONTRIBUTING.md
 ├── CONTRIBUTING-en.md
 ├── taxonomy/
+│   ├── worksite-task-taxonomy-v1.0.md
+│   └── worksite-task-taxonomy-v1.0-en.md
 ├── architecture/
+│   ├── reference-architecture.md
+│   └── reference-architecture-en.md
 ├── benchmarks/
+│   ├── evaluation-matrix.md
+│   └── evaluation-matrix-en.md
 ├── standards/
+│   ├── landscape.md
+│   ├── landscape-en.md
+│   ├── standardization-roadmap.md
+│   └── standardization-roadmap-en.md
 ├── paper/
+│   ├── manuscript-zh.md
+│   ├── manuscript-en.md
+│   ├── manuscript-zh.docx
+│   └── manuscript-en.docx
 ├── docs/
+│   ├── index.html
+│   ├── literature-review.md
+│   ├── literature-review-en.md
+│   ├── source-synthesis.md
+│   └── source-synthesis-en.md
 ├── figures/
+│   ├── AEV-Safety-review-workflow.png
+│   ├── AEV-Safety-review-workflow.svg
+│   └── AEV-Safety-review-workflow.pdf
 └── references/
+    ├── AEV-Safety-main-references.bib
+    ├── README.md
+    └── README-en.md
 ```
 
 ## Reading Path
@@ -103,7 +139,7 @@ The formal citation will be updated after the manuscript version and author info
   title = {AEV Safety: Autonomous Engineering Vehicle Safety},
   author = {Zhang, Yuxin and Li, Xuefei and Yao, Zongwei},
   year = {2026},
-  note = {Open research framework and draft manuscript},
+  note = {Open safety-assurance framework and draft manuscript},
   url = {https://github.com/AutoZYX-Labs/AEV-Safety}
 }
 ```

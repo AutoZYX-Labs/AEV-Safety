@@ -91,4 +91,4 @@ Operational monitoring should record more than collisions and emergency stops:
 
 ## Evidence Boundary
 
-As of 2026-06-04, this public repository uses standard status pages, public catalogues, official project pages and public company pages only as status and scope evidence. Clause-level interpretation, compliance judgement and certification claims must rely on authorized standard text, formal test reports and field-operation evidence.
+As of 2026-06-05, this public repository uses standard status pages, public catalogues, official project pages and public company pages only as status and scope evidence. Clause-level interpretation, compliance judgement and certification claims must rely on authorized standard text, formal test reports and field-operation evidence.

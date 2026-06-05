@@ -4,10 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="https://autozyx.com/assets/favicon.png" type="image/png">
-<title>AEV Safety — Autonomous Engineering Vehicle Safety</title>
-<meta name="description" content="AEV Safety is an open bilingual research framework for autonomous engineering-vehicle safety, SOTIF, scenario testing, safety cases and standardization.">
-<meta property="og:title" content="AEV Safety — Autonomous Engineering Vehicle Safety">
-<meta property="og:description" content="Open bilingual research framework for autonomous engineering-vehicle safety, SOTIF, scenario testing, safety cases and standardization.">
+<title>AEV Safety — 自主工程车辆安全</title>
+<meta name="description" content="AEV Safety is an open safety-assurance, testing, evaluation and standardization framework for autonomous engineering vehicles, SOTIF, scenario testing and safety cases.">
+<meta property="og:title" content="AEV Safety — 自主工程车辆安全">
+<meta property="og:description" content="Open safety-assurance, testing, evaluation and standardization framework for autonomous engineering vehicles, mobile working-machine systems, SOTIF and safety cases.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://aev-safety.autozyx.com/">
 <meta property="og:image" content="https://aev-safety.autozyx.com/assets/AEV-Safety-review-workflow.png">
@@ -126,6 +126,12 @@ h1 {
   line-height: 0.98;
   letter-spacing: 0;
   color: var(--ink);
+}
+.hero-name {
+  margin: 14px 0 0;
+  color: var(--ink);
+  font-size: 24px;
+  font-weight: 800;
 }
 .hero-subtitle {
   margin: 22px 0 0;
@@ -395,8 +401,10 @@ footer {
       <p class="eyebrow cn">自主工程车辆安全 · SOTIF · 场景测试 · Safety Case</p>
       <p class="eyebrow en">Autonomous engineering-vehicle safety · SOTIF · Scenario testing · Safety cases</p>
       <h1>AEV Safety</h1>
-      <p class="hero-subtitle cn">面向装载机、挖掘机、矿卡、施工机器人、光伏施工设备和未来星球资源作业系统的开放双语研究框架。</p>
-      <p class="hero-subtitle en">An open bilingual research framework for wheel loaders, excavators, autonomous haulage trucks, construction robots, solar-construction machines and future planetary-resource systems.</p>
+      <p class="hero-name cn">自主工程车辆安全</p>
+      <p class="hero-name en">Autonomous Engineering Vehicle Safety</p>
+      <p class="hero-subtitle cn">面向装载机、挖掘机、矿卡、施工机器人、光伏施工设备和未来星球资源作业系统的开放安全保证、测试评价与标准化框架。</p>
+      <p class="hero-subtitle en">An open safety-assurance, testing, evaluation and standardization framework for wheel loaders, excavators, autonomous haulage trucks, construction robots, solar-construction machines and future planetary-resource systems.</p>
       <div class="actions">
         <a class="btn primary cn-link" href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/paper/manuscript-zh.md">中文论文初稿</a>
         <a class="btn primary en-link" href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/paper/manuscript-en.md">English Manuscript</a>
@@ -409,8 +417,8 @@ footer {
     <div class="status-panel">
       <h2 class="cn">项目状态</h2>
       <h2 class="en">Project Status</h2>
-      <p class="cn">当前版本是公开研究框架和论文初稿，不是最终投稿、标准文本或认证结论。所有标准和企业案例均按证据等级使用。</p>
-      <p class="en">Current version is a public research framework and manuscript draft, not a final submission, standard text or certification claim. Standards and company cases are used by evidence class.</p>
+      <p class="cn">当前版本是公开安全保证框架和论文初稿，不是最终投稿、标准文本或认证结论。所有标准和企业案例均按证据等级使用。</p>
+      <p class="en">Current version is a public safety-assurance framework and manuscript draft, not a final submission, standard text or certification claim. Standards and company cases are used by evidence class.</p>
       <div class="status-row">
         <div class="status-cell"><strong>MWMS</strong><span>System object</span></div>
         <div class="status-cell"><strong>WTDC</strong><span>Boundary</span></div>
@@ -457,6 +465,47 @@ footer {
           <h3 class="en">Expanded Impact</h3>
           <p class="cn">项目服务于综述论文、标准化建议、测试评价、会议材料和企业产品落地，不局限于发表本身。</p>
           <p class="en">The project supports manuscripts, standardization proposals, testing, talks and real products, not publication as the sole destination.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="cn">面向谁</h2>
+        <h2 class="en">Who This Is For</h2>
+        <p class="cn">AEV Safety 面向研究、标准、测试评价和工程落地共同开放。它的价值不在于把问题收束为单一论文，而在于把安全证据链变成可共同推进的公共技术对象。</p>
+        <p class="en">AEV Safety is open to research, standardization, testing and engineering implementation. Its value is not to reduce the problem to a single paper, but to make the safety evidence chain a shared technical object.</p>
+      </div>
+      <div class="grid four">
+        <div class="card">
+          <span class="tag">Research</span>
+          <h3 class="cn">研究人员</h3>
+          <h3 class="en">Researchers</h3>
+          <p class="cn">使用文献综述、MWMS/WTDC/DMWT 概念、SOTIF 风险链和论文初稿继续做方法深化。</p>
+          <p class="en">Use the literature review, MWMS/WTDC/DMWT concepts, SOTIF risk chain and manuscript drafts for deeper method work.</p>
+        </div>
+        <div class="card">
+          <span class="tag">Testing</span>
+          <h3 class="cn">测试评价机构</h3>
+          <h3 class="en">Testing organizations</h3>
+          <p class="cn">使用场景分类、评价矩阵、近失事件、运行监控字段和任务质量后果，建立可复测记录。</p>
+          <p class="en">Use scenario taxonomy, evaluation matrix, near misses, operational-monitoring fields and task-quality consequences for repeatable records.</p>
+        </div>
+        <div class="card">
+          <span class="tag">Standards</span>
+          <h3 class="cn">标准化专家</h3>
+          <h3 class="en">Standardization experts</h3>
+          <p class="cn">使用标准版图、候选条款模块和证据边界，讨论工程车辆 SOTIF、场景测试和 safety case 路线。</p>
+          <p class="en">Use the standards landscape, candidate clause modules and evidence boundaries for engineering-vehicle SOTIF, scenario testing and safety-case discussions.</p>
+        </div>
+        <div class="card">
+          <span class="tag">Product</span>
+          <h3 class="cn">企业工程团队</h3>
+          <h3 class="en">Engineering teams</h3>
+          <p class="cn">把装载机、挖掘机、矿卡和施工机器人项目中的现场问题转成安全需求、降级恢复和产品证据。</p>
+          <p class="en">Turn field problems from loaders, excavators, haulage trucks and construction robots into safety requirements, degradation/recovery logic and product evidence.</p>
         </div>
       </div>
     </div>
@@ -713,8 +762,8 @@ footer {
         <ul class="list">
           <li class="cn">作者列为 Zhang Yuxin、Li Xuefei、Yao Zongwei；作者顺序、单位、通信作者、ORCID、基金、利益冲突和贡献声明待正式投稿前确认。</li>
           <li class="en">Authors are listed as Zhang Yuxin, Li Xuefei and Yao Zongwei. Author order, affiliations, corresponding author, ORCID, funding, competing-interest statement and contribution statement will be finalized before formal submission.</li>
-          <li class="cn">Supplementary Material 中的两个表格已整合进入英文稿正文。</li>
-          <li class="en">The two former supplementary tables have been integrated into the English manuscript body.</li>
+          <li class="cn">Supplementary Material 中的两个表格已整合进入中英文稿正文。</li>
+          <li class="en">The two former supplementary tables have been integrated into both Chinese and English manuscript bodies.</li>
         </ul>
       </div>
     </div>
@@ -796,9 +845,9 @@ footer {
 
 <footer>
   <div class="wrap">
-    <p>AEV Safety · Autonomous Engineering Vehicle Safety · Updated 2026-06-04</p>
-    <p class="cn">开放研究框架，不替代授权标准全文、正式测试报告、企业现场证据或安全认证。</p>
-    <p class="en">Open research framework. It does not replace authorized standards, formal test reports, enterprise field evidence or safety certification.</p>
+    <p>AEV Safety · Autonomous Engineering Vehicle Safety · 自主工程车辆安全 · Updated 2026-06-05</p>
+    <p class="cn">开放安全保证、测试评价与标准化框架，不替代授权标准全文、正式测试报告、企业现场证据或安全认证。</p>
+    <p class="en">Open safety-assurance, testing, evaluation and standardization framework. It does not replace authorized standards, formal test reports, enterprise field evidence or safety certification.</p>
   </div>
 </footer>
 
