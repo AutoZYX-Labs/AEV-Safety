@@ -11,13 +11,15 @@
 1. 从单车安全转向作业系统安全。
 2. 从行驶行为转向移动与作业任务闭环。
 3. 从事故避免转向人员、资产、任务质量、生产连续性、环境和恢复能力的综合后果。
-4. 从一次性测试转向设计边界、仿真、实车测试、运行监控和 safety case 的证据链。
+4. 从一次性测试转向设计边界、仿真、实车测试、运行监控和安全案例的证据链。
 
 ## 五层架构
 
+其中，WTDC 指作业场地与任务设计条件（Worksite and Task Design Conditions），DMWT 指动态移动与作业任务（Dynamic Moving and Working Task）。
+
 ```text
-Layer 4  Safety Case and Standards Evidence
-         claims, arguments, evidence, assumptions, limitations
+Layer 4  安全案例与标准证据
+         主张、论证、证据、假设、限制
 
 Layer 3  Site Supervision and Operational Control
          dispatch, geofence, remote supervision, authority transfer, recovery
@@ -59,13 +61,13 @@ Layer 1 处理机器本体和工作装置的基础安全能力：
 
 ## Layer 2：任务自主与运行时安全监控
 
-Layer 2 是 AEV Safety 与传统机械安全差异最大的部分。它处理 AI、感知、规划、控制和任务质量：
+Layer 2 是 AEV Safety 与传统机械安全差异最大的部分。它处理人工智能（Artificial Intelligence, AI）、感知、规划、控制和任务质量：
 
 - 料堆、车厢、坑槽、人员和协同设备识别。
 - V 型路径规划、倒车、铰接转向、狭窄场地轨迹跟踪。
 - 铲掘点选择、铲斗轨迹、卸料点选择、工具姿态控制。
 - 满载率、撒料、开沟深度、桩位、压实度、清舱残留等任务质量监控。
-- 运行时 Guardian：检测 OOD、低置信度、触发条件、异常状态和不安全动作。
+- 运行时安全守护：检测分布外（Out-of-Distribution, OOD）输入、低置信度、触发条件、异常状态和不安全动作。
 
 Layer 2 的关键不是让 AI “看起来聪明”，而是让功能不足、触发条件和后果能够被记录、复现和缓解。
 
@@ -78,17 +80,17 @@ Layer 3 连接机器、人员、调度系统和现场管理：
 - 远程监督、远程确认、远程驾驶、现场人工接管和维修模式。
 - 通信中断、定位退化、低电量、工具异常、人员进入和任务失败后的恢复流程。
 
-Built Robotics 公开安全机制、半自动工地协同装备安全研究和 Volvo Electric Site 类体系（SoS）案例，都说明 Layer 3 是工程车辆安全的核心，不是附属功能。
+Built Robotics 公开安全机制、半自动工地协同装备安全研究和 Volvo Electric Site 类体系（System of Systems, SoS）案例，都说明 Layer 3 是工程车辆安全的核心，不是附属功能。
 
-## Layer 4：Safety Case 与标准证据
+## Layer 4：安全案例与标准证据
 
 Layer 4 把下层证据组织成安全论证：
 
-- Claims：系统在特定 WTDC 和 DMWT 内可接受安全。
-- Arguments：为何测试、监控、降级、监督和恢复足以支撑 claims。
-- Evidence：仿真、台架、封闭场地、实车、运行日志、故障注入、人工评审。
-- Assumptions：人员隔离、通信可用性、物料范围、天气条件、监督能力。
-- Limitations：禁止泛化到未测试场地、未声明物料、未授权工具或未验证混行条件。
+- 主张：系统在特定 WTDC 和 DMWT 内可接受安全。
+- 论证：为何测试、监控、降级、监督和恢复足以支撑主张。
+- 证据：仿真、台架、封闭场地、实车、运行日志、故障注入、人工评审。
+- 假设：人员隔离、通信可用性、物料范围、天气条件、监督能力。
+- 限制：禁止泛化到未测试场地、未声明物料、未授权工具或未验证混行条件。
 
 Layer 4 还负责把 ISO 26262、ISO 21448、ISO 34502、ISO/PAS 8800、ISO 17757、ISO 19014、ISO 15817、ISO 21815、ISO 18497-1、机器人预期功能安全等标准线索放到正确位置。
 
@@ -110,4 +112,4 @@ Layer 4 还负责把 ISO 26262、ISO 21448、ISO 34502、ISO/PAS 8800、ISO 1775
 - 多机协同和任务链条更长。
 - 失败后恢复成本远高于地球工地。
 
-因此，AEV Safety 把星球资源作业作为极端场景外推，用来检验 MWMS、WTDC、DMWT 和 safety case 是否足够通用。
+因此，AEV Safety 把星球资源作业作为极端场景外推，用来检验 MWMS、WTDC、DMWT 和安全案例结构是否足够通用。

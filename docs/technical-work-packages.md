@@ -8,7 +8,7 @@
 
 工作包遵循一个基本原则：
 
-每一个公开 claim 都要能够追踪到输入材料、技术对象、验证方式、证据边界和后续工作。
+每一个公开主张都要能够追踪到输入材料、技术对象、验证方式、证据边界和后续工作。
 
 ## 当前公开状态
 
@@ -17,10 +17,10 @@
 | 模块 | 当前状态 | 公开输出 | 下一步 |
 |---|---|---|---|
 | 材料吸收 | 已形成来源综合和证据边界 | `docs/source-synthesis.md` | 为关键公开来源补 DOI、官方页面和授权标准版本核验 |
-| 文献综述 | 已形成中文/英文研究脉络 | `docs/literature-review.md`、`docs/literature-review-en.md` | 扩展系统检索式、数据库、纳入排除流程和 PRISMA 风格记录 |
-| 概念框架 | 已定义 MWMS、WTDC、DMWT | `README.md`、`paper/manuscript-zh.md` | 在现场样本、测试记录和标准条款骨架中检验可用性 |
-| 场景分类 | 已形成七类顶层 taxonomy | `taxonomy/worksite-task-taxonomy-v1.0.md` | 增加机器类型、任务类型、触发条件和后果类型的交叉矩阵 |
-| 参考架构 | 已形成五层安全保证架构 | `architecture/reference-architecture.md` | 补充控制权转移、运行时 Guardian 和远程监督接口细节 |
+| 文献综述 | 已形成中文/英文研究脉络 | `docs/literature-review.md`、`docs/literature-review-en.md` | 扩展系统检索式、数据库、纳入排除流程和系统综述与荟萃分析优先报告项目（Preferred Reporting Items for Systematic Reviews and Meta-Analyses, PRISMA）风格记录 |
+| 概念框架 | 已定义移动作业机器系统（Mobile Working Machine System, MWMS）、作业场地与任务设计条件（Worksite and Task Design Conditions, WTDC）和动态移动与作业任务（Dynamic Moving and Working Task, DMWT） | `README.md`、`paper/manuscript-zh.md` | 在现场样本、测试记录和标准条款骨架中检验可用性 |
+| 场景分类 | 已形成七类顶层分类体系 | `taxonomy/worksite-task-taxonomy-v1.0.md` | 增加机器类型、任务类型、触发条件和后果类型的交叉矩阵 |
+| 参考架构 | 已形成五层安全保证架构 | `architecture/reference-architecture.md` | 补充控制权转移、运行时安全守护和远程监督接口细节 |
 | 评价矩阵 | 已形成六类后果和测试记录字段 | `benchmarks/evaluation-matrix.md` | 将字段固化为可机读模板，并设计示例测试记录 |
 | 标准化路线 | 已形成候选模块和阶段计划 | `standards/standardization-roadmap.md` | 与授权标准全文、专家评审和真实工程证据继续校准 |
 | 论文初稿 | 已形成中英文完整初稿 | `paper/manuscript-zh.md`、`paper/manuscript-en.md` | 补全作者信息、参考文献、正式投稿格式和图表版权状态 |
@@ -31,10 +31,10 @@
 |---|---|---|---|
 | 李学飞工程机械自主作业系统材料 | 装载机作业闭环、料堆/铲斗/卸料/路径控制问题 | source synthesis、taxonomy、evaluation matrix、manuscript | 不能作为产品认证、安全成熟度、市场份额或商业预测证据 |
 | Move the Earth and Beyond | 地球施工到星球资源作业的极端条件外推 | source synthesis、taxonomy G 类、architecture、manuscript Section 8 | 不能证明空间采矿已具备工程成熟度 |
-| 施工与矿山无人系统文献 | 半自动工地、协同装备、体系（SoS）安全、远程监督 | literature review、architecture、standards roadmap | 不能替代具体场地的 hazard analysis 和现场测试 |
-| 移动物理 AI 测评平台材料 | HMRM/HLMB、五源数据、跨本体行为评价、第三方可复核 | source synthesis、literature review、evaluation matrix | 不能把类人移动评价直接替代工程车辆作业质量评价 |
-| 机器人 SOTIF 标准化信号 | ODD/场景、触发条件、功能不足、风险链和缓解措施 | standards landscape、source synthesis、manuscript | 不能写成已发布工程车辆标准 |
-| 道路车辆安全标准 | 功能安全、SOTIF、场景测试、AI 安全、网络安全和 safety case 方法 | standards landscape、manuscript、standardization roadmap | 不能把道路车辆条款直接作为工程车辆合规结论 |
+| 施工与矿山无人系统文献 | 半自动工地、协同装备、体系（System of Systems, SoS）安全、远程监督 | literature review、architecture、standards roadmap | 不能替代具体场地的危害分析和现场测试 |
+| 移动物理人工智能（Artificial Intelligence, AI）测评平台材料 | 类人移动参考模型（Human-like Mobility Reference Model, HMRM）/类人移动行为（Human-like Mobility Behaviour, HLMB）、五源数据、跨本体行为评价、第三方可复核 | source synthesis、literature review、evaluation matrix | 不能把类人移动评价直接替代工程车辆作业质量评价 |
+| 机器人预期功能安全标准化信号 | 运行设计域（Operational Design Domain, ODD）/场景、触发条件、功能不足、风险链和缓解措施 | standards landscape、source synthesis、manuscript | 不能写成已发布工程车辆标准 |
+| 道路车辆安全标准 | 功能安全、预期功能安全（Safety of the Intended Functionality, SOTIF）、场景测试、AI 安全、网络安全和安全案例方法 | standards landscape、manuscript、standardization roadmap | 不能把道路车辆条款直接作为工程车辆合规结论 |
 | 工程机械与矿山标准/指南 | 自主机器系统、控制系统安全、远程控制、碰撞警告、运营准备 | standards landscape、architecture、standardization roadmap | 不能替代授权标准全文和具体项目符合性判断 |
 
 ## WP0：证据治理与公开边界
@@ -81,11 +81,11 @@ MWMS 包括：
 质量门：
 
 - 任何测试记录都必须说明 MWMS 边界，而不是只写机器型号。
-- 任何安全 claim 都必须说明它覆盖的是整机、工作装置、场地系统还是组织流程。
+- 任何安全主张都必须说明它覆盖的是整机、工作装置、场地系统还是组织流程。
 
 ## WP2：WTDC 与 DMWT 分类体系
 
-目标：把道路车辆 ODD/DDT 方法迁移到作业场地与任务。
+目标：把道路车辆运行设计域/动态驾驶任务方法迁移到作业场地与任务。
 
 WTDC 应覆盖：
 
@@ -113,7 +113,7 @@ DMWT 应覆盖：
 - 场景不能只写为“装载机作业”，必须给出 WTDC 和 DMWT 的可复核字段。
 - 测试通过准则必须连接任务后果，而不是只报告碰撞或急停。
 
-## WP3：SOTIF 导向风险链
+## WP3：预期功能安全导向风险链
 
 目标：把功能不足、触发条件、危险事件、任务后果和缓解措施连接起来。
 
@@ -141,13 +141,13 @@ WTDC/DMWT 条件
 当前输出：
 
 - `paper/manuscript-zh.md` Section 5.4。
-- `standards/standardization-roadmap.md` 中的 SOTIF 风险链条款骨架。
+- `standards/standardization-roadmap.md` 中的预期功能安全风险链条款骨架。
 - `benchmarks/evaluation-matrix.md` 中的 trigger_condition 和 insufficiency 字段。
 
 质量门：
 
-- 不把 SOTIF 写成碰撞风险清单；必须包含功能不足和触发条件。
-- 不把道路车辆 ODD 直接等同于 WTDC；必须覆盖物料、工具、任务质量和恢复能力。
+- 不把预期功能安全写成碰撞风险清单；必须包含功能不足和触发条件。
+- 不把道路车辆运行设计域直接等同于 WTDC；必须覆盖物料、工具、任务质量和恢复能力。
 
 ## WP4：测试评价与运行监控
 
@@ -180,9 +180,9 @@ WTDC/DMWT 条件
 
 - 指标必须说明单位、采样频率、触发条件、适用机器和适用场地。
 - 阈值不得在没有机器、场地、任务和授权标准依据时写成通用标准。
-- 运行监控必须能够回填 taxonomy、风险链和 safety case。
+- 运行监控必须能够回填分类体系、风险链和安全案例。
 
-## WP5：Safety Case 与标准化模块
+## WP5：安全案例与标准化模块
 
 目标：把研究框架转化为可被标准化专家、测试机构和企业工程团队审查的证据结构。
 
@@ -191,9 +191,9 @@ WTDC/DMWT 条件
 1. 范围与术语：MWMS、WTDC、DMWT、功能不足、触发条件、任务后果、最小风险状态。
 2. 系统边界：机器、工具、物料、场地、人员、监督和外部协同系统。
 3. 场景分类：功能场景、逻辑场景和具体场景在作业任务中的表达。
-4. 风险分析：SOTIF 风险链、功能安全失效、网络安全事件和 AI 功能不足的边界。
+4. 风险分析：预期功能安全风险链、功能安全失效、网络安全事件和 AI 功能不足的边界。
 5. 测试评价：仿真、封闭场地、现场运行、运行监控和近失事件复盘。
-6. 安全论证：claims、arguments、evidence、assumptions、limitations 和 residual risk。
+6. 安全论证：主张、论证、证据、假设、限制和剩余风险。
 
 当前输出：
 
@@ -241,12 +241,12 @@ WTDC/DMWT 条件
 | 研究人员 | 从 WP1-WP3 提炼论文问题，从 WP4-WP5 设计方法验证，从 WP6 找工程落点 |
 | 测试评价机构 | 从 WP2-WP4 设计场景库、测试记录和运行监控字段 |
 | 标准化专家 | 从 WP0、WP3 和 WP5 讨论术语、范围、条款骨架和证据边界 |
-| 企业工程团队 | 从 WP1、WP2、WP4 和 WP6 建立产品 safety case 与现场问题闭环 |
+| 企业工程团队 | 从 WP1、WP2、WP4 和 WP6 建立产品安全案例与现场问题闭环 |
 
 ## 当前不做的事情
 
 1. 不发布内部商业计划书、客户信息、成本、报价或未公开合作细节。
 2. 不替代授权标准全文、正式测试报告、企业现场安全评审或认证结论。
 3. 不把道路车辆自动驾驶安全标准直接搬成工程车辆合规要求。
-4. 不把机器人 SOTIF 在研项目写成已发布工程车辆标准。
+4. 不把机器人预期功能安全在研项目写成已发布工程车辆标准。
 5. 不把论文发表当作项目唯一目标；真实产品落地和标准化共识同样重要。

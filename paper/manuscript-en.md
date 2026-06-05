@@ -265,10 +265,6 @@ Safety of the Intended Functionality (SOTIF) is useful for autonomous engineerin
 
 For mobile work, the risk chain should include seven elements.
 
-```{=openxml}
-<w:p><w:r><w:br w:type="page"/></w:r></w:p>
-```
-
 Table 3. SOTIF-oriented risk-chain elements for mobile working-machine tasks.
 
 | Risk-chain element     | Meaning for autonomous engineering vehicles                                                   | Example                                                                                                  |

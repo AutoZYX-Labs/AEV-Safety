@@ -17,7 +17,7 @@
 | 成果 | 对应定位 | 目标读者 | 当前状态 |
 |---|---|---|---|
 | 中文综述论文 | 对应 ROAM 的中文综述论文 | 国内工程机械、自动驾驶安全、测试评价和标准化专家 | 已有中文完整初稿，需继续补正式引用、图表、作者信息和中文期刊格式 |
-| 英文高水平方法论文 | 对应 ROAM 的英文高水平专刊论文路线 | 国际 safety science、reliability、automation、robotics 和 construction automation 读者 | 建议优先面向 RESS 未来风险评估方法专刊 |
+| 英文高水平方法论文 | 对应 ROAM 的英文高水平专刊论文路线 | 国际 safety science、reliability、automation、robotics 和 construction automation 读者 | 建议优先面向 Reliability Engineering & System Safety（RESS）未来风险评估方法专刊 |
 | 标准化预研包 | 对应 ROAM 的团体标准路线 | 标准化组织、测试机构、企业工程团队 | 已形成标准化机会和候选条款模块 |
 
 ## Special Issue 检索结论
@@ -33,8 +33,8 @@
 推荐理由：
 
 1. RESS 是 reliability、system safety 和 risk assessment 领域高水平期刊。
-2. 专刊明确关注 rapid changes、large uncertainties、digitalization、system complexity、big data、autonomous systems 和 AI。
-3. AEV Safety 可以提供明确的方法增量：从道路 ODD/DDT 到 WTDC/DMWT，从单车风险到 MWMS 风险，从碰撞安全到作业后果，从静态测试到运行监控和 safety case。
+2. 专刊明确关注快速变化、大不确定性、数字化、系统复杂性、大数据、自主系统和人工智能（Artificial Intelligence, AI）。
+3. AEV Safety 可以提供明确的方法增量：从道路运行设计域（Operational Design Domain, ODD）/动态驾驶任务（Dynamic Driving Task, DDT）到作业场地与任务设计条件（Worksite and Task Design Conditions, WTDC）/动态移动与作业任务（Dynamic Moving and Working Task, DMWT），从单车风险到移动作业机器系统（Mobile Working Machine System, MWMS）风险，从碰撞安全到作业后果，从静态测试到运行监控和安全案例。
 4. 专刊要求有清晰 methodological advancement，而不仅是 perspective 或 framework。AEV Safety 必须写成风险评估方法论文，而不是项目介绍。
 
 拟投稿题目：
@@ -92,8 +92,8 @@ Construction-site safety evidence chains for autonomous engineering vehicles: a 
 
 1. 解释为什么道路车辆自动驾驶安全方法不能直接照搬。
 2. 给出 MWMS、WTDC、DMWT 三个核心概念。
-3. 梳理道路车辆、工程机械、矿山自主系统、机器人 SOTIF、施工体系（SoS）和移动物理 AI 的标准/文献脉络。
-4. 提出 SOTIF 导向风险链、评价矩阵和 safety case 结构。
+3. 梳理道路车辆、工程机械、矿山自主系统、机器人预期功能安全、施工体系（System of Systems, SoS）和移动物理 AI 的标准/文献脉络。
+4. 提出预期功能安全导向风险链、评价矩阵和安全案例结构。
 5. 给出标准化机会和产品落地建议。
 
 建议结构：
@@ -103,8 +103,8 @@ Construction-site safety evidence chains for autonomous engineering vehicles: a 
 3. 道路车辆安全方法供体。
 4. 工程机械与矿山自主系统标准底座。
 5. MWMS、WTDC、DMWT 概念迁移。
-6. SOTIF 导向风险链。
-7. 测试评价、运行监控和 safety case。
+6. 预期功能安全导向风险链。
+7. 测试评价、运行监控和安全案例。
 8. 典型场景：装载机、开沟、光伏打桩、矿卡、清舱和星球资源作业。
 9. 标准化建议和工程落地。
 10. 结论。
@@ -125,29 +125,29 @@ From Safe Driving to Safe Working: A Risk Assessment Method for Autonomous Engin
 
 核心贡献：
 
-1. 提出 MWMS，将安全对象从 single vehicle 扩展到 vehicle-worksite-task-supervision system。
+1. 提出 MWMS，将安全对象从单车扩展到“车辆-场地-任务-监督”系统。
 2. 提出 WTDC 和 DMWT，把 ODD/DDT 方法迁移到工程作业任务。
-3. 提出 SOTIF-oriented risk chain，把 functional insufficiency、triggering condition、hazardous event、task consequence 和 mitigation 连接起来。
-4. 提出 multi-source evidence classification，把 standards、simulation、closed-site tests、field logs、near misses 和 operational monitoring 接入 safety case。
+3. 提出预期功能安全导向风险链，把功能不足、触发条件、危险事件、任务后果和缓解措施连接起来。
+4. 提出多源证据分类，把标准、仿真、封闭场地测试、现场日志、近失事件和运行监控接入安全案例。
 5. 用装载、开沟、光伏打桩、矿山运输和星球资源作业样例展示方法可迁移性。
 
 建议结构：
 
-1. Introduction: why autonomous engineering vehicles create a future-risk-assessment problem.
-2. Standards and evidence landscape: what current standards cover and what they cannot prove.
-3. Methodological foundation: MWMS, WTDC and DMWT.
-4. SOTIF-oriented risk-chain model for mobile working machines.
-5. Evidence model: consequence classes, test records, operational monitoring and safety cases.
-6. Scenario templates: wheel-loader loading, trenching, solar piling, autonomous haulage and planetary resource work.
-7. Discussion: transferability, non-transferability, standardization and product deployment.
-8. Limitations and conclusion.
+1. 引言：自主工程车辆为什么构成未来风险评估问题。
+2. 标准与证据版图：现有标准覆盖什么、不能证明什么。
+3. 方法基础：MWMS、WTDC 和 DMWT。
+4. 面向预期功能安全的移动作业机器风险链模型。
+5. 证据模型：后果类别、测试记录、运行监控和安全案例。
+6. 场景模板：装载机装载、开沟、光伏打桩、自主矿山运输和星球资源作业。
+7. 讨论：可迁移性、不可直接迁移之处、标准化和产品落地。
+8. 局限性与结论。
 
 必须强化的方法增量：
 
-- 用图或表明确 risk assessment 的输入、过程、输出。
-- 给出可复用的 test-record schema。
-- 给出至少 3 个 worked examples，而不是只做概念描述。
-- 对每个 example 给出 WTDC、DMWT、functional insufficiency、triggering condition、consequence、mitigation 和 evidence。
+- 用图或表明确风险评估的输入、过程、输出。
+- 给出可复用的测试记录模式。
+- 给出至少 3 个工作示例，而不是只做概念描述。
+- 对每个示例给出 WTDC、DMWT、功能不足、触发条件、后果、缓解措施和证据。
 
 ### 路线 C：标准化预研论文或技术报告
 
@@ -183,7 +183,7 @@ Standardization Needs for Safety Assurance of Autonomous Engineering Vehicles
 1. 正式作者信息：作者顺序、单位、通信作者、ORCID。
 2. 参考文献：DOI、标准正式版本、官方状态页、授权标准全文引用边界。
 3. 图件：至少 4 张核心图。
-4. 表格：标准对照表、WTDC/DMWT 表、风险链样例表、测试记录 schema。
+4. 表格：标准对照表、WTDC/DMWT 表、风险链样例表、测试记录模式。
 5. Worked examples：装载机、开沟、光伏打桩、矿卡和星球资源作业至少 3 个。
 6. 证据声明：哪些是公开证据，哪些是背景输入，哪些需要进一步核验。
 
@@ -193,8 +193,8 @@ Standardization Needs for Safety Assurance of Autonomous Engineering Vehicles
 |---|---|
 | Figure 1: AEV Safety evidence workflow | 已有图，展示综述与证据分类 |
 | Figure 2: MWMS boundary model | 展示车辆、工作装置、物料、场地、监督和组织 |
-| Figure 3: WTDC-DMWT-SOTIF risk chain | 展示条件、功能不足、触发条件、后果和缓解 |
-| Figure 4: Safety case evidence architecture | 展示开发、测试、运行监控、近失事件和 claims |
+| Figure 3: WTDC-DMWT-SOTIF risk chain | 展示作业条件、功能不足、触发条件、后果和缓解 |
+| Figure 4: 安全案例证据架构 | 展示开发、测试、运行监控、近失事件和安全主张 |
 | Table 1: Standards comparison | 道路车辆、工程机械、机器人和 AI 安全标准对照 |
 | Table 2: WTDC/DMWT taxonomy | 场地条件和动态作业任务 |
 | Table 3: Consequence and metric matrix | 六类后果与评价指标 |

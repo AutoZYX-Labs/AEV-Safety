@@ -54,7 +54,7 @@ Key paired public documents currently have the following line counts:
 | Standards landscape | 73 | 73 | Pass |
 | Standardization roadmap | 96 | 96 | Pass |
 | Standardization opportunities | 188 | 188 | Pass |
-| Manuscript | 670 | 670 | Pass |
+| Manuscript | 666 | 666 | Pass |
 | Publication plan | 211 | 211 | Pass |
 
 Line-count alignment is not sufficient proof of quality, but it prevents the Chinese version from degrading into an English-version summary. Future updates should also check structure, headings, tables, key terms and reference numbering.

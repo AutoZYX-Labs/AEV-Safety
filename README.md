@@ -16,7 +16,7 @@ https://github.com/AutoZYX-Labs/AEV-Safety
 
 ## 项目定位
 
-道路车辆自动驾驶安全已经形成较成熟的方法体系，包括 ISO 26262 功能安全、ISO 21448 SOTIF、ISO 34502 场景测试、ISO/SAE 21434 网络安全、ISO/PAS 8800 AI 安全和 safety case 论证。工程车辆智能化正在进入矿山、港口、拌合站、施工现场、光伏施工和极端环境作业，但安全证据仍分散在机械安全、控制系统功能安全、矿山无人化指南、企业项目页面、施工自动化研究和现场管理规则之间。
+道路车辆自动驾驶安全已经形成较成熟的方法体系，包括 ISO 26262 功能安全、ISO 21448 预期功能安全（Safety of the Intended Functionality, SOTIF）、ISO 34502 场景测试、ISO/SAE 21434 网络安全、ISO/PAS 8800 人工智能（Artificial Intelligence, AI）安全和安全案例论证。工程车辆智能化正在进入矿山、港口、拌合站、施工现场、光伏施工和极端环境作业，但安全证据仍分散在机械安全、控制系统功能安全、矿山无人化指南、企业项目页面、施工自动化研究和现场管理规则之间。
 
 AEV Safety 的核心判断是：
 
@@ -27,8 +27,8 @@ AEV Safety 的核心判断是：
 | 缩写 | 中文 | English | 作用 |
 |---|---|---|---|
 | MWMS | 移动作业机器系统 | Mobile Working Machine System | 把车辆本体、工作装置、工具、物料、场地基础设施、监督系统和人员组织作为一个安全对象 |
-| WTDC | 作业场地与任务设计条件 | Worksite and Task Design Conditions | 扩展道路车辆 ODD，描述地形、物料、装卸点、禁入区、通信、监督、天气和生产约束 |
-| DMWT | 动态移动与作业任务 | Dynamic Moving and Working Task | 扩展道路车辆 DDT，覆盖移动、定位、铲掘、装载、卸料、压实、打桩、开沟、运输和恢复动作 |
+| WTDC | 作业场地与任务设计条件 | Worksite and Task Design Conditions | 扩展道路车辆运行设计域（Operational Design Domain, ODD），描述地形、物料、装卸点、禁入区、通信、监督、天气和生产约束 |
+| DMWT | 动态移动与作业任务 | Dynamic Moving and Working Task | 扩展道路车辆动态驾驶任务（Dynamic Driving Task, DDT），覆盖移动、定位、铲掘、装载、卸料、压实、打桩、开沟、运输和恢复动作 |
 
 ## 为什么开放这个项目
 
@@ -38,7 +38,7 @@ AEV Safety 面向四类输出：
 
 1. 综述论文与方法论文：形成可被同行审阅的理论框架。
 2. 会议报告与教学材料：帮助研究人员、工程师和标准化专家形成共同语言。
-3. 标准化建议：为工程车辆 SOTIF、场景测试、安全案例和运行监控提供条款级候选结构。
+3. 标准化建议：为工程车辆预期功能安全、场景测试、安全案例和运行监控提供条款级候选结构。
 4. 工程实践落地：把装载机、挖掘机、矿卡和施工机器人项目中的现场经验转化为可审查的安全证据。
 
 ## 成果路线
@@ -48,16 +48,16 @@ AEV Safety 参考 ROAM 的成果组合方式，但成果对象不同。当前规
 | 路线 | 目标 | 当前公开材料 |
 |---|---|---|
 | 中文综述论文 | 为国内工程机械、自动驾驶安全、测试评价和标准化专家建立共同语言 | [中文论文初稿](paper/manuscript-zh.md)、[文献综述](docs/literature-review.md) |
-| 英文高水平方法论文 | 面向国际 reliability、system safety、automation、robotics 和 construction automation 读者，提出 MWMS/WTDC/DMWT 与 SOTIF 风险链方法 | [英文论文初稿](paper/manuscript-en.md)、[投稿规划](paper/publication-plan.md) |
-| 标准化预研包 | 把论文框架转化为术语、场景、测试、运行监控和 safety case 条款骨架 | [标准化机会](standards/standardization-opportunities.md)、[标准化推进路线](standards/standardization-roadmap.md) |
+| 英文高水平方法论文 | 面向国际 reliability、system safety、automation、robotics 和 construction automation 读者，提出 MWMS/WTDC/DMWT 与预期功能安全风险链方法 | [英文论文初稿](paper/manuscript-en.md)、[投稿规划](paper/publication-plan.md) |
+| 标准化预研包 | 把论文框架转化为术语、场景、测试、运行监控和安全案例条款骨架 | [标准化机会](standards/standardization-opportunities.md)、[标准化推进路线](standards/standardization-roadmap.md) |
 
 ## 面向谁
 
 | 对象 | 可直接使用的内容 |
 |---|---|
-| 工程车辆、矿山、施工机器人和光伏施工装备团队 | MWMS、WTDC、DMWT、评价矩阵和 safety case 证据结构 |
+| 工程车辆、矿山、施工机器人和光伏施工装备团队 | MWMS、WTDC、DMWT、评价矩阵和安全案例证据结构 |
 | 测试评价机构 | 场景分类、后果类别、测试记录字段、近失事件和运行监控指标 |
-| 标准化专家 | 道路车辆安全方法、工程机械标准、机器人 SOTIF 信号和候选条款模块 |
+| 标准化专家 | 道路车辆安全方法、工程机械标准、机器人预期功能安全信号和候选条款模块 |
 | 研究人员 | 文献综述、方法迁移框架、体系（SoS）安全、运行时安全保证和论文初稿 |
 | 企业工程团队 | 装载机、挖掘机、矿卡、施工机器人项目的安全需求、降级恢复和产品化证据清单 |
 
@@ -67,8 +67,8 @@ AEV Safety 参考 ROAM 的成果组合方式，但成果对象不同。当前规
 
 - 李学飞老师关于工程机械自主作业系统的商业计划书和技术材料：自主铲掘、自主卸料、料堆识别、铲斗满载率测量、V 型作业路径规划、路径跟踪控制、室内外实车测试和前装/后装产品化。
 - `Move the Earth and Beyond` 项目材料：从地球施工/矿山自动化延伸到月球、火星和未来星球资源作业的沙盘设计、无人土方工程安全系统工程、Built Robotics 安全机制和 NASA/DLR 资源作业资料链。
-- 施工与矿山无人系统文献：无人地面/水面/水下设备在施工中的应用、半自动工地协同装备安全、体系（SoS）安全分析、STPA 与 Petri net 扩展。
-- 通用移动物理 AI 安全材料：机器人预期功能安全、物理交互安全、VLA/大模型决策安全、运行时安全监控和 SOTIF 方法迁移。
+- 施工与矿山无人系统文献：无人地面/水面/水下设备在施工中的应用、半自动工地协同装备安全、体系（System of Systems, SoS）安全分析、STPA 与 Petri net 扩展。
+- 通用移动物理 AI 安全材料：机器人预期功能安全、物理交互安全、视觉-语言-动作模型（Vision-Language-Action Model, VLA）/大模型决策安全、运行时安全监控和 SOTIF 方法迁移。
 - 近期移动物理 AI 测评平台材料：五源数据、跨本体测评、类人移动参考模型 HMRM（Human-like Mobility Reference Model）和类人移动行为 HLMB（Human-like Mobility Behaviour）评价方法学，为工程车辆安全评价提供“安全性、平顺性、运行效率”和跨本体可比性的启发。
 
 这些材料中，公开论文、标准页面和公开企业页面可作为公开证据；内部商业计划书、项目 PPT 和未公开协作信息只作为背景输入，不直接作为公开事实证明。

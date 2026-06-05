@@ -200,8 +200,11 @@ h1 {
   line-height: 1.1;
 }
 .status-cell span {
+  display: block;
+  margin-top: 6px;
   color: var(--faint);
   font-size: 12px;
+  line-height: 1.75;
 }
 section { padding: 62px 0; border-bottom: 1px solid var(--border); }
 .section-head {
@@ -406,7 +409,7 @@ footer {
 <header id="top" class="hero">
   <div class="wrap hero-grid">
     <div>
-      <p class="eyebrow cn">自主工程车辆安全 · SOTIF · 场景测试 · Safety Case</p>
+      <p class="eyebrow cn">自主工程车辆安全 · 预期功能安全 · 场景测试 · 安全案例</p>
       <p class="eyebrow en">Autonomous engineering-vehicle safety · SOTIF · Scenario testing · Safety cases</p>
       <h1>AEV Safety</h1>
       <p class="hero-name cn">自主工程车辆安全</p>
@@ -428,9 +431,9 @@ footer {
       <p class="cn">当前版本是公开安全保证框架和论文初稿，<br>不是最终投稿、标准文本或认证结论。<br>所有标准和企业案例均按证据等级使用。</p>
       <p class="en">Current version is a public safety-assurance framework and manuscript draft, not a final submission, standard text or certification claim. Standards and company cases are used by evidence class.</p>
       <div class="status-row">
-        <div class="status-cell"><strong>MWMS</strong><span>System object</span></div>
-        <div class="status-cell"><strong>WTDC</strong><span>Boundary</span></div>
-        <div class="status-cell"><strong>DMWT</strong><span>Task</span></div>
+        <div class="status-cell"><strong>MWMS</strong><span class="cn">移动作业机器系统<br>Mobile Working Machine System</span><span class="en">Mobile Working Machine System</span></div>
+        <div class="status-cell"><strong>WTDC</strong><span class="cn">作业场地与任务<br>设计条件<br>Worksite and Task Design Conditions</span><span class="en">Worksite and Task Design Conditions</span></div>
+        <div class="status-cell"><strong>DMWT</strong><span class="cn">动态移动与作业<br>任务<br>Dynamic Moving and Working Task</span><span class="en">Dynamic Moving and Working Task</span></div>
       </div>
     </div>
   </div>
@@ -464,7 +467,7 @@ footer {
           <span class="tag">03</span>
           <h3 class="cn">证据链扩大</h3>
           <h3 class="en">Expanded Evidence</h3>
-          <p class="cn">仿真、封闭场地、实车、运行日志、近失事件、接管和任务质量偏差都应进入 safety case。</p>
+          <p class="cn">仿真、封闭场地、实车、运行日志、近失事件、接管和任务质量偏差都应进入安全案例。</p>
           <p class="en">Simulation, closed-site tests, field logs, near misses, takeover and task-quality deviation should all enter the safety case.</p>
         </div>
         <div class="card">
@@ -491,7 +494,7 @@ footer {
           <span class="tag">Research</span>
           <h3 class="cn">研究人员</h3>
           <h3 class="en">Researchers</h3>
-          <p class="cn">使用文献综述、MWMS/WTDC/DMWT 概念、SOTIF 风险链和论文初稿继续做方法深化。</p>
+          <p class="cn">使用移动作业机器系统、作业场地与任务设计条件、动态移动与作业任务概念，结合预期功能安全风险链和论文初稿继续做方法深化。</p>
           <p class="en">Use the literature review, MWMS/WTDC/DMWT concepts, SOTIF risk chain and manuscript drafts for deeper method work.</p>
         </div>
         <div class="card">
@@ -505,7 +508,7 @@ footer {
           <span class="tag">Standards</span>
           <h3 class="cn">标准化专家</h3>
           <h3 class="en">Standardization experts</h3>
-          <p class="cn">使用标准版图、候选条款模块和证据边界，讨论工程车辆 SOTIF、场景测试和 safety case 路线。</p>
+          <p class="cn">使用标准版图、候选条款模块和证据边界，讨论工程车辆预期功能安全、场景测试和安全案例路线。</p>
           <p class="en">Use the standards landscape, candidate clause modules and evidence boundaries for engineering-vehicle SOTIF, scenario testing and safety-case discussions.</p>
         </div>
         <div class="card">
@@ -539,14 +542,14 @@ footer {
           <span class="tag">Paper 2</span>
           <h3 class="cn">英文高水平方法论文</h3>
           <h3 class="en">High-level English methodology paper</h3>
-          <p class="cn">优先面向 RESS 未来风险评估方法专刊，重点写成 MWMS、WTDC、DMWT 和 SOTIF 风险链方法论文。</p>
+          <p class="cn">优先面向 Reliability Engineering & System Safety 未来风险评估方法专刊，重点写成移动作业机器系统、作业场地与任务设计条件、动态移动与作业任务和预期功能安全风险链方法论文。</p>
           <p class="en">Primary target is the RESS future risk-assessment methods special issue, framed around MWMS, WTDC, DMWT and the SOTIF risk chain.</p>
         </div>
         <div class="card">
           <span class="tag">Standards</span>
           <h3 class="cn">标准化预研包</h3>
           <h3 class="en">Standardization pre-research package</h3>
-          <p class="cn">把论文框架转化为术语、场景、测试评价、运行监控和 safety case 条款骨架。</p>
+          <p class="cn">把论文框架转化为术语、场景、测试评价、运行监控和安全案例条款骨架。</p>
           <p class="en">Turns the paper framework into terms, scenarios, testing, operational monitoring and safety-case clause skeletons.</p>
         </div>
       </div>
@@ -568,7 +571,7 @@ footer {
       <div class="section-head">
         <h2 class="cn">材料吸收形成的技术线索</h2>
         <h2 class="en">Technical Strands Absorbed</h2>
-        <p class="cn">本项目把工程机械自主作业、Move the Earth and Beyond、施工体系（SoS）、移动物理 AI 和标准化信号整理成公开可用的框架。内部材料只作为背景输入，公开结论以可核验来源为边界。</p>
+        <p class="cn">本项目把工程机械自主作业、Move the Earth and Beyond、施工体系（System of Systems, SoS）、移动物理人工智能（Artificial Intelligence, AI）和标准化信号整理成公开可用的框架。内部材料只作为背景输入，公开结论以可核验来源为边界。</p>
         <p class="en">The project synthesizes autonomous construction machinery, Move the Earth and Beyond, construction System of Systems (SoS), mobile physical AI and standardization signals into a public framework. Internal material is background only; public claims stay within verifiable sources.</p>
       </div>
       <div class="grid four">
@@ -590,7 +593,7 @@ footer {
           <span class="tag">Physical AI</span>
           <h3 class="cn">移动物理 AI 安全</h3>
           <h3 class="en">Mobile physical AI safety</h3>
-          <p class="cn">机器人 SOTIF、物理交互安全、VLA/大模型决策安全和运行时 Guardian 为工程车辆 AI 功能不足提供方法启发。</p>
+          <p class="cn">机器人预期功能安全、物理交互安全、视觉-语言-动作模型（Vision-Language-Action Model, VLA）/大模型决策安全和运行时安全守护为工程车辆人工智能功能不足提供方法启发。</p>
           <p class="en">Robot SOTIF, physical interaction safety, VLA/LLM decision safety and runtime Guardians inform AI insufficiency handling for engineering vehicles.</p>
         </div>
         <div class="card">
@@ -611,7 +614,7 @@ footer {
       <div class="section-head">
         <h2 class="cn">三个核心概念</h2>
         <h2 class="en">Three Core Concepts</h2>
-        <p class="cn">AEV Safety 用 MWMS、WTDC 和 DMWT 替代“把道路自动驾驶直接搬到工程机械”的简单说法。</p>
+        <p class="cn">AEV Safety 用移动作业机器系统、作业场地与任务设计条件和动态移动与作业任务，替代“把道路自动驾驶直接搬到工程机械”的简单说法。</p>
         <p class="en">AEV Safety uses MWMS, WTDC and DMWT instead of directly copying road-automation language into engineering machinery.</p>
       </div>
       <div class="table-wrap">
@@ -637,7 +640,7 @@ footer {
             <td class="cn">作业场地与任务设计条件</td>
             <td class="en">作业场地与任务设计条件</td>
             <td>Worksite and Task Design Conditions</td>
-            <td class="cn">扩展 ODD，声明地形、物料、工具、人员区、禁入区、通信、定位和监督条件。</td>
+            <td class="cn">扩展运行设计域（Operational Design Domain, ODD），声明地形、物料、工具、人员区、禁入区、通信、定位和监督条件。</td>
             <td class="en">Extends ODD to terrain, material, attachment, human zone, exclusion zone, communication, localization and supervision.</td>
           </tr>
           <tr>
@@ -645,7 +648,7 @@ footer {
             <td class="cn">动态移动与作业任务</td>
             <td class="en">动态移动与作业任务</td>
             <td>Dynamic Moving and Working Task</td>
-            <td class="cn">扩展 DDT，覆盖移动、定位、铲掘、装载、卸料、压实、打桩、开沟、运输和恢复动作。</td>
+            <td class="cn">扩展动态驾驶任务（Dynamic Driving Task, DDT），覆盖移动、定位、铲掘、装载、卸料、压实、打桩、开沟、运输和恢复动作。</td>
             <td class="en">Extends DDT to movement, localization, digging, loading, dumping, compacting, piling, trenching, hauling and recovery.</td>
           </tr>
         </table>
@@ -658,16 +661,16 @@ footer {
       <div class="section-head">
         <h2 class="cn">五层参考架构</h2>
         <h2 class="en">Five-Layer Reference Architecture</h2>
-        <p class="cn">架构从场地与任务边界开始，到机器控制、任务自主、现场监督，最后进入 safety case 和标准证据。</p>
+        <p class="cn">架构从场地与任务边界开始，到机器控制、任务自主、现场监督，最后进入安全案例和标准证据。</p>
         <p class="en">The architecture starts from worksite and task boundaries, moves through machine control, task autonomy and site supervision, and ends in safety cases and standards evidence.</p>
       </div>
       <div class="layers">
         <div class="layer">
           <div class="layer-key">Layer 4</div>
           <div class="layer-body">
-            <h3 class="cn">Safety Case 与标准证据</h3>
+            <h3 class="cn">安全案例与标准证据</h3>
             <h3 class="en">Safety Case and Standards Evidence</h3>
-            <p class="cn">claims、arguments、evidence、assumptions、limitations，以及标准映射和证据等级。</p>
+            <p class="cn">主张、论证、证据、假设、限制，以及标准映射和证据等级。</p>
             <p class="en">Claims, arguments, evidence, assumptions, limitations, standard mapping and evidence classes.</p>
           </div>
         </div>
@@ -685,7 +688,7 @@ footer {
           <div class="layer-body">
             <h3 class="cn">任务自主与运行时安全监控</h3>
             <h3 class="en">Task Autonomy and Runtime Safety Monitoring</h3>
-            <p class="cn">感知、规划、工具控制、任务质量监控、低置信度/OOD 检测和运行时安全守护。</p>
+            <p class="cn">感知、规划、工具控制、任务质量监控、低置信度、分布外（Out-of-Distribution, OOD）检测和运行时安全守护。</p>
             <p class="en">Perception, planning, tool control, task-quality monitoring, low-confidence/OOD detection and runtime guardians.</p>
           </div>
         </div>
@@ -764,7 +767,7 @@ footer {
       <div class="section-head">
         <h2 class="cn">标准版图</h2>
         <h2 class="en">Standards Landscape</h2>
-        <p class="cn">本项目不宣称工程车辆没有标准。真正的缺口是：已有标准和指南尚未形成连接 MWMS、WTDC、DMWT、功能不足、触发条件、作业后果、运行监控和 safety case 的统一证据链。</p>
+        <p class="cn">本项目不宣称工程车辆没有标准。真正的缺口是：已有标准和指南尚未形成连接移动作业机器系统、作业场地与任务设计条件、动态移动与作业任务、功能不足、触发条件、作业后果、运行监控和安全案例的统一证据链。</p>
         <p class="en">The project does not claim that engineering vehicles have no standards. The precise gap is that existing standards and guidance have not formed a unified evidence chain linking MWMS, WTDC, DMWT, insufficiency, triggering condition, task consequence, operational monitoring and safety case.</p>
       </div>
       <div class="grid three">
@@ -772,7 +775,7 @@ footer {
           <span class="tag">Method donors</span>
           <h3 class="cn">道路车辆方法供体</h3>
           <h3 class="en">Road-vehicle method donors</h3>
-          <p class="cn">ISO 26262、ISO 21448、ISO 34502、ISO/PAS 8800 和 ISO/SAE 21434 贡献系统边界、功能不足、场景测试、AI 安全和网络安全方法。</p>
+          <p class="cn">ISO 26262、ISO 21448、ISO 34502、ISO/PAS 8800 和 ISO/SAE 21434 贡献系统边界、功能不足、场景测试、人工智能安全和网络安全方法。</p>
           <p class="en">ISO 26262, ISO 21448, ISO 34502, ISO/PAS 8800 and ISO/SAE 21434 contribute system boundary, functional insufficiency, scenario testing, AI safety and cybersecurity methods.</p>
         </div>
         <div class="card">
@@ -786,7 +789,7 @@ footer {
           <span class="tag">Adjacent signals</span>
           <h3 class="cn">相邻标准化信号</h3>
           <h3 class="en">Adjacent standardization signals</h3>
-          <p class="cn">ISO 18497-1:2024、机器人 SOTIF 国家标准项目、ISO 10218、ISO/TS 15066 和 AI 风险治理框架提供非道路移动作业与移动物理 AI 的相邻线索。</p>
+          <p class="cn">ISO 18497-1:2024、机器人预期功能安全国家标准项目、ISO 10218、ISO/TS 15066 和人工智能风险治理框架提供非道路移动作业与移动物理 AI 的相邻线索。</p>
           <p class="en">ISO 18497-1:2024, the Chinese robot SOTIF project, ISO 10218, ISO/TS 15066 and AI risk-governance frameworks provide adjacent signals for non-road mobile work and mobile physical AI.</p>
         </div>
       </div>
@@ -806,10 +809,10 @@ footer {
       <img src="assets/AEV-Safety-review-workflow.png" alt="AEV Safety review workflow and evidence classification">
       <div>
         <div class="section-head" style="display:block; margin-bottom:18px;">
-          <h2 class="cn">论文初稿与图件</h2>
-          <h2 class="en">Manuscript and Figure</h2>
-          <p class="cn">中文稿和英文稿均已嵌入综述工作流图。图件同时保留 PNG、SVG 和 PDF 版本，便于网页展示、论文排版和后续修改。</p>
-          <p class="en">Both Chinese and English drafts embed the review workflow figure. The figure is kept as PNG, SVG and PDF for web display, manuscript layout and future edits.</p>
+          <h2 class="cn">论文初稿与证据图谱</h2>
+          <h2 class="en">Manuscript and Evidence Map</h2>
+          <p class="cn">论文初稿围绕自主工程车辆安全保证框架展开，重点连接移动作业机器系统、作业场地与任务设计条件、动态移动与作业任务、预期功能安全风险链、场景测试、运行监控和安全案例。图件展示综述材料如何从来源识别、证据分级进入最终框架综合。</p>
+          <p class="en">The manuscript draft develops a safety-assurance framework for autonomous engineering vehicles, linking MWMS, WTDC, DMWT, the SOTIF risk chain, scenario testing, operational monitoring and safety cases. The figure shows how reviewed sources move from identification and evidence classification into framework synthesis.</p>
         </div>
         <ul class="list">
           <li class="cn">作者列为 Zhang Yuxin、Li Xuefei、Yao Zongwei；作者顺序、单位、通信作者、ORCID、基金、利益冲突和贡献声明待正式投稿前确认。</li>
@@ -901,7 +904,7 @@ footer {
             <td class="cn"><a href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/standards/standardization-opportunities.md">standardization-opportunities.md</a></td>
             <td class="en"><a href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/standards/standardization-opportunities.md">standardization-opportunities.md</a></td>
             <td><a href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/standards/standardization-opportunities-en.md">standardization-opportunities-en.md</a></td>
-            <td class="cn">给出 AEV Safety 后续团体标准、测试指南和 safety case 指南机会。</td><td class="en">Identifies group-standard, testing-guideline and safety-case-guide opportunities for AEV Safety.</td>
+            <td class="cn">给出 AEV Safety 后续团体标准、测试指南和安全案例指南机会。</td><td class="en">Identifies group-standard, testing-guideline and safety-case-guide opportunities for AEV Safety.</td>
           </tr>
           <tr>
             <td class="cn">论文初稿</td><td class="en">Manuscript</td>
