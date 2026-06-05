@@ -10,6 +10,8 @@ This file records the key materials absorbed by AEV Safety, the technical strand
 
 Li Xuefei's materials provide a clear engineering starting point: a wheel loader is not merely a vehicle that moves. It is a mobile working machine with work equipment, material interaction and cyclic task objectives.
 
+Extractable technical strands include:
+
 | Technical strand | Relevance to AEV Safety |
 |---|---|
 | Autonomous digging-point selection | The perception object includes material-pile shape, digging position, material state and task quality, not only obstacles |
@@ -66,6 +68,8 @@ Direct contribution:
 ## 4. General Mobile Physical AI Safety
 
 Embodied AI safety, physical interaction safety and LLM/VLA decision safety broaden the AEV Safety problem into mobile physical AI.
+
+Absorbable directions:
 
 | Material strand | Transfer to AEV Safety |
 |---|---|

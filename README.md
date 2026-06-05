@@ -108,6 +108,8 @@ AEV-Safety/
 │   ├── index.html
 │   ├── literature-review.md
 │   ├── literature-review-en.md
+│   ├── repository-quality-audit.md
+│   ├── repository-quality-audit-en.md
 │   ├── source-synthesis.md
 │   ├── source-synthesis-en.md
 │   ├── technical-work-packages.md
@@ -126,16 +128,17 @@ AEV-Safety/
 
 1. [材料吸收与证据边界](docs/source-synthesis.md)
 2. [技术工作包与证据追踪](docs/technical-work-packages.md)
-3. [文献综述与研究脉络](docs/literature-review.md)
-4. [作业场地与任务分类体系](taxonomy/worksite-task-taxonomy-v1.0.md)
-5. [参考架构](architecture/reference-architecture.md)
-6. [评价矩阵](benchmarks/evaluation-matrix.md)
-7. [标准版图](standards/landscape.md)
-8. [标准化机会](standards/standardization-opportunities.md)
-9. [标准化推进路线](standards/standardization-roadmap.md)
-10. [论文投稿与写作规划](paper/publication-plan.md)
-11. [中文论文初稿](paper/manuscript-zh.md)
-12. [English manuscript draft](paper/manuscript-en.md)
+3. [仓库质量审计](docs/repository-quality-audit.md)
+4. [文献综述与研究脉络](docs/literature-review.md)
+5. [作业场地与任务分类体系](taxonomy/worksite-task-taxonomy-v1.0.md)
+6. [参考架构](architecture/reference-architecture.md)
+7. [评价矩阵](benchmarks/evaluation-matrix.md)
+8. [标准版图](standards/landscape.md)
+9. [标准化机会](standards/standardization-opportunities.md)
+10. [标准化推进路线](standards/standardization-roadmap.md)
+11. [论文投稿与写作规划](paper/publication-plan.md)
+12. [中文论文初稿](paper/manuscript-zh.md)
+13. [English manuscript draft](paper/manuscript-en.md)
 
 ## 作者
 

@@ -108,6 +108,8 @@ AEV-Safety/
 │   ├── index.html
 │   ├── literature-review.md
 │   ├── literature-review-en.md
+│   ├── repository-quality-audit.md
+│   ├── repository-quality-audit-en.md
 │   ├── source-synthesis.md
 │   ├── source-synthesis-en.md
 │   ├── technical-work-packages.md
@@ -126,16 +128,17 @@ AEV-Safety/
 
 1. [Source synthesis and evidence boundaries](docs/source-synthesis-en.md)
 2. [Technical work packages and evidence traceability](docs/technical-work-packages-en.md)
-3. [Literature review and research landscape](docs/literature-review-en.md)
-4. [Worksite and task taxonomy](taxonomy/worksite-task-taxonomy-v1.0-en.md)
-5. [Reference architecture](architecture/reference-architecture-en.md)
-6. [Evaluation matrix](benchmarks/evaluation-matrix-en.md)
-7. [Standards landscape](standards/landscape-en.md)
-8. [Standardization opportunities](standards/standardization-opportunities-en.md)
-9. [Standardization roadmap](standards/standardization-roadmap-en.md)
-10. [Publication and writing plan](paper/publication-plan-en.md)
-11. [Chinese manuscript draft](paper/manuscript-zh.md)
-12. [English manuscript draft](paper/manuscript-en.md)
+3. [Repository quality audit](docs/repository-quality-audit-en.md)
+4. [Literature review and research landscape](docs/literature-review-en.md)
+5. [Worksite and task taxonomy](taxonomy/worksite-task-taxonomy-v1.0-en.md)
+6. [Reference architecture](architecture/reference-architecture-en.md)
+7. [Evaluation matrix](benchmarks/evaluation-matrix-en.md)
+8. [Standards landscape](standards/landscape-en.md)
+9. [Standardization opportunities](standards/standardization-opportunities-en.md)
+10. [Standardization roadmap](standards/standardization-roadmap-en.md)
+11. [Publication and writing plan](paper/publication-plan-en.md)
+12. [Chinese manuscript draft](paper/manuscript-zh.md)
+13. [English manuscript draft](paper/manuscript-en.md)
 
 ## Authors
 
