@@ -31,7 +31,7 @@
 |---|---|---|---|
 | 李学飞工程机械自主作业系统材料 | 装载机作业闭环、料堆/铲斗/卸料/路径控制问题 | source synthesis、taxonomy、evaluation matrix、manuscript | 不能作为产品认证、安全成熟度、市场份额或商业预测证据 |
 | Move the Earth and Beyond | 地球施工到星球资源作业的极端条件外推 | source synthesis、taxonomy G 类、architecture、manuscript Section 8 | 不能证明空间采矿已具备工程成熟度 |
-| 施工与矿山无人系统文献 | 半自动工地、协同装备、系统之系统安全、远程监督 | literature review、architecture、standards roadmap | 不能替代具体场地的 hazard analysis 和现场测试 |
+| 施工与矿山无人系统文献 | 半自动工地、协同装备、体系（SoS）安全、远程监督 | literature review、architecture、standards roadmap | 不能替代具体场地的 hazard analysis 和现场测试 |
 | 移动物理 AI 测评平台材料 | HMRM/HLMB、五源数据、跨本体行为评价、第三方可复核 | source synthesis、literature review、evaluation matrix | 不能把类人移动评价直接替代工程车辆作业质量评价 |
 | 机器人 SOTIF 标准化信号 | ODD/场景、触发条件、功能不足、风险链和缓解措施 | standards landscape、source synthesis、manuscript | 不能写成已发布工程车辆标准 |
 | 道路车辆安全标准 | 功能安全、SOTIF、场景测试、AI 安全、网络安全和 safety case 方法 | standards landscape、manuscript、standardization roadmap | 不能把道路车辆条款直接作为工程车辆合规结论 |

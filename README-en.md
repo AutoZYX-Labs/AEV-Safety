@@ -58,7 +58,7 @@ AEV Safety follows ROAM's portfolio logic, but the output object is different. T
 | Engineering-vehicle, mining, construction-robot and solar-construction teams | MWMS, WTDC, DMWT, evaluation matrix and safety-case evidence structure |
 | Testing and evaluation organizations | Scenario taxonomy, consequence classes, test-record fields, near misses and operational-monitoring metrics |
 | Standardization experts | Road-vehicle safety methods, machinery standards, robot SOTIF signals and candidate clause modules |
-| Researchers | Literature review, method-transfer framework, system-of-systems safety, runtime assurance and manuscript drafts |
+| Researchers | Literature review, method-transfer framework, System of Systems (SoS) safety, runtime assurance and manuscript drafts |
 | Enterprise engineering teams | Safety requirements, degradation and recovery logic, and productization evidence checklist for loaders, excavators, haulage trucks and construction robots |
 
 ## Source Absorption
@@ -67,7 +67,7 @@ The project has absorbed the following technical strands:
 
 - Li Xuefei's autonomous construction-machinery materials: autonomous digging, autonomous unloading, material-pile perception, bucket fill-rate measurement, V-shaped work-cycle path planning, tracking control, indoor/outdoor vehicle tests and front-fit/retrofit productization.
 - The `Move the Earth and Beyond` material: terrestrial construction and mining automation, lunar and Mars resource-operation test-site design, safety system engineering for unmanned earthwork tasks, Built Robotics safety mechanisms and NASA/DLR resource-operation references.
-- Construction and mining autonomy literature: unmanned ground/surface/underwater vehicles in construction, safety assurance of cooperating construction equipment, system-of-systems safety analysis, STPA and Petri-net extensions.
+- Construction and mining autonomy literature: unmanned ground/surface/underwater vehicles in construction, safety assurance of cooperating construction equipment, System of Systems (SoS) safety analysis, STPA and Petri-net extensions.
 - General mobile physical AI safety material: robot SOTIF, physical interaction safety, VLA/LLM decision safety, runtime safety monitoring and SOTIF transfer.
 - Recent mobile physical AI evaluation-platform material: five-source data, cross-embodiment evaluation, Human-like Mobility Reference Model (HMRM) and Human-like Mobility Behaviour (HLMB) methodology. These strands inform safety, smoothness, efficiency and cross-embodiment comparability for engineering-vehicle evaluation.
 

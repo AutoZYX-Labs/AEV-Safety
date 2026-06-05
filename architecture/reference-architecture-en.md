@@ -78,7 +78,7 @@ Layer 3 connects machines, people, dispatch systems and site management:
 - Remote supervision, remote confirmation, remote driving, on-site takeover and maintenance mode.
 - Recovery after communication loss, localization degradation, low energy, tool anomaly, person entry or task failure.
 
-Built Robotics' public safety mechanisms, safety-assurance research for cooperating construction equipment and Volvo Electric Site/HX-type system-of-systems cases all show that Layer 3 is central to engineering-vehicle safety.
+Built Robotics' public safety mechanisms, safety-assurance research for cooperating construction equipment and Volvo Electric Site/HX-type System of Systems (SoS) cases all show that Layer 3 is central to engineering-vehicle safety.
 
 ## Layer 4: Safety Case and Standards Evidence
 

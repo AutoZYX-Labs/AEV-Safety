@@ -55,7 +55,7 @@
 
 - 2018 年 construction unmanned vehicles 综述表明，UAV 在施工中已有广泛应用，UGV/USV/UUV 在施工中的潜力尚未充分开发。
 - SUCCESS 报告强调半自动工地中协同施工装备的安全保证，适合支撑“cooperating construction equipment”这一系统级问题。
-- 系统之系统安全分析材料显示，传统 hazard analysis 对动态系统组合、远程控制、通信延迟和状态不一致处理不足。
+- 体系（SoS）安全分析材料显示，传统 hazard analysis 对动态系统组合、远程控制、通信延迟和状态不一致处理不足。
 - STPA 与 Petri net 扩展材料说明，工程车辆安全分析应显式处理控制结构、状态迁移、时序约束和系统间不一致。
 - Volvo Electric Site/HX 类案例说明，自动运输车、人工装载机、站点服务器、车队控制系统、远程操作员和现场操作员共同构成安全对象。
 

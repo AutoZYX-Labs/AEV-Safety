@@ -78,7 +78,7 @@ Layer 3 连接机器、人员、调度系统和现场管理：
 - 远程监督、远程确认、远程驾驶、现场人工接管和维修模式。
 - 通信中断、定位退化、低电量、工具异常、人员进入和任务失败后的恢复流程。
 
-Built Robotics 公开安全机制、半自动工地协同装备安全研究和 Volvo Electric Site 类系统之系统案例，都说明 Layer 3 是工程车辆安全的核心，不是附属功能。
+Built Robotics 公开安全机制、半自动工地协同装备安全研究和 Volvo Electric Site 类体系（SoS）案例，都说明 Layer 3 是工程车辆安全的核心，不是附属功能。
 
 ## Layer 4：Safety Case 与标准证据
 

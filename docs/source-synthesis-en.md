@@ -55,7 +55,7 @@ Core synthesis:
 
 - The 2018 construction unmanned-vehicle review shows that UAVs have broad construction use, while UGV/USV/UUV potential remains underdeveloped.
 - The SUCCESS report emphasizes safety assurance of cooperating construction equipment in semi-automated sites.
-- System-of-systems safety analysis materials show that conventional hazard analysis is strained by dynamic system composition, remote control, communication delay and state inconsistency.
+- System of Systems (SoS) safety analysis materials show that conventional hazard analysis is strained by dynamic system composition, remote control, communication delay and state inconsistency.
 - STPA and Petri-net extensions indicate that engineering-vehicle safety analysis should model control structure, state transition, timing constraints and inter-system inconsistency.
 - Volvo Electric Site/HX-type cases illustrate a safety object consisting of autonomous transporters, human-operated loaders, site servers, fleet control, remote operators and site operators.
 

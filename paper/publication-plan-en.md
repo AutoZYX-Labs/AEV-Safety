@@ -92,7 +92,7 @@ Writing goals:
 
 1. Explain why road-vehicle automated-driving safety methods cannot be directly copied.
 2. Introduce MWMS, WTDC and DMWT as three core concepts.
-3. Review road-vehicle safety, engineering machinery, autonomous mining systems, robot SOTIF, construction systems of systems and mobile physical AI.
+3. Review road-vehicle safety, engineering machinery, autonomous mining systems, robot SOTIF, construction System of Systems (SoS) and mobile physical AI.
 4. Propose a SOTIF-oriented risk chain, evaluation matrix and safety-case structure.
 5. Provide standardization opportunities and product-deployment recommendations.
 

@@ -49,9 +49,9 @@ These problems show why engineering-vehicle safety evaluation must cover both mo
 
 ## 4. Construction Systems of Systems and Semi-Automated Sites
 
-Construction sites are usually systems of systems rather than single-robot environments. Unmanned ground vehicles, UAVs, automatic haulers, manually operated loaders, remote-control equipment, site servers, fleet-control systems, site operators and remote supervisors may work in the same site.
+Construction sites usually operate as a System of Systems (SoS), rather than as single-robot environments. Unmanned ground vehicles, UAVs, automatic haulers, manually operated loaders, remote-control equipment, site servers, fleet-control systems, site operators and remote supervisors may work in the same site.
 
-The key contributions of system-of-systems construction safety literature are:
+The key contributions of construction System of Systems (SoS) safety literature are:
 
 - It highlights state consistency, communication delay and dispatch conflicts among cooperating equipment.
 - It shows the value of STPA, control structures and state transitions for dynamic system combinations.
@@ -92,7 +92,7 @@ The AEV Safety review does not leave each literature strand as generic related w
 |---|---|---|
 | Road-vehicle methods such as ISO 21448, ISO 34502 and ISO/PAS 8800 | SOTIF risk chain, scenario layers, AI safety lifecycle and safety-case argumentation | Used as method donors; road ODD, DDT and ASIL are not copied directly |
 | ISO 17757, ISO 19014, ISO 15817, ISO 21815 and GMG guidance | MWMS boundary, remote control, collision warning/avoidance, operational readiness and change management | Used as the machinery and mining autonomy base; clause-level mapping awaits authorized text |
-| The SUCCESS semi-automated-site project and system-of-systems safety literature | SoS hazard analysis, safety arguments, digital twin, dynamic risk management and geofences | Supports the five-layer reference architecture, operational monitoring and dynamic safety-case updates |
+| The SUCCESS semi-automated-site project and System of Systems (SoS) safety literature | SoS hazard analysis, safety arguments, digital twin, dynamic risk management and geofences | Supports the five-layer reference architecture, operational monitoring and dynamic safety-case updates |
 | Autonomous loader work-loop materials | Stockpile perception, digging-point selection, bucket fill rate, dumping point, V-shaped path and front-fit/retrofit boundary | Supports DMWT and the task-quality consequence matrix |
 | Mobile physical AI evaluation-platform material | Human-like Mobility Reference Model (HMRM), Human-like Mobility Behaviour (HLMB), safety/smoothness/efficiency | Used as cross-embodiment evaluation inspiration, not as a replacement for engineering-vehicle task-quality evaluation |
 | Robot SOTIF standardization signal | ODD, scenario, triggering condition, functional insufficiency, risk evaluation and mitigation | Treated as a mobile physical AI safety standardization trend, not as a published engineering-vehicle standard |
@@ -117,5 +117,5 @@ The most important gaps to deepen are:
 Future work should continue along three tracks:
 
 1. Authorized standards review: move from status-level mapping to clause-level mapping.
-2. Peer-reviewed literature expansion: systematically search construction robotics, autonomous mining, earth-moving machinery, STPA, system-of-systems safety and runtime assurance.
+2. Peer-reviewed literature expansion: systematically search construction robotics, autonomous mining, earth-moving machinery, STPA, System of Systems (SoS) safety and runtime assurance.
 3. Anonymized engineering cases: turn real failure samples from loaders, excavators, haulage trucks and construction robots into public, reviewable and discussion-ready safety cases.

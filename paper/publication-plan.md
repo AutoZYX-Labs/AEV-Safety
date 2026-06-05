@@ -92,7 +92,7 @@ Construction-site safety evidence chains for autonomous engineering vehicles: a 
 
 1. 解释为什么道路车辆自动驾驶安全方法不能直接照搬。
 2. 给出 MWMS、WTDC、DMWT 三个核心概念。
-3. 梳理道路车辆、工程机械、矿山自主系统、机器人 SOTIF、施工系统之系统和移动物理 AI 的标准/文献脉络。
+3. 梳理道路车辆、工程机械、矿山自主系统、机器人 SOTIF、施工体系（SoS）和移动物理 AI 的标准/文献脉络。
 4. 提出 SOTIF 导向风险链、评价矩阵和 safety case 结构。
 5. 给出标准化机会和产品落地建议。
 
