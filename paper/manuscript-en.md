@@ -29,7 +29,7 @@ Internal engineering background inputs to be verified before public citation:
 
 ## Abstract
 
-Road-vehicle automation safety has developed mature methods for functional safety, Safety of the Intended Functionality, cybersecurity, AI safety, scenario-based testing and safety cases. Autonomous engineering vehicles are moving into batching plants, mines, construction sites, solar farms and other controlled worksites, but their safety assurance evidence remains fragmented across machinery safety, functional safety of control systems, autonomous mining guidance, collision warning standards, adjacent non-road machinery standards, company cases and project-specific operational rules. This paper develops a safety assurance framework for autonomous engineering vehicles as mobile working machine systems. We review road-vehicle safety methods as methodological donors, map existing earth-moving and mining-machine standards, and identify where direct transfer is misleading. We then introduce three concepts: mobile working machine system, worksite and task design conditions, and dynamic moving and working task. The framework links system boundaries, worksite and task conditions, function insufficiencies, trigger conditions, task consequences, testing, operational monitoring and safety cases. Representative wheel-loader, trenching, solar piling and autonomous haulage scenarios are used as structured templates rather than evidence of product maturity. The paper concludes by discussing how the framework extends to lunar and other extreme-environment mobile work.
+Road-vehicle automation safety has developed mature methods for functional safety, Safety of the Intended Functionality (SOTIF), cybersecurity, AI safety, scenario-based testing and safety cases. Autonomous engineering vehicles are moving into batching plants, mines, construction sites, solar farms and other controlled worksites, but their safety assurance evidence remains fragmented across machinery safety, functional safety of control systems, autonomous mining guidance, collision warning standards, adjacent non-road machinery standards, company cases and project-specific operational rules. This paper develops a safety assurance framework for autonomous engineering vehicles as mobile working machine systems. We review road-vehicle safety methods as methodological donors, map existing earth-moving and mining-machine standards, and identify where direct transfer is misleading. We then introduce three concepts: mobile working machine system, worksite and task design conditions, and dynamic moving and working task. The framework links system boundaries, worksite and task conditions, function insufficiencies, trigger conditions, task consequences, testing, operational monitoring and safety cases. Representative wheel-loader, trenching, solar piling and autonomous haulage scenarios are used as structured templates rather than evidence of product maturity. The paper concludes by discussing how the framework extends to lunar and other extreme-environment mobile work.
 
 ## Highlights
 
@@ -85,11 +85,19 @@ This paper offers a structured synthesis and a practitioner-facing problem frame
 
 This paper is positioned as a systematized scoping review with a conceptual framework. It is not claimed as a complete PRISMA systematic review. The reason is methodological honesty: the current evidence base combines standards, official standard status pages, peer-reviewed papers, industry guidance, public company pages, candidate papers, public notices and future anonymized field samples. These source types do not carry the same evidentiary responsibility. They should not be counted or interpreted as if they were a single homogeneous literature pool.
 
-The review workflow is shown in Figure 1. It begins with a protocol defining scope, topics, inclusion criteria and exclusion criteria. It then identifies sources from standards, databases, industry guidance and public cases. Candidate sources are verified through official pages, DOI records, institutional pages or source-status checks. Materials are screened for relevance, source quality and duplication. Eligibility is then assigned based on full text, official status or verified public pages. Evidence classes are assigned before coding each source by machine type, scenario, WTDC role, DMWT role and claim boundary. Sources are then routed into the main reference set, appendix evidence or background leads. The final synthesis links MWMS, WTDC, DMWT, SOTIF risk chains, testing, operational monitoring and safety cases.
+Table 1 summarizes the systematized scoping-review workflow used in this paper. The workflow begins with protocol definition and proceeds through source identification, source verification, screening and eligibility, evidence classification, framework coding and synthesis. Its purpose is not to create a decorative process figure. It is to make the evidence boundary explicit: which materials can support clause-level claims, which can only support standardization-status claims, which can anchor public scenarios, and which should remain future research leads.
 
-![Figure 1. Review workflow and evidence classification for the systematized scoping review.](../figures/AEV-Safety-review-workflow.png)
+Table 1. Review workflow and evidence classification for the systematized scoping review.
 
-Figure 1. Review workflow and evidence classification for the systematized scoping review.
+| Stage | Main action | Output and boundary |
+| --- | --- | --- |
+| Protocol definition | Define scope, topics, inclusion criteria and exclusion criteria | Produces a scoping-review protocol, topic list and exclusion rules; not claimed as a full PRISMA systematic review |
+| Source identification | Identify candidate sources from standards, databases, industry guidance, company pages, public notices and local research notes | Produces a candidate-source list and search log; internal material is background input, not public factual proof |
+| Source verification | Check official pages, DOI records, institutional pages or source-status evidence | Produces source-status, access-level and citability records; no clause-level technical requirements are inferred without authorized full text |
+| Screening and eligibility | Screen for relevance, source quality, duplication, full-text availability and evidentiary responsibility | Produces included, excluded or held decisions; drafts, proposal pages and public notices support process claims only |
+| Evidence classification | Separate authorized text, official status pages, peer-reviewed papers, guidance, company cases and unverified leads | Produces evidence classes and claim boundaries; public pages are not presented as safety certification, customer acceptance or operational-performance proof |
+| Framework coding | Code by machine type, scenario, MWMS, WTDC, DMWT and safety-case boundary | Produces standards maps, scenario templates, risk-chain fields and evidence fields; no single case is generalized into an industry conclusion |
+| Synthesis output | Synthesize MWMS, WTDC, DMWT, SOTIF-oriented risk chains, testing, operational monitoring and safety cases | Produces the paper framework, testing matrix, standardization opportunities and engineering-deployment task list; not a replacement for authorized standards, formal test reports or enterprise safety cases |
 
 ### 2.2 Search and source scope
 
@@ -109,7 +117,7 @@ Sources were excluded or held when they discussed road-vehicle algorithms withou
 
 The review uses evidence classes to prevent overclaiming.
 
-Table 1. Evidence classes and claim boundaries for source use.
+Table 2. Evidence classes and claim boundaries for source use.
 
 | Evidence class | Source type                                                      | Suitable use                                                   | Boundary                                                       |
 | -------------- | ---------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- |
@@ -228,7 +236,7 @@ The operating design domain concept is useful for automated driving because it f
 
 WTDC includes at least ten layers.
 
-Table 2. Worksite and task design condition layers for autonomous engineering vehicles.
+Table 3. Worksite and task design condition layers for autonomous engineering vehicles.
 
 | WTDC layer                       | Engineering-vehicle meaning                | Example conditions                                                                                                                     |
 | -------------------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
@@ -265,7 +273,7 @@ Safety of the Intended Functionality (SOTIF) is useful for autonomous engineerin
 
 For mobile work, the risk chain should include seven elements.
 
-Table 3. SOTIF-oriented risk-chain elements for mobile working-machine tasks.
+Table 4. SOTIF-oriented risk-chain elements for mobile working-machine tasks.
 
 | Risk-chain element     | Meaning for autonomous engineering vehicles                                                   | Example                                                                                                  |
 | ---------------------- | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -283,9 +291,9 @@ This risk chain keeps the logic of SOTIF while changing the objects. In road veh
 
 SAE J3016 is a useful taxonomy for driving automation in on-road motor vehicles, but L0-L5 should not be directly applied to engineering vehicles as a complete automation description [24]. A machine may be highly automated in navigation, moderately automated in work-equipment control and dependent on remote confirmation for abnormal events. A single level hides the most safety-relevant questions.
 
-This paper therefore describes autonomy through three dimensions: mobility automation, work-equipment automation and supervision mode. Their low, medium and high automation interpretations are provided in Table 6 so that the main manuscript keeps its display items focused on the framework evidence chain.
+This paper therefore describes autonomy through three dimensions: mobility automation, work-equipment automation and supervision mode. Their low, medium and high automation interpretations are provided in Table 5 so that the main manuscript keeps its display items focused on the framework evidence chain.
 
-Table 6. Three-dimensional automation description for mobile working machine systems.
+Table 5. Three-dimensional automation description for mobile working machine systems.
 
 | Dimension | Low automation | Medium automation | High automation |
 | --- | --- | --- | --- |
@@ -326,7 +334,7 @@ This sequence reduces a common failure mode: demonstrating automation first and 
 
 Scenario-based testing for engineering vehicles should be organized by crossing WTDC layers with DMWT phases. A useful test matrix includes four levels.
 
-Table 4. WTDC-DMWT scenario testing levels and evidence forms.
+Table 6. WTDC-DMWT scenario testing levels and evidence forms.
 
 | Level                | Question                                                   | Evidence form                                                                                     |
 | -------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
@@ -389,7 +397,7 @@ An autonomous engineering-vehicle safety case should connect claims, arguments, 
 
 At minimum, the safety case should contain six claim groups.
 
-Table 5. Minimum safety-case claim groups for autonomous engineering vehicles.
+Table 8. Minimum safety-case claim groups for autonomous engineering vehicles.
 
 | Claim group                                  | Required evidence                                                                                                         | Boundary                                                              |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |

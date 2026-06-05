@@ -17,10 +17,10 @@
 
 - 作者列为 Zhang Yuxin、Li Xuefei、Yao Zongwei。
 - 作者顺序、单位、通信作者、ORCID、基金、利益冲突和贡献声明仍需正式确认。
-- Figure 1 已嵌入 Markdown，并有 PNG/SVG/PDF 三种图件。
-- Supplementary Material 中的两张表已进入中英文稿正文 Table 6 / 表 6 和 Table 7 / 表 7。
-- 中文稿和英文稿采用同一章节结构、同一图表位置和同一参考文献编号；Word 版本应在每次 Markdown 更新后重新生成，确保 Figure 1 进入正文。
-- 投稿规划建议采用三条成果路线：中文综述论文、英文高水平方法论文和标准化预研包。英文主目标建议为 Reliability Engineering & System Safety 的未来风险评估方法 Special Issue。
+- 综述工作流与证据分类已改为正文表格，不再使用旧流程图。
+- Supplementary Material 中的两张表已进入中英文稿正文表 5 / Table 5 和表 7 / Table 7。
+- 中文稿和英文稿采用同一章节结构、同一表格位置和同一参考文献编号；Word 版本应在每次 Markdown 更新后重新生成。
+- 投稿规划把论文写作、标准化预研、安全开发实践和工程产品落地放在同一成果组合中。英文主目标建议为 Reliability Engineering & System Safety 的未来风险评估方法 Special Issue，同时关注 RESS 多灾害韧性专刊和 IEEE T-ASE AI 调度专刊。
 
 使用边界：
 

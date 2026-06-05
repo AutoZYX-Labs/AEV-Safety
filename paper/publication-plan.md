@@ -4,33 +4,39 @@
 
 信息状态：2026-06-05。
 
-本文件面向 AEV Safety（自主工程车辆安全）的论文成果规划。它参考 ROAM 的成果组合思路，但不照搬 ROAM 主题。AEV Safety 的论文产出应服务三个目标：
+本文件面向 AEV Safety（自主工程车辆安全）的论文投稿与写作规划。它参考 ROAM 的成果组合思路，但不照搬 ROAM 主题。论文不是最终目的，而是把安全开发实践、工程产品落地、测试评价和标准化讨论组织成可审阅公共知识的一种方式。
 
-1. 建立学术共同语言。
-2. 支撑后续标准化预研。
-3. 推动工程车辆智能化安全的真实产品落地。
+AEV Safety 的论文工作应服务四个目标：
+
+1. 建立研究、测试评价和企业工程团队之间的共同语言。
+2. 支撑安全开发实践，包括系统边界、风险链、测试记录、运行监控和安全案例。
+3. 推动工程车辆智能化安全进入真实产品落地，而不是停留在概念讨论。
+4. 为后续标准化预研提供可校核的方法、术语和条款候选结构。
 
 ## 成果组合
 
-建议形成三类成果，而不是只推进一篇论文。
+建议形成一个成果组合，而不是只推进一篇论文。排序上，安全开发实践和工程产品落地优先；论文与标准化是沉淀、校核和传播载体。
 
 | 成果 | 对应定位 | 目标读者 | 当前状态 |
 |---|---|---|---|
-| 中文综述论文 | 对应 ROAM 的中文综述论文 | 国内工程机械、自动驾驶安全、测试评价和标准化专家 | 已有中文完整初稿，需继续补正式引用、图表、作者信息和中文期刊格式 |
-| 英文高水平方法论文 | 对应 ROAM 的英文高水平专刊论文路线 | 国际 safety science、reliability、automation、robotics 和 construction automation 读者 | 建议优先面向 Reliability Engineering & System Safety（RESS）未来风险评估方法专刊 |
-| 标准化预研包 | 对应 ROAM 的团体标准路线 | 标准化组织、测试机构、企业工程团队 | 已形成标准化机会和候选条款模块 |
+| 安全开发实践包 | 对应工程实施主线 | 企业安全、自动化系统、测试评价和现场运营团队 | 已形成 MWMS/WTDC/DMWT、风险链、评价矩阵和技术工作包 |
+| 工程产品落地包 | 对应真实试点和产品化 | 装载机、挖掘机、矿卡、打桩/开沟设备和施工机器人团队 | 已形成任务分类、场景模板和材料吸收框架 |
+| 中文综述论文 | 对应国内共同语言 | 国内工程机械、自动驾驶安全、测试评价和标准化专家 | 已有中文完整初稿，需继续补正式引用、表格、作者信息和中文期刊格式 |
+| 英文高水平方法论文 | 对应国际方法论文路线 | 国际 safety science、reliability、automation、robotics 和 construction automation 读者 | 建议优先面向 RESS 未来风险评估方法专刊，二号目标为 RESS 多灾害韧性专刊 |
+| 标准化预研包 | 对应团体标准和测试指南路线 | 标准化组织、测试机构、企业工程团队 | 已形成标准化机会和候选条款模块 |
 
 ## Special Issue 检索结论
 
-检索范围：全球公开 CFP 页面；重点关注 2026-06-05 之后约半年内仍可能投稿的高水平期刊 Special Issue。优先使用期刊官网、ScienceDirect、IEEE、IEEE RAS、IEEE ComSoc 等官方页面。
+检索范围：全球公开 CFP 页面；重点关注 2026-06-05 之后仍可能投稿、且与自主工程车辆安全、移动物理 AI、复杂工程系统风险评估、韧性评价、自动化调度和实验室方向相关的高水平期刊 Special Issue。优先使用期刊官网、ScienceDirect、IEEE 和 IEEE RAS 等官方页面；投稿前所有日期仍需以期刊投稿系统当前显示为准。
 
 ### 强推荐
 
 | 期刊/专刊 | 截稿 | 适配度 | 推荐动作 | 来源 |
 |---|---|---|---|---|
 | Reliability Engineering & System Safety: Methods for risk assessments meeting the challenges of the future | 2026-10-01 | 高 | 作为英文方法论文主目标 | [ScienceDirect](https://www.sciencedirect.com/special-issue/330147/methods-for-risk-assessments-meeting-the-challenges-of-the-future) |
+| Reliability Engineering & System Safety: Advanced resilience assessment & enhancement for complex engineering systems exposed to multi-hazards | 2027-02-28 | 高 | 作为二号目标和长窗口目标；若论文强化多灾害、级联扰动、运行韧性和恢复能力，可转向该专刊 | [ScienceDirect](https://www.sciencedirect.com/special-issue/330906/advanced-resilience-assessment-enhancement-for-complex-engineering-systems-exposed-to-multi-hazards) |
 
-推荐理由：
+RESS 未来风险评估方法专刊推荐理由：
 
 1. RESS 是 reliability、system safety 和 risk assessment 领域高水平期刊。
 2. 专刊明确关注快速变化、大不确定性、数字化、系统复杂性、大数据、自主系统和人工智能（Artificial Intelligence, AI）。
@@ -41,32 +47,39 @@
 
 From Safe Driving to Safe Working: A Risk Assessment Method for Autonomous Engineering Vehicles and Mobile Working Machine Systems
 
-### 可选但时间紧
+RESS 多灾害韧性专刊推荐理由：
+
+1. 该专刊关注复杂工程系统在多灾害条件下的韧性评估与增强，和工程车辆在矿山、施工、极端环境中的多源扰动高度相关。
+2. 可访问 CFP 转发页显示投稿窗口为 2026-02-28 至 2027-02-28，Article Type 为 “VSI: RESS_Multi-hazard Resilience”，Guest Editors 包括 Tao Zeng、Valerio Cozzani、Genserik Reniers 和 Lijun Wei；最终仍以 ScienceDirect 和 Editorial Manager 为准。
+3. AEV Safety 可在此路线下把“安全作业”进一步写成“面向多灾害和级联扰动的移动作业机器系统韧性评估方法”，突出通信退化、定位异常、地形/物料变化、现场组织失效、任务中断和恢复能力。
+4. 该窗口更长，适合在 2026 年下半年补充 worked examples、运行监控字段、恢复能力指标和工程试点材料。
+
+可选题目：
+
+From Safe Working to Resilient Mobile Work: Risk and Resilience Assessment for Autonomous Engineering Vehicles under Worksite and Task Disturbances
+
+### 与实验室方向高度一致但需另起论文
 
 | 期刊/专刊 | 截稿 | 适配度 | 推荐动作 | 来源 |
 |---|---|---|---|---|
-| Journal of Safety Research: Injury Prevention Technologies in Construction | 2026-06-15 | 中高 | 只有在能快速形成施工现场安全技术/近失事件/人机协同评价稿时才尝试；当前不建议作为主目标 | [ScienceDirect](https://www.sciencedirect.com/special-issue/328580/injury-prevention-technologies-in-construction-field-validated-human-centered-and-data-driven-approaches) |
+| IEEE Transactions on Automation Science and Engineering: Artificial Intelligence-Driven Scheduling for Manufacturing, Transportation and Logistics | 2026-08-30 | 中高 | 不建议用当前综述稿直接投稿；适合后续写“安全约束下的工地多机调度、任务分配与恢复调度”方法论文 | [IEEE RAS CFP PDF](https://www.ieee-ras.org/wp-content/uploads/2026/03/Special-Issue-CFP-TASE-2026.pdf) |
 
-判断：
+IEEE T-ASE 专刊判断：
 
-该专刊强调 field-validated 或 quasi-field 技术、injury prevention、worker safety、human-centered design、near-miss trends、risk scores 和 reproducibility。AEV Safety 的整体框架与其相关，但当前初稿更偏方法综述和标准化框架，若没有真实现场或准现场数据，容易被认为缺少 safety evaluation。
+1. 官方 CFP 明确面向 AI-driven scheduling、routing optimization、network design、human-machine collaborative scheduling、dynamic and uncertain scheduling，以及制造、交通和物流中的 real-time scheduling。
+2. AEV Safety 的当前综述稿不应硬投该专刊，因为现稿核心是安全保证与风险评估，不是调度算法。
+3. 但该专刊非常适合实验室后续形成一篇更工程化的英文论文：以半自动工地体系（System of Systems, SoS）为对象，研究安全约束、多机协同、任务中断恢复、人工/自动混行和远程监督下的 AI 调度。
 
-可行改写方向：
+可选题目：
 
-Construction-site safety evidence chains for autonomous engineering vehicles: a scenario-taxonomy and near-miss monitoring framework
-
-### 可选但需重构论文重点
-
-| 期刊/专刊 | 截稿 | 适配度 | 推荐动作 | 来源 |
-|---|---|---|---|---|
-| Reliability Engineering & System Safety: Reliability of complex systems with multi-source uncertain information | 2026-07-01 | 中高 | 如果主打多源证据融合和不确定性，可作为备选；当前时间偏紧 | [ScienceDirect](https://www.sciencedirect.com/special-issue/322347/reliability-of-complex-systems-with-multi-source-uncertain-information) |
-| IEEE Transactions on Automation Science and Engineering: AI-driven scheduling, routing optimization and network design for complex dynamic environments | 2026-08-30 | 中 | 适合后续写“安全约束下的工地多机调度/任务分配”，不适合当前综述稿直接投稿 | [IEEE RAS CFP PDF](https://www.ieee-ras.org/wp-content/uploads/2026/03/Special-Issue-CFP-TASE-2026.pdf) |
-| IEEE Wireless Communications: Agentic AI-Enabled Networking for Heterogeneous Unmanned Systems in Low-Altitude Environments | 2026-09-01 | 中低 | 适合 UAV/UGV/USV 通信、低空与地面异构无人系统；不建议作为 AEV Safety 主线 | [IEEE ComSoc](https://www.comsoc.org/publications/magazines/ieee-wireless-communications/cfp/agentic-ai-enabled-networking-heterogeneous) |
+Safety-Constrained AI Scheduling for Autonomous Engineering Vehicles in Semi-Autonomous Worksite Systems
 
 ### 不作为主目标
 
 | 期刊/专刊 | 状态 | 原因 | 来源 |
 |---|---|---|---|
+| Journal of Safety Research: Injury Prevention Technologies in Construction | 2026-06-15 | 当前时间太紧；若没有 field-validated 或 quasi-field 数据，难以支撑其施工伤害预防定位 | [ScienceDirect](https://www.sciencedirect.com/special-issue/328580/injury-prevention-technologies-in-construction-field-validated-human-centered-and-data-driven-approaches) |
+| Reliability Engineering & System Safety: Reliability of complex systems with multi-source uncertain information | 2026-07-01 | 与多源证据融合相关，但窗口较紧，且与当前主线相比不如 330147 和 330906 贴合 | [ScienceDirect](https://www.sciencedirect.com/special-issue/322347/reliability-of-complex-systems-with-multi-source-uncertain-information) |
 | IEEE Transactions on Robotics: Foundation Models for Robotics | 已过 2025-12 截稿，预计 2026-07 出版 | 高水平但已经错过；可作为未来 proposal 思路参考 | [IEEE RAS](https://www.ieee-ras.org/publications/t-ro/special-issues/foundation-models-for-robotics/) |
 | Safety Science: Interdisciplinary Approaches to Electric Micromobility Safety | 官方 ScienceDirect 页面显示 2026-02-28 截稿 | 主题偏电动微出行，不适合作为 AEV Safety 主线；第三方页面存在日期不一致，按官方页面为准 | [ScienceDirect](https://www.sciencedirect.com/special-issue/324999/interdisciplinary-approaches-to-electric-micromobility-safety) |
 | Applied Sciences: Intelligent Autonomous Vehicles | 2026-06-30 | 范围相关但期刊层级和主题聚焦度不足，不建议作为高水平主线 | [MDPI](https://www.mdpi.com/journal/applsci/special_issues/QRM4N9088O) |
@@ -170,20 +183,21 @@ Standardization Needs for Safety Assurance of Autonomous Engineering Vehicles
 
 ## 写作时间表
 
-| 时间 | 中文综述 | 英文方法论文 | 标准化预研包 |
-|---|---|---|---|
-| 2026-06 | 完成中文稿结构校准、引用补全和图表嵌入 | 锁定 RESS 专刊为主目标，准备 1 页投稿 fit memo | 完成标准化机会文档和最小可行标准化包 |
-| 2026-07 | 内部审阅中文稿，选择中文目标期刊 | 完成英文论文详细 outline、方法图和 test-record schema | 准备团体标准预研提纲和专家讨论版 |
-| 2026-08 | 中文稿投稿或进入最终格式化 | 完成英文 full draft v1，补充 3-5 个 worked examples | 选择优先标准主题和样例任务 |
-| 2026-09 | 根据反馈修改 | 完成英文稿内部评审、语言润色和参考文献核验 | 形成立项建议包和条款骨架 |
-| 2026-10 | 继续修订 | 2026-10-01 前投稿 RESS | 与论文同步更新标准化材料 |
+| 时间 | 安全开发与产品落地 | 中文综述 | 英文投稿路线 | 标准化预研 |
+|---|---|---|---|---|
+| 2026-06 | 校准 MWMS、WTDC、DMWT、风险链、测试记录和运行监控字段 | 完成中文稿结构校准、引用补全和表格替换 | 锁定 RESS 未来风险评估为主目标，准备 1 页投稿 fit memo | 完成标准化机会文档和最小可行标准化包 |
+| 2026-07 | 选择 2-3 个工程任务作为 worked examples，形成可复用安全开发模板 | 内部审阅中文稿，选择中文目标期刊 | 完成英文论文详细 outline、方法表、测试记录模式和 worked examples | 准备团体标准预研提纲和专家讨论版 |
+| 2026-08 | 将产品落地材料转为安全需求、降级恢复和现场证据清单 | 中文稿投稿或进入最终格式化 | 完成 RESS full draft v1；若另起 IEEE T-ASE 调度稿，需在 2026-08-30 前投稿 | 选择优先标准主题和样例任务 |
+| 2026-09 | 组织企业/测试机构反馈，校验测试记录和运行监控字段 | 根据反馈修改 | 完成 RESS 未来风险评估稿内部评审、语言润色和参考文献核验 | 形成立项建议包和条款骨架 |
+| 2026-10 | 把运行监控、近失事件和恢复能力纳入工程证据模板 | 继续修订 | 2026-10-01 前投稿 RESS 未来风险评估方法专刊；未赶上则转 regular 或 330906 多灾害韧性路线 | 与论文同步更新标准化材料 |
+| 2026-11 至 2027-02 | 补充多灾害、通信退化、定位异常、现场组织扰动和恢复能力案例 | 维护中文稿引用与术语一致性 | 若转向 RESS 多灾害韧性专刊，2027-02-28 前完成重构投稿 | 根据 worked examples 更新测试评价和运行监控条款 |
 
 ## 需要补齐的材料
 
 1. 正式作者信息：作者顺序、单位、通信作者、ORCID。
 2. 参考文献：DOI、标准正式版本、官方状态页、授权标准全文引用边界。
-3. 图件：至少 4 张核心图。
-4. 表格：标准对照表、WTDC/DMWT 表、风险链样例表、测试记录模式。
+3. 图件：至少 3 张核心图，优先用于系统边界、风险链和安全案例架构；综述工作流使用表格，不再使用旧流程图。
+4. 表格：综述工作流表、标准对照表、WTDC/DMWT 表、风险链样例表、测试记录模式。
 5. Worked examples：装载机、开沟、光伏打桩、矿卡和星球资源作业至少 3 个。
 6. 证据声明：哪些是公开证据，哪些是背景输入，哪些需要进一步核验。
 
@@ -191,21 +205,24 @@ Standardization Needs for Safety Assurance of Autonomous Engineering Vehicles
 
 | 图表 | 用途 |
 |---|---|
-| Figure 1: AEV Safety evidence workflow | 已有图，展示综述与证据分类 |
-| Figure 2: MWMS boundary model | 展示车辆、工作装置、物料、场地、监督和组织 |
-| Figure 3: WTDC-DMWT-SOTIF risk chain | 展示作业条件、功能不足、触发条件、后果和缓解 |
-| Figure 4: 安全案例证据架构 | 展示开发、测试、运行监控、近失事件和安全主张 |
-| Table 1: Standards comparison | 道路车辆、工程机械、机器人和 AI 安全标准对照 |
-| Table 2: WTDC/DMWT taxonomy | 场地条件和动态作业任务 |
-| Table 3: Consequence and metric matrix | 六类后果与评价指标 |
-| Table 4: Worked examples | 典型任务的风险链样例 |
+| Table 1: Review workflow and evidence classification | 已在论文初稿中替代旧流程图 |
+| Core figure A: MWMS boundary model | 展示车辆、工作装置、物料、场地、监督、组织和数据闭环 |
+| Core figure B: WTDC-DMWT-SOTIF risk chain | 展示作业条件、功能不足、触发条件、后果和缓解 |
+| Core figure C: 安全案例证据架构 | 展示开发、测试、运行监控、近失事件和安全主张 |
+| Table 2: Standards comparison | 道路车辆、工程机械、机器人和 AI 安全标准对照 |
+| Table 3: WTDC/DMWT taxonomy | 场地条件和动态作业任务 |
+| Table 4: Consequence and metric matrix | 六类后果与评价指标 |
+| Table 5: Worked examples | 典型任务的风险链样例 |
 
 ## 当前结论
 
-最稳妥的论文路线是：
+最稳妥的成果路线是：
 
-1. 中文综述论文作为国内共同语言和标准化底座。
-2. 英文方法论文主攻 RESS 2026-10-01 截稿的未来风险评估方法专刊。
-3. 标准化预研包同步推进，优先形成“自主工程车辆测试评价与运行监控要求”或“自主工程车辆预期功能安全实施指南”。
+1. 安全开发实践和工程产品落地先行，把 MWMS、WTDC、DMWT、预期功能安全风险链、测试记录、运行监控和安全案例转成可用模板。
+2. 中文综述论文作为国内共同语言和标准化底座。
+3. 英文方法论文主攻 RESS 2026-10-01 截稿的未来风险评估方法专刊。
+4. 若需要更长窗口或更强调韧性与恢复能力，转向 RESS 2027-02-28 截稿的多灾害韧性专刊。
+5. IEEE T-ASE AI 调度专刊适合作为另起论文方向，主题应聚焦安全约束下的工地多机调度和任务恢复，不宜直接投当前综述稿。
+6. 标准化预研包同步推进，优先形成“自主工程车辆测试评价与运行监控要求”或“自主工程车辆预期功能安全实施指南”。
 
 如果 RESS 专刊投稿窗口错过，英文稿仍可转为 regular submission，候选期刊包括 Reliability Engineering & System Safety、Safety Science、Automation in Construction、Robotics and Autonomous Systems 或 Journal of Field Robotics，但需要按各自期刊重写问题重心。

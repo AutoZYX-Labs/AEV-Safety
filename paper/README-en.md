@@ -17,10 +17,10 @@ Current status:
 
 - Authors are listed as Zhang Yuxin, Li Xuefei and Yao Zongwei.
 - Author order, affiliations, corresponding author, ORCID, funding, competing-interest statement and contribution statement still need formal confirmation.
-- Figure 1 is embedded in Markdown and available as PNG/SVG/PDF.
-- The two former Supplementary Material tables have been integrated into both Chinese and English manuscripts as Table 6 / 表 6 and Table 7 / 表 7.
-- The Chinese and English drafts use the same section structure, figure/table positions and reference numbering. Word versions should be regenerated after each Markdown update so Figure 1 appears in the body.
-- The publication plan recommends a three-output route: Chinese review paper, high-level English methodology paper and standardization pre-research package. The primary English target is the Reliability Engineering & System Safety future risk-assessment methods Special Issue.
+- The review workflow and evidence classification have been converted into a manuscript table. The previous workflow figure is no longer used.
+- The two former Supplementary Material tables have been integrated into both Chinese and English manuscripts as Table 5 / 表 5 and Table 7 / 表 7.
+- The Chinese and English drafts use the same section structure, table positions and reference numbering. Word versions should be regenerated after each Markdown update.
+- The publication plan treats papers, standardization pre-research, safety-development practice and engineering product deployment as one portfolio. The primary English target remains the Reliability Engineering & System Safety future risk-assessment methods Special Issue, with the RESS multi-hazard resilience Special Issue and the IEEE T-ASE AI scheduling Special Issue monitored as related opportunities.
 
 Boundary:
 

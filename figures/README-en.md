@@ -4,10 +4,8 @@
 
 This directory stores public AEV Safety figures.
 
-| File | Description |
-|---|---|
-| `AEV-Safety-review-workflow.png` | PNG workflow figure used by the manuscript and website |
-| `AEV-Safety-review-workflow.svg` | Editable SVG version of the same figure |
-| `AEV-Safety-review-workflow.pdf` | PDF version for manuscript layout |
+The review workflow and evidence classification in the current manuscript draft have been converted into a manuscript table. No public figure is currently used for that purpose.
 
-Figures should use a clean, academic, white-background style. New figures should keep both an editable version and a manuscript-ready version.
+The previous review-workflow figure has been moved to `achieve/deprecated-review-workflow-figure/` as process material.
+
+New figures should use a clean, academic, white-background style and keep both editable and manuscript-ready versions.

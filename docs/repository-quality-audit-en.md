@@ -102,9 +102,9 @@ The current website satisfies:
 
 1. Page title is AEV Safety — 自主工程车辆安全.
 2. The hero provides both the Chinese full name and the English full name.
-3. The introduction emphasizes open safety assurance, testing, evaluation and standardization.
+3. The introduction emphasizes open safety assurance, testing, evaluation, standardization, autonomy and autonomous-driving capability.
 4. The page includes five navigation groups: framework, taxonomy, standards, outputs and documents.
-5. The output route names the Chinese review paper, high-level English methodology paper and standardization pre-research package.
+5. The output route names safety-development practice, engineering product deployment, paper/review outputs and standardization pre-research.
 6. The public document library links to paired Chinese and English files.
 7. Desktop and 390px mobile screenshots have been checked.
 
@@ -112,10 +112,11 @@ The current website satisfies:
 
 The current output route includes:
 
-1. Chinese review paper: for Chinese engineering-machinery, automated-driving safety, testing and standardization experts.
-2. High-level English methodology paper: primary target is the Reliability Engineering & System Safety future risk-assessment methods Special Issue.
-3. Standardization pre-research package: priority topic is testing, evaluation and operational monitoring requirements, while also covering a SOTIF implementation guide, WTDC, DMWT and a safety-case guide.
-4. Technical work packages: sources, technical objects, verification methods, evidence boundaries and next work are decomposed into WP0-WP6.
+1. Safety-development practice: MWMS, WTDC, DMWT, SOTIF-oriented risk chains, test records, operational monitoring and safety cases are turned into an engineering workflow.
+2. Engineering product deployment: loader, excavator, haulage, piling/trenching and construction-robot pilots are supported with operating boundaries, task-quality criteria, recovery logic and product evidence.
+3. Paper and review outputs: Chinese review and English methodology papers build shared language and invite peer review.
+4. Standardization pre-research package: priority topic is testing, evaluation and operational monitoring requirements, while also covering a SOTIF implementation guide, WTDC, DMWT and a safety-case guide.
+5. Technical work packages: sources, technical objects, verification methods, evidence boundaries and next work are decomposed into WP0-WP6.
 
 ## Evidence Boundary Audit
 

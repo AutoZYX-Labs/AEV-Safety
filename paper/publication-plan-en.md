@@ -4,33 +4,39 @@
 
 Information status: 2026-06-05.
 
-This file plans the publication outputs for AEV Safety, or Autonomous Engineering Vehicle Safety. It follows the output logic of ROAM, but it does not copy ROAM's topic. AEV Safety papers should serve three goals:
+This file plans publication and writing work for AEV Safety, or Autonomous Engineering Vehicle Safety. It follows the output logic of ROAM, but it does not copy ROAM's topic. Papers are not the end state. They are a way to organize safety-development practice, engineering deployment, testing/evaluation and standardization discussion into reviewable public knowledge.
 
-1. Build an academic common language.
-2. Support standardization pre-research.
-3. Help autonomous engineering-vehicle safety move into real products.
+AEV Safety publication work should serve four goals:
+
+1. Build a shared language across researchers, testing organizations and enterprise engineering teams.
+2. Support safety-development practice, including system boundaries, risk chains, test records, operational monitoring and safety cases.
+3. Help autonomous engineering-vehicle safety move into real products, not remain a conceptual discussion.
+4. Provide reviewable methods, terms and candidate clause structures for standardization pre-research.
 
 ## Output Portfolio
 
-The recommended portfolio contains three outputs rather than one paper.
+The recommended portfolio contains multiple outputs rather than one paper. Safety-development practice and engineering product deployment come first; papers and standardization are vehicles for synthesis, review and coordination.
 
 | Output | Positioning | Target readers | Current status |
 |---|---|---|---|
-| Chinese review paper | Corresponds to ROAM's Chinese review paper | Chinese engineering-machinery, automated-driving safety, testing and standardization experts | Full Chinese draft exists; formal references, figures, authorship data and Chinese-journal format still need work |
-| High-level English methodology paper | Corresponds to ROAM's high-level English special-issue route | International safety science, reliability, automation, robotics and construction-automation readers | Recommended primary target: RESS future risk-assessment methods special issue |
-| Standardization pre-research package | Corresponds to ROAM's group-standard route | Standards bodies, testing organizations and enterprise engineering teams | Standardization opportunities and candidate clause modules drafted |
+| Safety-development practice package | Engineering implementation track | Enterprise safety, automation-system, testing and worksite-operation teams | MWMS/WTDC/DMWT, risk chains, evaluation matrix and technical work packages have been drafted |
+| Engineering product-deployment package | Real pilots and productization | Loader, excavator, haulage, piling/trenching and construction-robot teams | Task taxonomy, scenario templates and source-synthesis framework have been drafted |
+| Chinese review paper | Domestic common-language track | Chinese engineering-machinery, automated-driving safety, testing and standardization experts | Full Chinese draft exists; formal references, tables, authorship data and Chinese-journal format still need work |
+| High-level English methodology paper | International method-paper track | International safety science, reliability, automation, robotics and construction-automation readers | Recommended primary target: RESS future risk-assessment methods special issue; second target: RESS multi-hazard resilience special issue |
+| Standardization pre-research package | Group-standard and testing-guideline track | Standards bodies, testing organizations and enterprise engineering teams | Standardization opportunities and candidate clause modules drafted |
 
 ## Special Issue Search Results
 
-Search scope: global public CFP pages, focusing on high-level journal Special Issues that were still potentially submittable within roughly six months after 2026-06-05. Official journal pages, ScienceDirect, IEEE, IEEE RAS and IEEE ComSoc pages were prioritized.
+Search scope: global public CFP pages, focusing on high-level journal Special Issues that remain potentially submittable after 2026-06-05 and align with autonomous engineering-vehicle safety, mobile physical AI, complex-system risk assessment, resilience assessment, automation scheduling and the laboratory's research direction. Official journal pages, ScienceDirect, IEEE and IEEE RAS sources are prioritized; all deadlines must be rechecked in the current submission system before submission.
 
 ### Strong Recommendation
 
 | Journal / Special Issue | Deadline | Fit | Recommended action | Source |
 |---|---|---|---|---|
 | Reliability Engineering & System Safety: Methods for risk assessments meeting the challenges of the future | 2026-10-01 | High | Primary target for the English methodology paper | [ScienceDirect](https://www.sciencedirect.com/special-issue/330147/methods-for-risk-assessments-meeting-the-challenges-of-the-future) |
+| Reliability Engineering & System Safety: Advanced resilience assessment & enhancement for complex engineering systems exposed to multi-hazards | 2027-02-28 | High | Second target and longer-window option; switch to this route if the paper is strengthened around multi-hazard disturbance, cascading disruption, operational resilience and recovery capability | [ScienceDirect](https://www.sciencedirect.com/special-issue/330906/advanced-resilience-assessment-enhancement-for-complex-engineering-systems-exposed-to-multi-hazards) |
 
-Rationale:
+Rationale for the RESS future risk-assessment methods Special Issue:
 
 1. RESS is a high-level journal in reliability, system safety and risk assessment.
 2. The special issue explicitly concerns rapid changes, large uncertainties, digitalization, system complexity, big data, autonomous systems and AI.
@@ -41,32 +47,39 @@ Proposed title:
 
 From Safe Driving to Safe Working: A Risk Assessment Method for Autonomous Engineering Vehicles and Mobile Working Machine Systems
 
-### Optional but Time-Critical
+Rationale for the RESS multi-hazard resilience Special Issue:
+
+1. The special issue focuses on resilience assessment and enhancement for complex engineering systems exposed to multi-hazard conditions, which aligns with autonomous engineering vehicles operating in mines, construction sites and extreme environments.
+2. An accessible CFP relay page reports an open submission window from 2026-02-28 to 2027-02-28, Article Type “VSI: RESS_Multi-hazard Resilience”, and Guest Editors Tao Zeng, Valerio Cozzani, Genserik Reniers and Lijun Wei; the final submission setting should still be checked through ScienceDirect and Editorial Manager.
+3. AEV Safety can be reframed as a risk and resilience assessment method for mobile working machine systems under multi-source disturbance: communication degradation, localization abnormality, terrain/material change, worksite-organization failure, task interruption and recovery capability.
+4. The longer window is useful for adding worked examples, operational-monitoring fields, recovery metrics and engineering-pilot material in late 2026.
+
+Possible title:
+
+From Safe Working to Resilient Mobile Work: Risk and Resilience Assessment for Autonomous Engineering Vehicles under Worksite and Task Disturbances
+
+### Highly Aligned with the Lab Direction but Better as a Separate Paper
 
 | Journal / Special Issue | Deadline | Fit | Recommended action | Source |
 |---|---|---|---|---|
-| Journal of Safety Research: Injury Prevention Technologies in Construction | 2026-06-15 | Medium-high | Attempt only if a construction-site safety technology, near-miss or human-machine evaluation paper can be prepared quickly; not recommended as the main target now | [ScienceDirect](https://www.sciencedirect.com/special-issue/328580/injury-prevention-technologies-in-construction-field-validated-human-centered-and-data-driven-approaches) |
+| IEEE Transactions on Automation Science and Engineering: Artificial Intelligence-Driven Scheduling for Manufacturing, Transportation and Logistics | 2026-08-30 | Medium-high | Do not submit the current review draft directly; suitable for a separate paper on safety-constrained multi-machine worksite scheduling, task allocation and recovery scheduling | [IEEE RAS CFP PDF](https://www.ieee-ras.org/wp-content/uploads/2026/03/Special-Issue-CFP-TASE-2026.pdf) |
 
-Judgement:
+Judgement on the IEEE T-ASE Special Issue:
 
-This special issue emphasizes field-validated or quasi-field technologies, injury prevention, worker safety, human-centered design, near-miss trends, risk scores and reproducibility. AEV Safety is conceptually related, but the current draft is closer to a method review and standardization framework. Without real field or quasi-field data, it may be considered short on safety evaluation.
+1. The official CFP covers AI-driven scheduling, routing optimization, network design, human-machine collaborative scheduling, dynamic and uncertain scheduling, and real-time scheduling in manufacturing, transportation and logistics.
+2. The current AEV Safety draft should not be forced into this special issue because its core is safety assurance and risk assessment, not scheduling algorithms.
+3. The topic is, however, highly suitable for a later laboratory paper on semi-autonomous worksite Systems of Systems (SoS), safety constraints, multi-machine cooperation, interruption recovery, mixed manual-autonomous operation and remote supervision.
 
-Possible reframing:
+Possible title:
 
-Construction-site safety evidence chains for autonomous engineering vehicles: a scenario-taxonomy and near-miss monitoring framework
-
-### Optional but Requires Reframing
-
-| Journal / Special Issue | Deadline | Fit | Recommended action | Source |
-|---|---|---|---|---|
-| Reliability Engineering & System Safety: Reliability of complex systems with multi-source uncertain information | 2026-07-01 | Medium-high | Backup if the paper focuses on multi-source evidence fusion and uncertainty; timeline is tight | [ScienceDirect](https://www.sciencedirect.com/special-issue/322347/reliability-of-complex-systems-with-multi-source-uncertain-information) |
-| IEEE Transactions on Automation Science and Engineering: AI-driven scheduling, routing optimization and network design for complex dynamic environments | 2026-08-30 | Medium | Suitable for a later paper on safety-constrained multi-machine scheduling or site task allocation, not for direct submission of the current review draft | [IEEE RAS CFP PDF](https://www.ieee-ras.org/wp-content/uploads/2026/03/Special-Issue-CFP-TASE-2026.pdf) |
-| IEEE Wireless Communications: Agentic AI-Enabled Networking for Heterogeneous Unmanned Systems in Low-Altitude Environments | 2026-09-01 | Medium-low | Suitable for UAV/UGV/USV communications and low-altitude/ground heterogeneous unmanned systems; not recommended as the main AEV Safety line | [IEEE ComSoc](https://www.comsoc.org/publications/magazines/ieee-wireless-communications/cfp/agentic-ai-enabled-networking-heterogeneous) |
+Safety-Constrained AI Scheduling for Autonomous Engineering Vehicles in Semi-Autonomous Worksite Systems
 
 ### Not Main Targets
 
 | Journal / Special Issue | Status | Reason | Source |
 |---|---|---|---|
+| Journal of Safety Research: Injury Prevention Technologies in Construction | 2026-06-15 | Too time-critical now; without field-validated or quasi-field data, the current draft is unlikely to satisfy its construction injury-prevention positioning | [ScienceDirect](https://www.sciencedirect.com/special-issue/328580/injury-prevention-technologies-in-construction-field-validated-human-centered-and-data-driven-approaches) |
+| Reliability Engineering & System Safety: Reliability of complex systems with multi-source uncertain information | 2026-07-01 | Relevant to multi-source evidence fusion, but the window is tight and it is less aligned than the 330147 and 330906 RESS calls | [ScienceDirect](https://www.sciencedirect.com/special-issue/322347/reliability-of-complex-systems-with-multi-source-uncertain-information) |
 | IEEE Transactions on Robotics: Foundation Models for Robotics | Deadline passed in 2025-12; projected publication 2026-07 | High-level but closed; useful as a future proposal reference | [IEEE RAS](https://www.ieee-ras.org/publications/t-ro/special-issues/foundation-models-for-robotics/) |
 | Safety Science: Interdisciplinary Approaches to Electric Micromobility Safety | Official ScienceDirect page shows 2026-02-28 deadline | Topic is electric micromobility, not AEV Safety; third-party pages show inconsistent dates, so the official page governs | [ScienceDirect](https://www.sciencedirect.com/special-issue/324999/interdisciplinary-approaches-to-electric-micromobility-safety) |
 | Applied Sciences: Intelligent Autonomous Vehicles | 2026-06-30 | Related but not high-level enough and not focused enough for the main route | [MDPI](https://www.mdpi.com/journal/applsci/special_issues/QRM4N9088O) |
@@ -170,20 +183,21 @@ Core content:
 
 ## Writing Timeline
 
-| Time | Chinese review | English methodology paper | Standardization pre-research package |
-|---|---|---|---|
-| 2026-06 | Calibrate Chinese draft structure, references and figures | Select RESS as primary target; prepare a one-page fit memo | Complete standardization opportunity document and minimum viable standardization package |
-| 2026-07 | Internal review and target-journal selection | Complete detailed outline, method figure and test-record schema | Prepare group-standard pre-research outline and expert-discussion version |
-| 2026-08 | Submit Chinese draft or enter final formatting | Complete English full draft v1 with 3-5 worked examples | Select priority standard topic and sample tasks |
-| 2026-09 | Revise based on feedback | Internal review, English polishing and reference verification | Build proposal package and clause skeletons |
-| 2026-10 | Continue revision | Submit to RESS before 2026-10-01 | Update standardization material in parallel with the paper |
+| Time | Safety development and product deployment | Chinese review | English submission route | Standardization pre-research |
+|---|---|---|---|---|
+| 2026-06 | Calibrate MWMS, WTDC, DMWT, risk-chain, test-record and operational-monitoring fields | Calibrate Chinese draft structure, references and table replacement | Select the RESS future risk-assessment call as primary target; prepare a one-page fit memo | Complete standardization opportunity document and minimum viable standardization package |
+| 2026-07 | Select 2-3 engineering tasks as worked examples and build reusable safety-development templates | Internal review and target-journal selection | Complete detailed outline, method tables, test-record schema and worked examples | Prepare group-standard pre-research outline and expert-discussion version |
+| 2026-08 | Convert product-deployment material into safety requirements, degradation/recovery logic and field-evidence checklists | Submit Chinese draft or enter final formatting | Complete RESS full draft v1; if a separate IEEE T-ASE scheduling paper is prepared, submit before 2026-08-30 | Select priority standard topic and sample tasks |
+| 2026-09 | Collect enterprise/testing-organization feedback and calibrate test-record and monitoring fields | Revise based on feedback | Internal review, English polishing and reference verification for the RESS future-risk paper | Build proposal package and clause skeletons |
+| 2026-10 | Add operational monitoring, near-miss review and recovery capability into the engineering evidence template | Continue revision | Submit to the RESS future risk-assessment methods Special Issue before 2026-10-01; if missed, convert to regular submission or the 330906 multi-hazard resilience route | Update standardization material in parallel with the paper |
+| 2026-11 to 2027-02 | Add cases for multi-hazard disturbance, communication degradation, localization abnormality, worksite-organization disruption and recovery capability | Maintain reference and terminology consistency | If switching to the RESS multi-hazard resilience Special Issue, submit before 2027-02-28 | Update testing/evaluation and operational-monitoring clauses from worked examples |
 
 ## Materials to Complete
 
 1. Formal authorship data: author order, affiliation, corresponding author and ORCID.
 2. References: DOI, official standard version, official status pages and authorized-standard boundaries.
-3. Figures: at least four core figures.
-4. Tables: standards comparison, WTDC/DMWT table, risk-chain examples and test-record schema.
+3. Figures: at least three core figures for system boundary, risk chain and safety-case architecture; the review workflow now uses a table, not the previous workflow figure.
+4. Tables: review workflow, standards comparison, WTDC/DMWT table, risk-chain examples and test-record schema.
 5. Worked examples: at least three among loader, trenching, solar piling, haulage and planetary-resource work.
 6. Evidence statement: what is public evidence, what is background input and what needs further verification.
 
@@ -191,21 +205,24 @@ Core content:
 
 | Figure/table | Purpose |
 |---|---|
-| Figure 1: AEV Safety evidence workflow | Existing figure for review workflow and evidence classification |
-| Figure 2: MWMS boundary model | Vehicle, work equipment, material, worksite, supervision and organization |
-| Figure 3: WTDC-DMWT-SOTIF risk chain | Conditions, insufficiency, triggering conditions, consequences and mitigation |
-| Figure 4: Safety-case evidence architecture | Development, testing, operational monitoring, near misses and claims |
-| Table 1: Standards comparison | Road-vehicle, machinery, robot and AI safety standards |
-| Table 2: WTDC/DMWT taxonomy | Worksite conditions and dynamic working tasks |
-| Table 3: Consequence and metric matrix | Six consequence classes and evaluation metrics |
-| Table 4: Worked examples | Risk-chain examples for representative tasks |
+| Table 1: Review workflow and evidence classification | Already used in the manuscript to replace the previous workflow figure |
+| Core figure A: MWMS boundary model | Vehicle, work equipment, material, worksite, supervision, organization and data loop |
+| Core figure B: WTDC-DMWT-SOTIF risk chain | Conditions, insufficiency, triggering conditions, consequences and mitigation |
+| Core figure C: Safety-case evidence architecture | Development, testing, operational monitoring, near misses and claims |
+| Table 2: Standards comparison | Road-vehicle, machinery, robot and AI safety standards |
+| Table 3: WTDC/DMWT taxonomy | Worksite conditions and dynamic working tasks |
+| Table 4: Consequence and metric matrix | Six consequence classes and evaluation metrics |
+| Table 5: Worked examples | Risk-chain examples for representative tasks |
 
 ## Current Conclusion
 
-The most robust paper route is:
+The most robust output route is:
 
-1. Use the Chinese review paper as the domestic common-language and standardization base.
-2. Target the RESS 2026-10-01 future risk-assessment methods special issue with an English methodology paper.
-3. Push the standardization pre-research package in parallel, prioritizing either testing/evaluation and operational monitoring requirements or a SOTIF implementation guide for autonomous engineering vehicles.
+1. Put safety-development practice and engineering product deployment first, converting MWMS, WTDC, DMWT, SOTIF-oriented risk chains, test records, operational monitoring and safety cases into reusable templates.
+2. Use the Chinese review paper as the domestic common-language and standardization base.
+3. Target the RESS 2026-10-01 future risk-assessment methods Special Issue with an English methodology paper.
+4. If a longer window or stronger resilience/recovery framing is needed, switch to the RESS 2027-02-28 multi-hazard resilience Special Issue.
+5. Treat the IEEE T-ASE AI scheduling Special Issue as a separate paper direction on safety-constrained multi-machine worksite scheduling and task recovery, not as a destination for the current review draft.
+6. Push the standardization pre-research package in parallel, prioritizing either testing/evaluation and operational monitoring requirements or a SOTIF implementation guide for autonomous engineering vehicles.
 
 If the RESS special-issue window is missed, the English paper can still be converted to a regular submission. Candidate journals include Reliability Engineering & System Safety, Safety Science, Automation in Construction, Robotics and Autonomous Systems or Journal of Field Robotics, but the problem framing must be rewritten for each journal.

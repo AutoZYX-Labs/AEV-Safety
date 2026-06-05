@@ -177,12 +177,13 @@ Suggested chapters:
 5. Do not use company public pages or demonstration videos as safety-certification evidence.
 6. Do not write thresholds, ratios or KPIs as universal industry requirements without authorized standards, test data or expert consensus.
 
-## Relation to Papers and Website
+## Relation to Safety Development, Papers and Website
 
-Standardization is not an appendix after the papers. It is one of the core outputs of AEV Safety.
+Standardization is not an appendix after the papers. It is one of the core outputs of AEV Safety. More precisely, standardization should grow out of safety-development practice and product pilots, then be distilled through papers and the website into public technical language.
 
-The recommended output chain has three mutually reinforcing tracks:
+The recommended output chain has four mutually reinforcing tracks:
 
-1. Chinese review paper: explain the problem landscape and method transfer.
-2. English methodological paper: target a high-level journal with MWMS/WTDC/DMWT and SOTIF risk-chain methods.
-3. Standardization pre-research package: turn the paper framework into terms, scenarios, testing, operational monitoring and safety-case clause skeletons.
+1. Safety-development practice: turn MWMS, WTDC, DMWT, SOTIF-oriented risk chains, test records, operational monitoring and safety cases into enterprise engineering workflows.
+2. Engineering product deployment: calibrate operating boundaries, task-quality criteria, recovery logic and field evidence in loader, excavator, haulage, piling/trenching and construction-robot pilots.
+3. Paper and review outputs: use the Chinese review and English methodology paper to explain the problem landscape, method transfer and risk-assessment framework.
+4. Standardization pre-research package: turn the engineering workflow into candidate terms, scenarios, testing, operational monitoring and safety-case clause skeletons.

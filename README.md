@@ -34,22 +34,23 @@ AEV Safety 的核心判断是：
 
 这个项目开放出来，不是为了把开放问题收束为单一发表目标。论文只是阶段性表达。更重要的目标是让这些问题进入更深的研究、标准化讨论、测试评价体系和真实产品落地。
 
-AEV Safety 面向四类输出：
+AEV Safety 面向四类输出。排序上，安全开发实践和工程产品落地优先；论文与标准化是对外表达、同行校核和公共协同的载体。
 
-1. 综述论文与方法论文：形成可被同行审阅的理论框架。
-2. 会议报告与教学材料：帮助研究人员、工程师和标准化专家形成共同语言。
-3. 标准化建议：为工程车辆预期功能安全、场景测试、安全案例和运行监控提供条款级候选结构。
-4. 工程实践落地：把装载机、挖掘机、矿卡和施工机器人项目中的现场经验转化为可审查的安全证据。
+1. 安全开发实践：把 MWMS、WTDC、DMWT 和预期功能安全风险链转成相关项定义、安全需求、降级恢复、测试记录、运行监控和安全案例。
+2. 工程产品落地：把装载机、挖掘机、矿卡、打桩/开沟设备和施工机器人项目中的现场问题转化为可审查的产品证据。
+3. 综述论文与方法论文：形成可被同行审阅、可被企业和测试机构复用的问题框架。
+4. 标准化建议：为工程车辆预期功能安全、场景测试、安全案例和运行监控提供条款级候选结构。
 
 ## 成果路线
 
-AEV Safety 参考 ROAM 的成果组合方式，但成果对象不同。当前规划形成三条互相支撑的路线：
+AEV Safety 参考 ROAM 的成果组合方式，但成果对象不同。当前规划形成四条互相支撑的路线：
 
 | 路线 | 目标 | 当前公开材料 |
 |---|---|---|
-| 中文综述论文 | 为国内工程机械、自动驾驶安全、测试评价和标准化专家建立共同语言 | [中文论文初稿](paper/manuscript-zh.md)、[文献综述](docs/literature-review.md) |
-| 英文高水平方法论文 | 面向国际 reliability、system safety、automation、robotics 和 construction automation 读者，提出 MWMS/WTDC/DMWT 与预期功能安全风险链方法 | [英文论文初稿](paper/manuscript-en.md)、[投稿规划](paper/publication-plan.md) |
-| 标准化预研包 | 把论文框架转化为术语、场景、测试、运行监控和安全案例条款骨架 | [标准化机会](standards/standardization-opportunities.md)、[标准化推进路线](standards/standardization-roadmap.md) |
+| 安全开发实践 | 形成从 MWMS 定义到风险链、测试记录、运行监控和安全案例的工程工作流 | [参考架构](architecture/reference-architecture.md)、[评价矩阵](benchmarks/evaluation-matrix.md)、[技术工作包](docs/technical-work-packages.md) |
+| 工程产品落地 | 支撑装载机、挖掘机、矿卡、打桩/开沟设备和施工机器人试点中的安全需求、降级恢复和产品证据 | [任务分类体系](taxonomy/worksite-task-taxonomy-v1.0.md)、[材料吸收](docs/source-synthesis.md) |
+| 论文与综述沉淀 | 为国内外研究人员、企业工程师和测试评价机构建立共同语言 | [中文论文初稿](paper/manuscript-zh.md)、[英文论文初稿](paper/manuscript-en.md)、[投稿规划](paper/publication-plan.md) |
+| 标准化预研包 | 把工程工作流转化为术语、场景、测试、运行监控和安全案例条款骨架 | [标准化机会](standards/standardization-opportunities.md)、[标准化推进路线](standards/standardization-roadmap.md) |
 
 ## 面向谁
 
@@ -114,10 +115,6 @@ AEV-Safety/
 │   ├── source-synthesis-en.md
 │   ├── technical-work-packages.md
 │   └── technical-work-packages-en.md
-├── figures/
-│   ├── AEV-Safety-review-workflow.png
-│   ├── AEV-Safety-review-workflow.svg
-│   └── AEV-Safety-review-workflow.pdf
 └── references/
     ├── AEV-Safety-main-references.bib
     ├── README.md

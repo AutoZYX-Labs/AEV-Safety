@@ -34,22 +34,23 @@ The safety problem is not to copy automated-driving standards into construction 
 
 AEV Safety is published to attract broader attention and deeper work, not to treat publication as the only destination. Papers are one output. The more important goal is to move the problem into research programs, standardization discussions, testing and evaluation systems, and real engineering products.
 
-AEV Safety is designed for four output tracks:
+AEV Safety is designed for four output tracks. Safety-development practice and engineering product deployment come first; papers and standardization are vehicles for peer review, public communication and shared technical coordination.
 
-1. Review and methodology papers that can be peer reviewed.
-2. Conference and teaching material that gives researchers, engineers and standardization experts a shared vocabulary.
-3. Standardization proposals for engineering-vehicle SOTIF, scenario testing, safety cases and operational monitoring.
-4. Engineering practice that converts loader, excavator, haulage and construction-robot experience into reviewable safety evidence.
+1. Safety-development practice that turns MWMS, WTDC, DMWT and SOTIF-oriented risk chains into item definitions, safety requirements, degradation and recovery logic, test records, operational monitoring and safety cases.
+2. Engineering product deployment that converts field problems in loaders, excavators, haulage trucks, piling and trenching machines, and construction robots into reviewable product evidence.
+3. Review and methodology papers that give researchers, engineering teams and testing organizations a reusable problem frame.
+4. Standardization proposals for engineering-vehicle SOTIF, scenario testing, safety cases and operational monitoring.
 
 ## Output Roadmap
 
-AEV Safety follows ROAM's portfolio logic, but the output object is different. The current plan has three mutually reinforcing tracks:
+AEV Safety follows ROAM's portfolio logic, but the output object is different. The current plan has four mutually reinforcing tracks:
 
 | Track | Goal | Current public material |
 |---|---|---|
-| Chinese review paper | Build a shared language for Chinese engineering-machinery, automated-driving safety, testing and standardization experts | [Chinese manuscript draft](paper/manuscript-zh.md), [literature review](docs/literature-review.md) |
-| High-level English methodology paper | Address international reliability, system safety, automation, robotics and construction-automation readers with MWMS/WTDC/DMWT and SOTIF risk-chain methods | [English manuscript draft](paper/manuscript-en.md), [publication plan](paper/publication-plan-en.md) |
-| Standardization pre-research package | Turn the paper framework into terms, scenarios, testing, operational monitoring and safety-case clause skeletons | [standardization opportunities](standards/standardization-opportunities-en.md), [standardization roadmap](standards/standardization-roadmap-en.md) |
+| Safety-development practice | Build an engineering workflow from MWMS definition to risk chains, test records, operational monitoring and safety cases | [reference architecture](architecture/reference-architecture-en.md), [evaluation matrix](benchmarks/evaluation-matrix-en.md), [technical work packages](docs/technical-work-packages-en.md) |
+| Engineering product deployment | Support pilot projects for loaders, excavators, haulage trucks, piling and trenching machines, and construction robots with safety requirements, recovery logic and product evidence | [task taxonomy](taxonomy/worksite-task-taxonomy-v1.0-en.md), [source synthesis](docs/source-synthesis-en.md) |
+| Paper and review outputs | Build a shared language for Chinese and international researchers, enterprise engineers and testing organizations | [Chinese manuscript draft](paper/manuscript-zh.md), [English manuscript draft](paper/manuscript-en.md), [publication plan](paper/publication-plan-en.md) |
+| Standardization pre-research package | Turn the engineering workflow into candidate terms, scenarios, testing, operational-monitoring and safety-case clause modules | [standardization opportunities](standards/standardization-opportunities-en.md), [standardization roadmap](standards/standardization-roadmap-en.md) |
 
 ## Who This Is For
 
@@ -114,10 +115,6 @@ AEV-Safety/
 │   ├── source-synthesis-en.md
 │   ├── technical-work-packages.md
 │   └── technical-work-packages-en.md
-├── figures/
-│   ├── AEV-Safety-review-workflow.png
-│   ├── AEV-Safety-review-workflow.svg
-│   └── AEV-Safety-review-workflow.pdf
 └── references/
     ├── AEV-Safety-main-references.bib
     ├── README.md
