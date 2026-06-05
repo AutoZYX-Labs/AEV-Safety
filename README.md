@@ -41,6 +41,16 @@ AEV Safety 面向四类输出：
 3. 标准化建议：为工程车辆 SOTIF、场景测试、安全案例和运行监控提供条款级候选结构。
 4. 工程实践落地：把装载机、挖掘机、矿卡和施工机器人项目中的现场经验转化为可审查的安全证据。
 
+## 成果路线
+
+AEV Safety 参考 ROAM 的成果组合方式，但成果对象不同。当前规划形成三条互相支撑的路线：
+
+| 路线 | 目标 | 当前公开材料 |
+|---|---|---|
+| 中文综述论文 | 为国内工程机械、自动驾驶安全、测试评价和标准化专家建立共同语言 | [中文论文初稿](paper/manuscript-zh.md)、[文献综述](docs/literature-review.md) |
+| 英文高水平方法论文 | 面向国际 reliability、system safety、automation、robotics 和 construction automation 读者，提出 MWMS/WTDC/DMWT 与 SOTIF 风险链方法 | [英文论文初稿](paper/manuscript-en.md)、[投稿规划](paper/publication-plan.md) |
+| 标准化预研包 | 把论文框架转化为术语、场景、测试、运行监控和 safety case 条款骨架 | [标准化机会](standards/standardization-opportunities.md)、[标准化推进路线](standards/standardization-roadmap.md) |
+
 ## 面向谁
 
 | 对象 | 可直接使用的内容 |
@@ -83,19 +93,25 @@ AEV-Safety/
 ├── standards/
 │   ├── landscape.md
 │   ├── landscape-en.md
+│   ├── standardization-opportunities.md
+│   ├── standardization-opportunities-en.md
 │   ├── standardization-roadmap.md
 │   └── standardization-roadmap-en.md
 ├── paper/
 │   ├── manuscript-zh.md
 │   ├── manuscript-en.md
 │   ├── manuscript-zh.docx
-│   └── manuscript-en.docx
+│   ├── manuscript-en.docx
+│   ├── publication-plan.md
+│   └── publication-plan-en.md
 ├── docs/
 │   ├── index.html
 │   ├── literature-review.md
 │   ├── literature-review-en.md
 │   ├── source-synthesis.md
-│   └── source-synthesis-en.md
+│   ├── source-synthesis-en.md
+│   ├── technical-work-packages.md
+│   └── technical-work-packages-en.md
 ├── figures/
 │   ├── AEV-Safety-review-workflow.png
 │   ├── AEV-Safety-review-workflow.svg
@@ -109,14 +125,17 @@ AEV-Safety/
 ## 快速阅读路径
 
 1. [材料吸收与证据边界](docs/source-synthesis.md)
-2. [文献综述与研究脉络](docs/literature-review.md)
-3. [作业场地与任务分类体系](taxonomy/worksite-task-taxonomy-v1.0.md)
-4. [参考架构](architecture/reference-architecture.md)
-5. [评价矩阵](benchmarks/evaluation-matrix.md)
-6. [标准版图](standards/landscape.md)
-7. [标准化推进路线](standards/standardization-roadmap.md)
-8. [中文论文初稿](paper/manuscript-zh.md)
-9. [English manuscript draft](paper/manuscript-en.md)
+2. [技术工作包与证据追踪](docs/technical-work-packages.md)
+3. [文献综述与研究脉络](docs/literature-review.md)
+4. [作业场地与任务分类体系](taxonomy/worksite-task-taxonomy-v1.0.md)
+5. [参考架构](architecture/reference-architecture.md)
+6. [评价矩阵](benchmarks/evaluation-matrix.md)
+7. [标准版图](standards/landscape.md)
+8. [标准化机会](standards/standardization-opportunities.md)
+9. [标准化推进路线](standards/standardization-roadmap.md)
+10. [论文投稿与写作规划](paper/publication-plan.md)
+11. [中文论文初稿](paper/manuscript-zh.md)
+12. [English manuscript draft](paper/manuscript-en.md)
 
 ## 作者
 

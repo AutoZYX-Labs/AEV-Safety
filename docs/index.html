@@ -225,6 +225,7 @@ section { padding: 62px 0; border-bottom: 1px solid var(--border); }
 .grid { display: grid; gap: 18px; }
 .grid.four { grid-template-columns: repeat(4, 1fr); }
 .grid.three { grid-template-columns: repeat(3, 1fr); }
+.hero-grid > *, .section-head > *, .figure-block > *, .grid > *, .layer > * { min-width: 0; }
 .card {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -360,7 +361,13 @@ footer {
 }
 @media (max-width: 640px) {
   body { font-size: 16px; }
-  .wrap, .topbar-inner { width: min(100% - 28px, 1180px); }
+  .wrap, .topbar-inner { width: calc(100% - 40px); max-width: 1180px; }
+  .nav { width: 100%; gap: 8px 12px; font-size: 13px; }
+  .nav a { white-space: nowrap; }
+  .lang button { padding: 6px 10px; }
+  .hero-subtitle, .status-panel p, .card p, .section-head p, .list li { overflow-wrap: anywhere; }
+  .hero-subtitle.cn, .status-panel p.cn, .card p.cn, .section-head p.cn, .list li.cn { word-break: break-all; line-break: anywhere; }
+  .hero-grid > div, .status-panel, .hero-subtitle { width: 100%; max-width: 100%; }
   .hero { padding: 54px 0 40px; }
   h1 { font-size: 46px; line-height: 1.04; }
   .hero-subtitle { font-size: 19px; }
@@ -385,6 +392,7 @@ footer {
       <a href="#framework"><span class="cn">框架</span><span class="en">Framework</span></a>
       <a href="#taxonomy"><span class="cn">场景</span><span class="en">Taxonomy</span></a>
       <a href="#standards"><span class="cn">标准</span><span class="en">Standards</span></a>
+      <a href="#outputs"><span class="cn">成果</span><span class="en">Outputs</span></a>
       <a href="#documents"><span class="cn">文档</span><span class="en">Documents</span></a>
       <a href="https://github.com/AutoZYX-Labs/AEV-Safety">GitHub</a>
       <div class="lang" aria-label="Language switcher">
@@ -403,7 +411,7 @@ footer {
       <h1>AEV Safety</h1>
       <p class="hero-name cn">自主工程车辆安全</p>
       <p class="hero-name en">Autonomous Engineering Vehicle Safety</p>
-      <p class="hero-subtitle cn">面向装载机、挖掘机、矿卡、施工机器人、光伏施工设备和未来星球资源作业系统的开放安全保证、测试评价与标准化框架。</p>
+      <p class="hero-subtitle cn">面向装载机、挖掘机、矿卡、<br>施工机器人、光伏施工设备<br>和未来星球资源作业系统，<br>构建开放安全保证、测试评价与标准化框架。</p>
       <p class="hero-subtitle en">An open safety-assurance, testing, evaluation and standardization framework for wheel loaders, excavators, autonomous haulage trucks, construction robots, solar-construction machines and future planetary-resource systems.</p>
       <div class="actions">
         <a class="btn primary cn-link" href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/paper/manuscript-zh.md">中文论文初稿</a>
@@ -417,7 +425,7 @@ footer {
     <div class="status-panel">
       <h2 class="cn">项目状态</h2>
       <h2 class="en">Project Status</h2>
-      <p class="cn">当前版本是公开安全保证框架和论文初稿，不是最终投稿、标准文本或认证结论。所有标准和企业案例均按证据等级使用。</p>
+      <p class="cn">当前版本是公开安全保证框架和论文初稿，<br>不是最终投稿、标准文本或认证结论。<br>所有标准和企业案例均按证据等级使用。</p>
       <p class="en">Current version is a public safety-assurance framework and manuscript draft, not a final submission, standard text or certification claim. Standards and company cases are used by evidence class.</p>
       <div class="status-row">
         <div class="status-cell"><strong>MWMS</strong><span>System object</span></div>
@@ -507,6 +515,48 @@ footer {
           <p class="cn">把装载机、挖掘机、矿卡和施工机器人项目中的现场问题转成安全需求、降级恢复和产品证据。</p>
           <p class="en">Turn field problems from loaders, excavators, haulage trucks and construction robots into safety requirements, degradation/recovery logic and product evidence.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="outputs">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="cn">成果路线</h2>
+        <h2 class="en">Output Roadmap</h2>
+        <p class="cn">AEV Safety 参考 ROAM 的成果组合方式，但成果对象不同。当前路线包括中文综述论文、英文高水平方法论文和标准化预研包，三者共同服务学术共同语言、标准化讨论和工程产品落地。</p>
+        <p class="en">AEV Safety follows ROAM's output-portfolio logic, but the output object is different. The current route includes a Chinese review paper, a high-level English methodology paper and a standardization pre-research package.</p>
+      </div>
+      <div class="grid three">
+        <div class="card">
+          <span class="tag">Paper 1</span>
+          <h3 class="cn">中文综述论文</h3>
+          <h3 class="en">Chinese review paper</h3>
+          <p class="cn">面向国内工程机械、自动驾驶安全、测试评价和标准化专家，解释从安全行驶到安全作业的方法迁移。</p>
+          <p class="en">Builds a shared language for Chinese engineering-machinery, automated-driving safety, testing and standardization experts.</p>
+        </div>
+        <div class="card">
+          <span class="tag">Paper 2</span>
+          <h3 class="cn">英文高水平方法论文</h3>
+          <h3 class="en">High-level English methodology paper</h3>
+          <p class="cn">优先面向 RESS 未来风险评估方法专刊，重点写成 MWMS、WTDC、DMWT 和 SOTIF 风险链方法论文。</p>
+          <p class="en">Primary target is the RESS future risk-assessment methods special issue, framed around MWMS, WTDC, DMWT and the SOTIF risk chain.</p>
+        </div>
+        <div class="card">
+          <span class="tag">Standards</span>
+          <h3 class="cn">标准化预研包</h3>
+          <h3 class="en">Standardization pre-research package</h3>
+          <p class="cn">把论文框架转化为术语、场景、测试评价、运行监控和 safety case 条款骨架。</p>
+          <p class="en">Turns the paper framework into terms, scenarios, testing, operational monitoring and safety-case clause skeletons.</p>
+        </div>
+      </div>
+      <div class="source-links">
+        <a class="cn-link" href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/paper/publication-plan.md">论文投稿与写作规划</a>
+        <a class="en-link" href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/paper/publication-plan-en.md">Publication Plan</a>
+        <a class="cn-link" href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/standards/standardization-opportunities.md">标准化机会</a>
+        <a class="en-link" href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/standards/standardization-opportunities-en.md">Standardization Opportunities</a>
+        <a class="cn-link" href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/docs/technical-work-packages.md">技术工作包</a>
+        <a class="en-link" href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/docs/technical-work-packages-en.md">Technical Work Packages</a>
       </div>
     </div>
   </section>
@@ -796,6 +846,13 @@ footer {
             <td class="cn">说明哪些材料被吸收，以及公开证据边界。</td><td class="en">Explains absorbed material and public evidence boundaries.</td>
           </tr>
           <tr>
+            <td class="cn">技术工作包</td><td class="en">Work packages</td>
+            <td class="cn"><a href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/docs/technical-work-packages.md">technical-work-packages.md</a></td>
+            <td class="en"><a href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/docs/technical-work-packages.md">technical-work-packages.md</a></td>
+            <td><a href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/docs/technical-work-packages-en.md">technical-work-packages-en.md</a></td>
+            <td class="cn">把来源、技术对象、验证方法、证据边界和后续工作连成可执行工作包。</td><td class="en">Links sources, technical objects, verification methods, evidence boundaries and next work into executable packages.</td>
+          </tr>
+          <tr>
             <td class="cn">文献综述</td><td class="en">Literature review</td>
             <td class="cn"><a href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/docs/literature-review.md">literature-review.md</a></td>
             <td class="en"><a href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/docs/literature-review.md">literature-review.md</a></td>
@@ -831,11 +888,25 @@ footer {
             <td class="cn">给出候选标准模块和分阶段推进路线。</td><td class="en">Provides candidate standard modules and a phased roadmap.</td>
           </tr>
           <tr>
+            <td class="cn">标准化机会</td><td class="en">Standardization opportunities</td>
+            <td class="cn"><a href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/standards/standardization-opportunities.md">standardization-opportunities.md</a></td>
+            <td class="en"><a href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/standards/standardization-opportunities.md">standardization-opportunities.md</a></td>
+            <td><a href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/standards/standardization-opportunities-en.md">standardization-opportunities-en.md</a></td>
+            <td class="cn">给出 AEV Safety 后续团体标准、测试指南和 safety case 指南机会。</td><td class="en">Identifies group-standard, testing-guideline and safety-case-guide opportunities for AEV Safety.</td>
+          </tr>
+          <tr>
             <td class="cn">论文初稿</td><td class="en">Manuscript</td>
             <td class="cn"><a href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/paper/manuscript-zh.md">manuscript-zh.md</a></td>
             <td class="en"><a href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/paper/manuscript-zh.md">manuscript-zh.md</a></td>
             <td><a href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/paper/manuscript-en.md">manuscript-en.md</a></td>
             <td class="cn">中英文论文和综述论文初稿入口。</td><td class="en">Entry point for Chinese and English manuscript drafts.</td>
+          </tr>
+          <tr>
+            <td class="cn">投稿规划</td><td class="en">Publication planning</td>
+            <td class="cn"><a href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/paper/publication-plan.md">publication-plan.md</a></td>
+            <td class="en"><a href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/paper/publication-plan.md">publication-plan.md</a></td>
+            <td><a href="https://github.com/AutoZYX-Labs/AEV-Safety/blob/main/paper/publication-plan-en.md">publication-plan-en.md</a></td>
+            <td class="cn">记录 Special Issue 检索结果、推荐投稿路线和写作框架。</td><td class="en">Records special-issue search results, recommended submission routes and writing frames.</td>
           </tr>
         </table>
       </div>

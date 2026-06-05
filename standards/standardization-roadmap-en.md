@@ -6,6 +6,8 @@
 
 This roadmap is written for standardization discussions on autonomous engineering vehicles, mobile working-machine systems and mobile physical AI. It is not a current standard requirement or a formal proposal to any standards organization. It translates the AEV Safety framework into modules that could enter association standards, industry standards, national standards or enterprise technical specifications.
 
+The paired [standardization opportunities and recommendations](standardization-opportunities-en.md) document provides the standards comparison, priority topics, minimum viable standardization package and output route. This roadmap focuses more on phasing and clause skeletons.
+
 ## Standardization View
 
 The standardization problem is not to build a completely separate system from zero. A more realistic route is to connect existing standards:

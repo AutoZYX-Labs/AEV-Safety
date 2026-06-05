@@ -41,6 +41,16 @@ AEV Safety is designed for four output tracks:
 3. Standardization proposals for engineering-vehicle SOTIF, scenario testing, safety cases and operational monitoring.
 4. Engineering practice that converts loader, excavator, haulage and construction-robot experience into reviewable safety evidence.
 
+## Output Roadmap
+
+AEV Safety follows ROAM's portfolio logic, but the output object is different. The current plan has three mutually reinforcing tracks:
+
+| Track | Goal | Current public material |
+|---|---|---|
+| Chinese review paper | Build a shared language for Chinese engineering-machinery, automated-driving safety, testing and standardization experts | [Chinese manuscript draft](paper/manuscript-zh.md), [literature review](docs/literature-review.md) |
+| High-level English methodology paper | Address international reliability, system safety, automation, robotics and construction-automation readers with MWMS/WTDC/DMWT and SOTIF risk-chain methods | [English manuscript draft](paper/manuscript-en.md), [publication plan](paper/publication-plan-en.md) |
+| Standardization pre-research package | Turn the paper framework into terms, scenarios, testing, operational monitoring and safety-case clause skeletons | [standardization opportunities](standards/standardization-opportunities-en.md), [standardization roadmap](standards/standardization-roadmap-en.md) |
+
 ## Who This Is For
 
 | Audience | Directly useful material |
@@ -83,19 +93,25 @@ AEV-Safety/
 ├── standards/
 │   ├── landscape.md
 │   ├── landscape-en.md
+│   ├── standardization-opportunities.md
+│   ├── standardization-opportunities-en.md
 │   ├── standardization-roadmap.md
 │   └── standardization-roadmap-en.md
 ├── paper/
 │   ├── manuscript-zh.md
 │   ├── manuscript-en.md
 │   ├── manuscript-zh.docx
-│   └── manuscript-en.docx
+│   ├── manuscript-en.docx
+│   ├── publication-plan.md
+│   └── publication-plan-en.md
 ├── docs/
 │   ├── index.html
 │   ├── literature-review.md
 │   ├── literature-review-en.md
 │   ├── source-synthesis.md
-│   └── source-synthesis-en.md
+│   ├── source-synthesis-en.md
+│   ├── technical-work-packages.md
+│   └── technical-work-packages-en.md
 ├── figures/
 │   ├── AEV-Safety-review-workflow.png
 │   ├── AEV-Safety-review-workflow.svg
@@ -109,14 +125,17 @@ AEV-Safety/
 ## Reading Path
 
 1. [Source synthesis and evidence boundaries](docs/source-synthesis-en.md)
-2. [Literature review and research landscape](docs/literature-review-en.md)
-3. [Worksite and task taxonomy](taxonomy/worksite-task-taxonomy-v1.0-en.md)
-4. [Reference architecture](architecture/reference-architecture-en.md)
-5. [Evaluation matrix](benchmarks/evaluation-matrix-en.md)
-6. [Standards landscape](standards/landscape-en.md)
-7. [Standardization roadmap](standards/standardization-roadmap-en.md)
-8. [Chinese manuscript draft](paper/manuscript-zh.md)
-9. [English manuscript draft](paper/manuscript-en.md)
+2. [Technical work packages and evidence traceability](docs/technical-work-packages-en.md)
+3. [Literature review and research landscape](docs/literature-review-en.md)
+4. [Worksite and task taxonomy](taxonomy/worksite-task-taxonomy-v1.0-en.md)
+5. [Reference architecture](architecture/reference-architecture-en.md)
+6. [Evaluation matrix](benchmarks/evaluation-matrix-en.md)
+7. [Standards landscape](standards/landscape-en.md)
+8. [Standardization opportunities](standards/standardization-opportunities-en.md)
+9. [Standardization roadmap](standards/standardization-roadmap-en.md)
+10. [Publication and writing plan](paper/publication-plan-en.md)
+11. [Chinese manuscript draft](paper/manuscript-zh.md)
+12. [English manuscript draft](paper/manuscript-en.md)
 
 ## Authors
 
